@@ -1,0 +1,31 @@
+================================================================================
+
+Cet exercice se veut une pratique de vos habiletés JavaScript et jQuery et une intégration des cours 5 à 8.
+
+Il s'agit de l'exercice intégrateur le plus difficile des 3 exercices.
+
+Contexte : Dans les applications de commerce électronique, il est fréquent de vouloir consulter la disponibilité d'un produit en fonction d'une couleur et/ou d'une taille.
+
+À titre d'exemple, le site de Gap nous permet de regarder la disponibilité des produits (ici : pantalons pour hommes) en fonction de leur couleur et de leur taille. 
+https://www.gapcanada.ca/browse/product.do?pid=472757133&cid=1125699&pcid=80799&vid=1&grid=pds_0_253_1#pdp-page-content
+
+Prenez le temps de vous référer à l'aperçu vidéo de l'application que nous allons construire.
+
+L'événement observé sur chacune des tuiles de couleur est un 'mouseenter' (et non pas un 'click');
+
+Vous aurez besoin des méthodes jQuery suivantes:
+- .data() -> déjà bien connue
+- .attr() -> https://api.jquery.com/attr/#attr2
+- .addClass() -> https://api.jquery.com/addclass/
+- .removeClass -> http://api.jquery.com/removeClass/
+
+Votre travail est de répliquer le comportement présenté dans l'aperçu vidéo. Tout le travail est à faire dans le fichier 'app.js'. Ne modifiez rien aux autres fichiers.
+
+Conseil : au besoin, effectuez quelques tests en isolation avec ces méthodes avant de débuter l'exercice.
+Vous êtes aussi encouragés à comprendre le rôle de la classe "unavailable", en l'appliquant manuellement (directement dans le HTML) sur les éléments responsables d'indiquer la disponibilité des pantalons. Assurez-vous toutefois d'enlever les classes après vos tests.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

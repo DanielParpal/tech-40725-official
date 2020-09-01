@@ -1,0 +1,23 @@
+================================================================================
+
+À votre tour maintenant! 
+Prenez 10 minutes pour créer une table HTML.
+
+1. Démarrez d'un fichier vide, dans lequel vous allez insérer le template de base.
+
+2. Créez une table, en suivant les instructions ci-dessous.
+
+3. Les en-tête de colonnes seront :
+- Prénom
+- Nom
+- Matricule (ou autre informtion) 
+
+4. Insérez 3 lignes avec les informations de vos collègues.
+
+5. Sentez-vous à l'aise d'effectuer l'exercice avec un contexte différent si celui-ci ne vous intéresse pas!
+
+================================================================================
+
+Notes supplémentaires : Pour le moment, évitez de copier-coller du code à part lorsque cela est spécifié (ex. un fichier de départ). En démarrant d'une page vide, vous serez obligés de comprendre en profondeur les subtilités de la programmation.
+    
+================================================================================

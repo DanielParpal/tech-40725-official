@@ -1,0 +1,42 @@
+================================================================================
+
+Chaînes de caractères :
+
+Nous sommes maintenant familiers avec les chaînes de caractères, grâce à ce que nous avons vu en JavaScript.
+
+Rappel : morceau de texte en programmation => chaîne de caractères (en anglais : string)
+
+Voici quelques exemples de chaînes de caractères :
+"a"
+"Bonjour et bienvenue dans le cours de programmation"
+"Paul"
+
+Voyons voir comment travailler avec les chaînes de caractères en PHP :
+- Leur définition
+- La concaténation en PHP (même concept qu'en JavaScript, mais avec un caractère différent!)
+
+================================================================================
+
+Démonstration :
+
+Dans un fichier PHP :
+
+1. Définissons une chaîne de caractères que nous assignerons à une variable 
+2. Utilisons les guillemets doubles
+3. Puis les guillemets simples
+4. Que se passe-t-il si :
+4.1 Nous utilisons un mélange de guillemets? (simples et doubles)
+4.2 Nous utilisons un même guillemet à l'intérieur de la chaîne de caractères?
+
+Nous voyons que les concepts sont similaires à JavaScript.
+
+5. Il existe pourtant une nuance spécifique en PHP entre les guillemets doubles et simples : l'interpolation d'une variable. Regardons ce que cela veut dire.
+
+6. Regardons comment faire pour concaténer deux chaînes de caractères (ou une chaîne de caractères avec un nombre).
+6.1 En PHP : le point '.' alors qu'en JavaScript : le plus '+'
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

@@ -1,0 +1,35 @@
+================================================================================
+
+Comme nous l'avons vu en JavaScript, dans la construction d'algorithmes, un des outils (blocs unitaires) est la "condition". 
+
+Les règles syntaxiques du if/else sont identiques en PHP qu'en JavaScript (pour l'utilisation que nous en ferons), mais prenons le temps de refaire le même exemple que celui que nous avions fait au cours 5 (JavaScript 1), mais cette fois-ci avec PHP.
+
+Rappel :
+
+if (condition) {
+    // Actions à prendre si la condition est remplie (vraie)
+} else {
+    // Actions à prendre si la condition n'est pas remplie (fausse)
+}
+
+================================================================================
+
+Les étapes :
+
+1. Définissons une variable $prix
+
+2. Affichons-la à l'écran avec echo
+
+3. Notre magasin offre un rabais de 20% sur tous les achats supérieurs à 50$
+3.1 Affichons un message à l'écran qui informe le client s'il est éligible ou non au rabais de 20%
+3.2 S'il est éligible, réduisons le prix
+
+4. Affichons le prix final à l'écran, peu importe qu'il ait été réduit ou non
+
+Questions?
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

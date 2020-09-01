@@ -1,0 +1,21 @@
+================================================================================
+
+Presque toutes les applications Web - ecommerce ou autre - utilisent une barre de navigation pour permettre aux utilisateurs de facilement accéder aux sections importantes de l'application.
+
+Comme travail d'après séance :
+
+1. Consultez l'aperçu fourni
+
+2. Créez un nouveau fichier HTML et ajoutez le template de base
+
+3. En utilisant Bootstrap, cherchez à reproduire cette barre de navigation foncée
+
+4. Gardez en tête les 3 étapes de notre méthode de travail (regardez les diapositives à nouveau si nécessaire)
+
+Note : Pour une fois, notre composante ne doit pas se retrouver dans une division "container". Regardez ce qui se passe avec la barre de navigation si vous la mettez dans un "container".
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

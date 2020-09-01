@@ -1,0 +1,52 @@
+================================================================================
+
+Pour cette section, nous continuons le travail sur la modélisation des cours de fitness, mais en mettant de côté le tableau $titres_cours.
+
+En JavaScript, nous avons vu que l'objet est une structure de données qui permet de jumeler des clés (propriétés) à des valeurs. Ce type de modélisation est très pratique pour les données apparentées comme nous en avons discuté au cours 8.
+
+À titre d'exemple, pour un chandail, nous avons démontré comment regrouper son nom, son prix et son évaluation sous une même structure de données (l'objet JavaScript).
+
+En PHP, cette structure clé-valeur s'appelle un tableau associatif. À partir de maintenant, nous ferons la distinction entre le tableau numérique (ou 'indexé'), dont nous avons déjà parlé, et le tableau associatif. 
+
+Comme leurs noms le suggèrent, le tableau numérique utilise un index numérique (au plus souvent généré automatiquement, donc implicite) tandis que le tableau associatif permet "d'associer" des clés à des valeurs. Ces clés sont explicites et prennent (au plus souvent) la forme d'une chaîne de caractères. 
+
+Effectuons une démonstration de code, en continuant avec l'exemple des cours de fitness.
+
+================================================================================
+
+1. Définissons un tableau associatif pour le premier cours suivi par le client, avec les informations suivantes :
+
+date: 22 octobre 2019
+instructeur: Martha
+titre: X-fit (Klub)
+
+2. Prenons le temps d'analyser la syntaxe, et de souligner les différences syntaxiques avec le JavaScript
+2.1 Les crochets carrés au lieu des accolades
+2.2 La flèche au lieu du deux-points
+2.3 La clé en chaîne de caractères (en JavaScript, cela est facultatif : la clé peut généralement être définie sans guillemets)
+
+3. Utilisons un var_dump() pour observer le contenu
+
+4. Regardons comment accéder aux éléments du tableau associatif grâce aux clés
+
+5. Maintenant, regardons comment modifier une valeur
+5.1 Utilisons à nouveau var_dump() pour observer le contenu, et valider la modification
+
+6. Prenons le temps d'apprécier les similitudes avec JavaScript
+
+7. Définissons un 2ème tableau associatif pour modéliser le 2ème cours du client. Les données sont : 
+date: 26 octobre 2019
+instructeur: Paul
+titre: Yoga Flow avec musique
+
+8. Utilisons nos tableaux pour populer la table HTML. Cela nous permettra de pratiquer l'écriture de PHP combiné au HTML.
+Note : L'interpolation peut être 'difficile' à utiliser avec les tableaux associatifs, alors la concaténation est souvent une meilleure option.
+
+9. Prenons le temps de souligner la duplication de code (qui sera résolue à la section 2.3)
+
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

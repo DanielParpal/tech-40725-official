@@ -1,0 +1,9 @@
+Matériel de la capsule
+
+Préparation :
+- Lecture active de l'article
+- Quelques nuances :
+  - Nous verrons un sous-ensemble des notions introduites dans l'article
+  - Portion données apparentées, mais pas fonctionnalités
+- Révision des tableaux, des boucles et des conditions
+- Révision de jQuery

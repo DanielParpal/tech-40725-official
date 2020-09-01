@@ -1,0 +1,51 @@
+================================================================================
+
+Maintenant que nous avons regardé la syntaxe permettant de définir un objet, il est naturel de se poser la question : que faisons-nous si nous souhaitons regrouper plusieurs objets de même nature sous une même structure et étiquette? Exemple : à la section 2.3 du cours 6, nous avions 4 chandails à modéliser.
+
+Pour ceux qui se souviennent de cette démonstration, vous avez peut-être l'impression d'avoir fait un pas en arrière, car nous étions déjà en mesure d'accomplir cette tâche avec les tableaux parallèles. Ceux-ci permettent de modéliser indirectement des données apparentées (interreliées), mais à condition d'utiliser le même index pour stocker les informations apparentées dans chacun des tableaux. 
+
+Si on y pense, chacun des tableaux (parallèles) est une liste d'information de même nature sur les chandails :
+- un premier tableau contient tous les titres/noms
+- un deuxième tableau contient tous les prix
+- un troisième tableau contient toutes les évaluations
+
+Ainsi, pour arriver à relier les informations apparentées d'un chandail X, il faut connaître son index et l'utiliser pour chacun des tableaux. Il s'agit donc d'une modélisation qui n'est pas optimale, car elle ne rend pas explicite la relation entre les données. 
+
+Avec l'approche que nous présenterons aujourd'hui, nous éviterons d'avoir à mettre en place ce mécanisme implicite, et nous regrouperons les informations sous une forme plus naturelle et intuitive.
+
+Nous avons vu en 2.1 comment regrouper les données apparentées pour un chandail (nom/titre, prix, évaluation) grâce aux objets. 
+Imaginons que nous mettons en place 4 chandails ayant la même structure d'objet. Quelle est la structure de données idéale pour contenir des éléments de même nature? Le tableau! 
+
+Nous nous retrouverons donc avec un tableau d'objets, une structure de données extrêmement commune! Vous entendrez ou lirez peut-être l'expression "collection d'objets" sur le marché du travail, mais ici le terme "collection" est interchangeable avec le mot "tableau". Regardons quelques exemples :
+Amazon, Kijiji, Sports Experts, Best Buy, etc.
+
+Pensez-y un instant : il s'agit d'un format extrêmement flexible. De plus, lorsque nous parlerons de bases de données, vous verrez que ce n'est pas un hasard si ce format est aussi commun. Il correspond étroitement à la structure d'une table ou encore des résultats d'une requête vers une base de données (plusieurs lignes contenant les mêmes propriétés).
+
+Passons donc à l'écriture de code pour mieux comprendre comment cela se fait.
+
+================================================================================
+
+1. Regardons les fichiers de départ. Nous utiliserons ici les deux objets de type "chandail" que nous avons créés en 2.1, et poursuivrons sur notre lancée.
+
+2. Modélisons les chandails #3 et #4, en utilisant des objets.
+Affichons-les dans la console.
+
+3. Regroupons les 4 chandails sous une même structure (le tableau) et étiquette (en utilisant une variable). Compte tenu que les 4 chandails sont de même nature, le tableau est un choix approprié.
+Note : nous nous retrouverons donc avec un tableau d'objets.
+
+4. Affichons cette structure dans la console et prenons le temps de l'inspecter.
+
+5a. Si nous voulions afficher l'objet chandail_a?
+5b. Juste son nom?
+
+6. Si nous voulions afficher le nom et le prix du chandail b?
+
+7. Nous aurions pu définir la structure sans passer par des variables intermédiaires. Dans le cadre du cours, cette approche est facultative (et même un peu découragée, car vous pouvez perdre de vue le sens du tableau d'objets). Prenons quand même un instant pour montrer de quoi cela aurait l'air. Affichons cette structure dans la console après l'avoir définie.
+
+Note : dans l'exercice, vous aurez à écrire une boucle permettant de parcourir le tableau d'objets. Soyez prêts à intégrer certaines notions!
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

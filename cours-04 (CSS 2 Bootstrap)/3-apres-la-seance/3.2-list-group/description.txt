@@ -1,0 +1,26 @@
+================================================================================
+
+Le "list-group" est une composante très flexible permettant, entre autres, de créer des menus dynamiques. À titre d'exemple, lorsqu'on clique sur un des items de la liste, une image pourrait s'afficher à la droite.
+
+Comme travail d'après séance :
+
+1. Consultez l'aperçu fourni
+
+2. Créez un nouveau fichier HTMl et ajoutez le template de base
+2.1 Créez une division "container" dans laquelle vous ajouterez la "list-group"
+
+3. Ici, notre composante sera utilisée comme une liste des options de taille de soulier (nous pourrions, avec Javascript, ajouter du dynamisme pour que différentes informations/images s'affichent à droite en fonction de la sélection)
+
+4. Prenez le temps de bien comprendre :
+- Comment une liste non-ordonnée (<ul> et <li>) est utilisée pour y arriver
+- Le rôle de la "class" "active" pour donner de la couleur à l'élément sélectionné. Déplacez la "class" d'un élément à l'autre pour voir l'impact.
+
+5. Personnalisez le contenu comme vous le désirez.
+
+6. Mettez cette liste dans une colonne de 4 unités de largeur, en utilisant la grille Bootstrap. Prenez le temps de réfléchir au contexte dans lequel ce design pourrait être utile.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

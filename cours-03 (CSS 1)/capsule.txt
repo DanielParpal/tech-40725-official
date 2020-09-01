@@ -1,0 +1,19 @@
+Matériel de la capsule
+
+Prérequis (cours 1 et 2):
+- Avoir couvert tous les aspects logistiques, à l'exception de MAMP/XAMPP
+- Avoir une bonne compréhension du HTML (balises et attributs)
+- Effectuer l'exercice après séance sur les bases du HTML par Mozilla
+  - Cela deviendra la base pour la préparation au cours 3 (CSS)
+  - Si vous voulez sauver du temps, vous pouver prendre le résultat final directement
+
+Préparation:
+- Téléchargement du contenu sur GitHub, et transfert vers votre répertoire racine
+- Création d'un dossier de travail pour la préparation au cours (ex. 1-avant-la-seance)
+- Lecture active de l'introduction au CSS sur Mozilla
+  - Pour ceux qui avaient imprimé le plan de cours, faites attention, ce lien a été récemment ajouté, et les liens vers le manuel de référence ont été enlevés.
+  - Effectuer les exercices fournis dans cette introduction
+- Lecture active sur les 9 propriétés CSS discutées dans le cours
+  - Utiliser les liens fournis
+  - Des diapos sont fournies comme aide-mémoire (seulement)
+- Lecture en surface sur les requêtes médias

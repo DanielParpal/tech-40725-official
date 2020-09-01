@@ -1,0 +1,29 @@
+================================================================================
+
+À votre tour de jouer!
+Prenez 10 minutes pour vous familiariser avec la condition if/else.
+
+1. Prenez les fichiers de départ (.html et .js), ou encore votre solution à l'exercice précédent.
+
+Dans le fichier Javascript (.js) :
+
+2. Définissez une variable prixArticle pour stocker le prix de base de l'article
+
+3. Mettez en place une condition if/else permettant de valider si le pays de destination permet une livraison gratuite
+
+Vous aurez besoin de la méthode includes() pour effectuer cette validation :
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+
+3. Si la livraison est incluse : affichez dans la console un message permettant de constater cela.
+
+4. Si la livraison n'est pas incluse : 
+4.1 Affichez dans la console un message permettant de constater cela
+4.2 Ajoutez le tarif de livraison au coût de l'article
+
+5. Affichez dans la console le prix final de l'article, que la livraison soit incluse ou non
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

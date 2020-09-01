@@ -1,0 +1,31 @@
+================================================================================
+
+Maintenant que nous avons démonstré l'utilisation des if/else sans HTML, regardons comment les conditions permettent de générer du contenu dynamique en combinant PHP et HTML.
+
+Voici les spécifications permettant de réaliser la démonstration :
+- Si l'utilisateur est connecté ($loggedIn == 1), nous afficherons la table des derniers cours achetés
+- Si l'utilisateur n'est pas connecté, nous afficherons un formulaire permettant de se connecter
+Note : Le formulaire n'est pas réellement fonctionnel, nous voulons simplement l'afficher pour le moment
+
+Les étapes pour réaliser la démonstration :
+
+1. Démarrons du fichier de départ 
+1.1 Prenons un peu de temps pour regarder ce que nous avons : Une table ET un formulaire de connexion
+
+2. Ajoutons une variable permettant de déterminer si l'utilisateur est connecté
+2.1 Nous pouvons la nommer $loggedIn
+2.2 Donnons-lui une valeur de 1 pour débuter
+
+3. Ajoutons un if/else à l'intérieur du HTML pour remplir les spécifications
+
+4. Prenons le temps de changer la valeur de $loggedIn pour 0 afin de voir si cela fonctionne.
+
+Note : nous aurions aussi pu utiliser true et false (valeurs booléennes)
+
+Cette démonstration illustre clairement le concept de généreration dynamique du contenu! En fonction de la valeur d'une seule variable, le contenu de la page est complètement différent!
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

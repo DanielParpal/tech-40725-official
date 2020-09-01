@@ -1,0 +1,24 @@
+================================================================================
+
+À votre tour de modéliser un tableau, et de le parcourir grâce à la boucle for.
+
+Dans les 10 prochaines minutes :
+
+1. Tout d'abord, assurez-vous de télécharger le fichier de départ, de créer un fichier JavaScript externe (app.js), et de le lier dans le ficher html.
+
+Ensuite, en utilisant le lien ci-dessous (ou une autre application vous inspirant!) :
+https://www.chocolatsfavoris.com/recettes
+
+2. Modéliser un tableau avec 3 titres de recette.
+
+3. Mettez en place une boucle permettant de parcourir chacun des éléments.
+Note : gardez en tête les sous-concepts requis pour y arriver.
+
+4. Affichez chacun des éléments dans la console, en les mettant dans un contexte (ex. Ce soir, je mangerai : Gâteau éclaté).
+
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

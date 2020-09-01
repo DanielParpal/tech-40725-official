@@ -1,0 +1,30 @@
+================================================================================
+
+À votre tour maintenant! 
+
+Avant de démarrer l'exercice, regardons le laboratoire-table du cours de la semaine passée (cours 3). Nous avons construit une table HTML et avons appliqué plusieurs règles CSS pour donner un formattage acceptable.
+
+Ce n'était toutefois pas si simple!
+
+Ceci étant dit, prenez 10 minutes pour effectuer les étapes suivantes :
+
+1. Téléchargez le fichier de départ HTML
+
+2. Effectuez l'inclusion de Bootstrap (à partir du CDN)
+
+3. Maintenant, en regardant dans la documentation Bootstrap (Content/Tables) :
+3.1 Trouvez LA "class" qui vous permettra de styliser la table au complet d'un seul coup! (une seule "class")
+3.2 Lorsque vous avez réussi 3.1, trouvez LA "class" supplémentaire qui vous permettra de rendre la table foncée
+3.3 Finalement, avec une dernière "class" supplémentaire (une seule!), essayez de mettre en place une alternance de couleur entre les lignes de la table
+
+4. Lorsque la table est bien formattée, cherchez dans la section "Utilities/Colors" de la documentation pour trouver :
+4.1 La "class" qui vous permettra de mettre le texte en vert pour les variations positives. Appliquez cette "class" aux endroits appropriés.
+4.2 La "class" qui vous permettra de mettre le texte en rouge pour la variation négative. Appliquez cette "class" à l'endroit approprié.
+
+5. Voilà, vous avez pu constater la puissance de Bootstrap!
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

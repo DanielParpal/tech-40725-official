@@ -1,0 +1,20 @@
+================================================================================
+
+À votre tour. Prenez 10 minutes pour jouer avec les boucles 'for'. Voici ce que vous devez accomplir.
+
+1. Téléchargez le fichier de départ.
+
+2. Créez un fichier JavaScript externe (app.js), et liez-le à partir du fichier html.
+
+En utilisant la commande console.log() dans votre fichier JavaScript :
+
+3. Écrivez dans la console tous les nombres (entiers) entre 1 et 5 inclusivement, à l'aide d'une boucle 'for'.
+
+4. Écrivez dans la console tous les nombres pairs entre 0 et 12, à l'aide d'une boucle 'for'.
+
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

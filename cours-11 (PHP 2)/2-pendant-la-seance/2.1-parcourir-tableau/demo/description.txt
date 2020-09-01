@@ -1,0 +1,68 @@
+================================================================================
+
+Pour les démonstrations du cours 11, notre inspiration sera la table HTML des cours de fitness qui a été introduite au cours 9. Prenons un instant pour se rappeler son apparence.
+
+Cela nous permettra de couvrir les sujets du cours d'aujourd'hui :
+(2.1) - Comment parcourir un tableau en PHP grâce à la boucle foreach(), et écrire un algorithme de génération dynamique de contenu HTML avec une boucle
+(2.2) - Comment utiliser les tableaux associatifs comme structure de données clé-valeur en PHP (l'équivalent de l'objet en JavaScript)
+(2.3) - Comment assembler les différents concepts vus dans le Bloc 3 (et implicitement le Bloc 1) afin de créer une mini-application complète à partir de zéro
+
+L'exercice intégrateur (2.4) viendra vous permettre de consolider les apprentissages. Sa solution (code + capsule vidéo) sera partagée après la séance.
+
+Finalement, nous parlerons de l'examen en fin de séance.
+
+================================================================================
+
+Commençons avec la boucle foreach().
+
+Rappelons-nous qu'une boucle est une structure de contrôle permettant de répéter une action.
+
+À titre d'exemple, on pourrait vouloir afficher tous les nombres entre 0 et 10, ou encore prendre un tableau et afficher chaque élément dans un nouveau paragraphe (action répétée pour chaque élément).
+
+En PHP, tout comme en JavaScript, il y a plusieurs types de boucle. La boucle for() est une des options, et sa syntaxe est très similaire à ce que nous avons vu en JavaScript.
+
+Toutefois, dans le cadre du Bloc 3, la boucle 'obligatoire' à apprendre (en PHP) est une boucle qui s'apparente grandement à la boucle for..of présentée au Bloc 2 en JavaScript (mais facultative pour ce Bloc comme mentionné). Cette boucle est la boucle foreach().
+
+Ainsi, la boucle for() n'est pas obligatoire pour le Bloc 3, et nous ne ferons aucune démo/exercice avec cette boucle.
+
+Petite mention : pour ceux qui utilisent le for..of en JavaScript, faites attention, car l'ordre des variables est inversé pour la définition du foreach (entre les parenthèses). Vous verrez ce que cela veut dire dans un instant.
+
+La syntaxe est la suivante :
+
+// Pour un tableau quelconque (ici nommé $tableau) :
+foreach ($tableau as $element) {
+	// $element reçoit la valeur successive de chacun des éléments
+	// Vous pouvez faire ce que vous voulez avec $element (l'afficher, le modifier, etc.)
+}
+
+À titre d'exemple, pour le code suivant :
+$fruits = ['pommes', 'bananes', 'oranges'];
+foreach($fruits as $fruit) {
+	echo $fruit . ' ';
+}
+Nous verrons à l'écran : pommes bananes oranges
+
+Vous êtes libres de donner le nom que vous souhaitez à la variable qui contiendra successivement chacun des éléments (ici nommé $fruit), mais une convention est de donner la version au singulier du nom utilisé pour le tableau (ex: pour un tableau $produits, on utiliserait $produit).
+
+Note : nous voyons seulement cette version de la boucle foreach(), mais il existe une autre forme permettant de récupérer la clé en plus de la valeur de l'élément.
+
+================================================================================
+
+Débutons donc la démonstration de code, afin de voir comment la boucle foreach() nous permettra de parcourir un tableau, et de prendre une action sur chacun des éléments.
+
+1. Définissons un tableau $titres_cours, qui contiendra le titre de chacun des trois cours de fitness :
+- X-Fit (Klub)
+- Yoga Flow avec musique
+- Bootcamp et course
+
+2. Écrivons une boucle foreach(), avec une instruction echo à l'intérieur de la boucle.
+
+3. Regardons maintenant comment combiner PHP et HTML afin de générer une liste HTML dynamiquement. Cette approche se base sur les mêmes idées que la génération dynamique avec le if/else, présentée au cours 9.
+
+Note : pour l'instant, une liste HTML fonctionne bien, car nous affichons seulement les titres (une seule dimension, soit les rangées de la liste). Nous aurons toutefois besoin de tables (2 dimensions, rangées et colonnes) pour les prochaines étapes, car nous afficherons plusieurs propriétés (date, titre, instructeur) pour chacun des cours.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

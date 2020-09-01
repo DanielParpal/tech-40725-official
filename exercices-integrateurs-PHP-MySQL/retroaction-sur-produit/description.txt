@@ -1,0 +1,20 @@
+================================================================================
+
+Cet exercice se veut une pratique de vos habiletés PHP et MySQL, ainsi qu'une intégration des concepts du Bloc 3 (cours 9, 10 et 11). Il s'agit du plus complexe des 2 exercices intégrateurs en lien avec le Bloc 3.
+
+Comme tout bon site de commerce électronique, vous voulez permettre aux utilisateurs de donner de la rétroaction sur vos produits. 
+
+Ici, nous ne nous baserons pas sur une application existante, alors vous pouvez simplement consulter l'aperçu vidéo pour voir ce qui est attendu.
+
+Votre travail est de construire la mini-application fonctionnelle, permettant d'insérer de nouvelles données grâce à un formulaire, et d'afficher les données dans une table HTML générée dynamiquement.
+
+Prenez le temps de donner un style Bootstrap à votre formulaire et à votre table.
+
+Inspirez-vous de ce que nous avons fait au cours 11 (particulièrement les sections 2.3 et 2.4).
+
+================================================================================
+
+Notes supplémentaires : Si vous voulez faire un autre exercice intégrateur similaire à celui-ci, vous pouvez reprendre l'exercice 2.4 du cours 10, et écrire le formulaire et la table à partir de zéro (plutôt que d'utiliser les fichiers fournis). 
+    
+================================================================================
+

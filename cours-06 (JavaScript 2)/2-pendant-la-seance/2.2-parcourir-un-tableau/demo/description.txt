@@ -1,0 +1,33 @@
+================================================================================
+
+Nous venons de voir les boucles 'for' dans leur contexte le plus simple. Vous vous demandez peut-être pourquoi et comment cela peut être utile, en lien avec le contexte présenté au début du cours.
+
+Plus spécifiquement, comment pouvons-nous nous servir de ces boucles pour parcourir tous les éléments d'un tableau?
+
+Pour voir comment y arriver, voici les étapes principales de la démonstrations :
+
+1. Définissons un tableau simple, avec 4 noms de produits (inspirés du site de MEC)
+https://www.mec.ca/fr/sexe/femmes/produits/vetements/manteaux-en-laine-polaire-chandails-et-chandails-a-capuchon/c/271
+
+2. Effectuons un rappel de la syntaxe pour accéder à un élément d'un tableau (et l'afficher dans la console)
+
+3. Effectuons un rappel de la syntaxe pour déterminer la quantité d'éléments dans un tableau
+
+4. Mettons en place une boucle 'for', qui affiche 4 fois un message dans la console
+
+5. Maintenant, utilisons la variable locale (initialisée) pour accéder à chacun des éléments du tableau, et les afficher.
+Note : Nous avons fait du progrès, mais prenons un instant pour réfléchir au problème majeur de cette solution
+
+6. Rendons notre boucle plus 'intelligente' (dynamique) en utilisant la propriété .length à l'intérieur de la condition finale
+
+Voilà! Nous avons utilisé une boucle 'for' pour parcourir tous les éléments d'un tableau.
+Ici, nous avons décidé de "seulement" les afficher dans la console, mais nous pourrions faire d'autres actions (ex. les modifier, les insérer dans le HTML, etc.)
+
+================================================================================
+
+Notes supplémentaires : 
+
+Dans l'article partagé sur ZoneCours, vous pouvez voir la même syntaxe en action (leur exemple est un peu plus complexe car ils modifient le HTML au lieu de simplement écrire dans la console, mais ici nous nous concentrons sur la boucle). 
+https://developer.mozilla.org/fr/docs/Apprendre/JavaScript/Building_blocks/Looping_code
+    
+================================================================================

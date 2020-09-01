@@ -1,0 +1,33 @@
+================================================================================
+
+Nous allons poursuivre avec une démonstration sur une des composantes intéressantes de Bootstrap : l'objet média.
+
+Regardons la documentation Bootstrap pour débuter! Essayez de garder en tête le flux de travail (1- inclusion du lien vers la librairie Bootstrap, 2- recherche dans la documentation, 3- ajout des "class" ou simplement copier-coller à partir de la documentation pour le formattage désiré).
+
+L'objet média est une composante très utile pour une application de commerce électronique. D'ailleurs, prenons le temps de chercher "NERF N-Strike Mega Mastodon" sur Amazon pour voir!
+
+================================================================================
+
+Ceci étant dit, commençons le travail :
+
+1. Créons un fichier HTML avec le template de base
+
+2. Ajoutons un lien vers la librairie Bootstrap, au même emplacement que nous ajouterions un lien vers un fichier CSS standard.
+2.1 Note : À partir de maintenant, nous utiliserons seulement le lien vers le CDN (Content Delivery Network) et non pas le fichier CSS téléchargé.
+
+3. Regardons dans la documentation Bootstrap pour l'objet média (à votre place, je me ferais un raccourci vers Bootstrap!)
+3.1 Utilisons le bouton "copy" de la documentation Bootstrap pour avoir un point de départ dans notre HTML.
+3.2 Mention importante : si vous utilisez ce bouton, prenez le temps de reformatter le contenu proprement! Des points sont donnés pour le respect des meilleures pratiques.
+
+4. Spécifions la source de l'image à utiliser (nerf.jpg)
+4.1 Nous pouvons jouer avec sa taille (ex. 150px) même si la documentation propose une taille de 64px par 64px.
+
+5. Finalement, nous pouvons donner un peu d'espace avant l'objet média ("mt-5")
+
+À noter : Nous pourrions prendre le temps de formatter la description du Nerf avec d'autres "class" Bootstrap (ou encore simplement avec des éléments HTML comme <p> ou <b>). Pour ceux qui le désirent, prenez le temps de faire cela chez vous cette semaine.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

@@ -1,0 +1,42 @@
+================================================================================
+
+Dans la construction d'algorithmes, un des outils les plus fréquemment utilisés est la "condition". Autrement dit, on veut que certaines actions soient prises de manière conditionnelle.
+
+Exemple : S'il est plus tôt que 12h, attendons que les étudiants arrivent. S'il est 12h, démarrons le cours. Si le cours est terminé OU s'il est plus tard que 15h, arrêtons le cours.
+
+Il faut que notre langage de programmation nous permette de modéliser ce comportement!
+
+C'est ici que le if/else devient indispensable.
+
+================================================================================
+
+------------------------------------
+Variables et if/else : démonstration
+------------------------------------
+
+1. Démarrons avec un fichier HTML vide dans lequel nous ajoutons le template de base
+
+2. Créons un fichier Javascript vide et ajoutons un lien vers ce fichier à partir du fichier HTML
+
+3. Définissons une variable "prix" grâce au mot-clé var (maintenant, le mot-clé let est très utilisé, mais ce n'est pas nécessaire pour le cours)
+
+4. Affichons dans la console : "Le prix de l'article est {prix}", où {prix} représente la valeur de la variable prix
+Note : il est une bonne pratique de tester son code au fur et à mesure qu'on le développe!
+
+5. Notre magasin offre un rabais de 20% sur tous les achats supérieurs à 50$
+5.1 D'un point de vue logique, comment pourrais-je représenter cela? Plus précisément, avec un diagramme, comment pourrais-je schématiser?
+5.2 Regardons ensemble le if/else
+5.3 Ajoutons un message qui informe le client s'il est éligible ou non au rabais de 20%
+5.4 S'il est éligible, réduisons le prix
+
+6. Affichons le prix final dans la console, peu importe qu'il ait été réduit ou non
+
+7. Prenons le temps de regarder la syntaxe du if/else
+
+Prenons le temps de digérer toute cette nouvelle matière. Questions?
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

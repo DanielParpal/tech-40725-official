@@ -1,0 +1,28 @@
+
+Cet exercice permet de pratiquer votre écriture/utilisation de variables et données primitives (nombres, booléens, chaînes de caractères). 
+
+1a. Affichez dans la console la valeur booléenne correspondant à vrai
+1b. Affichez dans la console la valeur booléenne correspondant à faux
+
+2a. Assignez, à une nouvelle variable nommée var_vrai, la valeur booléenne correspondant à vrai, puis affichez-la dans la console
+2b. Assignez, à une nouvelle variable nommée var_faux, la valeur booléenne correspondant à faux, puis affichez-la dans la console
+
+3a. Assignez, à une nouvelle variable nommée qte_achats_produitA, la valeur 12
+3b. Assignez, à une nouvelle variable nommée qte_achats_produitB, la valeur 6
+3c. Affichez dans la console les deux valeurs sur la même ligne
+3d. Grâce aux opérateurs de comparaison, affichez dans la console un test permettant de savoir si la quantité d'achats du produit A est supérieure à la quantité d'achats du produit B
+3e. Idem à 3d., mais pour tester si les quantités sont égales
+3f. Maintenant, au lieu d'afficher le résultat de 3d. directement dans la console, assignez la valeur booléenne à une nouvelle variable nommée a_plus_grand_que_b
+3g. Idem à 3f, mais pour la valeur booléenne de 3e, dans une variable nommée a_egal_b
+3h. Assignez, à une nouvelle variable nommée total_achats, la somme de qte_achats_produitA et qte_achats_produitB
+3i. Affichez dans la console la valeur de total_achats
+
+4a. Assignez, à une nouvelle variable nommée taille, la valeur "Medium"
+4b. Assignez, à une nouvelle variable nommée produit, la valeur "Chemise"
+4c. Composez le texte "Chemise de taille Medium" en utilisant les deux variables, un morceau de texte statique et la concaténation, et assignez ce texte à une nouvelle variable nommée description
+4d. Affichez dans la console cette description
+4e. Assignez à une nouvelle variable nommée citation, la citation d'un de vos clients :
+	<< Au moment où j'ai reçu mes nouveaux écouteurs, j'ai crié "Hourra!" et ce fut le plus beau jour de ma vie!  >>
+Note : pensez à l'échappement (voir diapos sur les chaînes de caractères)
+4f. Affichez dans la console cette citation
+

@@ -1,0 +1,23 @@
+================================================================================
+
+1a. Reprenez votre tableau des suggestions (vous pouvez le copier-coller dans un nouveau fichier pour conserver votre solution précédente intacte).
+
+1b. Modélisez dans un tableau parallèle le prix correspondant à chacune des suggestions.
+
+1c. Affichez dans la console chacun des produits suggérés ainsi que son prix.
+Note : Utilisez la technique des tableaux parallèles présentée en cours.
+
+
+2a. Reprenez votre tableau des succursales (idem à 1a, vous pouvez le copier-coller).
+
+2b. Modélisez dans un tableau parallèle la distance entre chacune des succursales et votre domicile. (ex. 1.25, 8,87 et 9.47)
+
+2c. Affichez dans la console chacune des succursales ainsi que la distance qui lui est associée.
+
+Note : On voit souvent un "Store finder" sur les applications de commerce électronique. Voici ce qu'on essaie de modéliser!
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

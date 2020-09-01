@@ -1,0 +1,27 @@
+================================================================================
+
+Reprenons la démo 2.3.
+
+Il y a deux problèmes avec la situation actuelle : 
+- Le formulaire est soumis à toutes les fois qu'on charge la page, alors qu'on voudrait qu'il soit soumis seulement lorsqu'on appuie sur le bouton de soumission.
+- Les champs du formulaire ne sont pas "connectés" à la requête d'insertion.
+
+Allons-y donc une étape à la fois. 
+La première étape est de mettre en place une condition permettant de déterminer si le formulaire vient d'être soumis, ou si la page vient d'être accédée en "lecture". Sans connaître la syntaxe exacte, un bon réflexe serait de penser à écrire un if/else (ici, le else ne sera en fait pas requis).
+
+Voici la condition exacte à écrire. Prenons le temps d'en parler un peu :
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // inclusion du fichier effectuant la requête INSERT INTO
+}
+
+La deuxième étape est de "connecter" les champs du formulaire à la requête d'insertion :
+Nous devons utiliser la variable $_POST['attribut_name_correspondant_dans_formulaire'] pour donner des valeurs dynamiques à nos variables.
+
+Regardons dans le code ce que cela veut dire.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

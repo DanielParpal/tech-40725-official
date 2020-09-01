@@ -1,0 +1,48 @@
+Examen final (3 heures)
+
+Instructions générales :
+
+- Téléchargez le projet en format .zip à partir de GitHub
+- Vous verrez quatre (4) sous-dossiers (questions 1 à 4)
+- Chaque dossier correspond à une question
+- Pour chacune des questions, vous trouverez :
+    a) un dossier "code-debut", dans lequel vous allez réaliser votre travail
+    b) un fichier "description.txt", décrivant le problème
+    c) un ou plusieurs fichier(s) d'aperçu, soit en format .png ou .mp4
+- Les librairies (Bootstrap, jQuery) ont déjà été liées pour vous aux endroits nécessaires, grâce à des fichiers locaux - cela minimise l'impact d'une mauvaise connexion
+	- Ne vous souciez pas de l'avertissement "DevTools failed to load SourceMap" dans la console si vous le recevez
+- Ne créez pas de nouveaux fichiers : utilisez les fichiers existants sans altérer la structure
+- Suivez les consignes sur les bons fichiers à utiliser pour chacune des questions : certains fichiers ne doivent pas être altérés
+- Lorsque vous avez terminé l'examen, cliquez avec le bouton de droite de la souris sur le dossier principal et compressez-le en format .zip
+- Ce fichier .zip sera votre livrable à remettre sur ZoneCours, dans l'espace de remise approprié
+
+Livrable final : 
+- Fichier .zip contenant l'ensemble des dossiers et des fichiers de travail
+- En rappel : utilisez les fichiers existants, sans en créer de nouveaux
+
+Vous pouvez seulement utiliser les techniques de programmation qui ont été démontrées en cours par l’enseignant, ou demandées en exercices (incluant les exercices intégrateurs + la pratique d'examen). Si vous utilisez une technique non permise, vous ne recevrez pas les points pour la fonctionnalité développée grâce à cette technique.
+
+À titre d'exemple - il s'agit d'une liste non-exhaustive - ces techniques ne sont PAS permises à l'examen:
+- Utilisation d'une balise HTML n’ayant pas été présentée (eg. <select>, <option>, <iframe>, etc.)
+- Écriture d'une règle de style grâce à:
+  - Un sélecteur différent des 3 sélecteurs introduits (élément, .class, #id)
+  - Une propriété CSS ne faisant pas partie des 9 propriétés du cours 3
+- Utilisation d'une composante/fonctionnalité Bootstrap nécessitant la portion JavaScript de la librairie
+- Programmation JavaScript avec des construits de langage n’ayant pas été démontrés ou demandés en exercice (eg. définition de fonctions, le break, la “vraie” POO, mots-clés let et const, etc.)
+- Utilisation de méthodes (actions) jQuery n’ayant pas été démontrées ou demandées en exercice
+
+Documentation : 
+- Toute documentation permise (diapositives, exercices et démonstrations de code, recherches Google, etc.)
+- Aucune communication ne sera tolérée - le format de l'examen final garantit des solutions uniques
+
+Description sommaire des questions :
+- Question 1 (25 points) - jQuery + objet simple JavaScript
+- Question 2 (25 points) - Intégration Bloc 3 (PHP + MySQL)
+- Question 3 (25 points) - Intégration Bloc 2 (JavaScript + jQuery)
+- Question 4 (25 points) - Intégration Bloc 3 (PHP + MySQL)
+
+Total: 100 points
+
+Bon succès!
+
+================================================================================

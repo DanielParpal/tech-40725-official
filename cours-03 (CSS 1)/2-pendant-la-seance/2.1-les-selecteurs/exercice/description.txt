@@ -1,0 +1,42 @@
+================================================================================
+
+À votre tour maintenant! 
+Prenons 10-15 minutes pour pratiquer l'utilisation des trois types de sélecteurs dont nous avons discuté : 
+- element
+- .class
+- #id
+
+1. Téléchargez le fichier de départ, et renommez-le pour index.html si vous le désirez
+
+2. Ouvrez la balise de style dans la section <head> du fichier HTML, afin de pouvoir écrire du CSS.
+
+3. En utilisant le sélecteur de type "élément", ajoutez le style suivant aux éléments. Vous pouvez copier-coller les déclarations CSS pour sauver du temps et éviter les erreurs.
+
+3.1 Pour toutes les cellules de l'en-tête de table (éléments <th>), appliquez le style suivant :
+      text-decoration: underline;
+      
+3.2 Pour toutes les cellules de données de la table (éléments <td>), appliquez le style suivant :
+      text-align: center;
+      
+3.3 Pour toutes les cellules de l'en-tête ET de données de la table, appliquez les styles suivants :
+      border: 1px solid black;
+      width: 75px;
+
+4. Maintenant, ajoutez un attribut "class" avec la valeur "temperature-negative" à toutes les cellules de la table contenant une température à inférieure à 0.
+
+5. Utilisez le sélecteur CSS de type ".class" afin d'ajouter les déclarations suivantes pour cibler les cellules ayant la classe "temperature-negative" :
+      background-color: red;
+      color: white;
+      
+6. Ajoutez maintenant un attribut "id" avec la valeur "journee-demain" pour la cellule contenant la température du lundi.
+
+7. Utilisez le sélecteur CSS de type "#id" afin d'ajouter la déclaration suivante pour cibler la cellule ayant le "id" de "journee-demain" :
+      font-size: 4em;
+
+8. Visualisez le résultat.
+
+================================================================================
+
+Notes supplémentaires : 
+
+================================================================================

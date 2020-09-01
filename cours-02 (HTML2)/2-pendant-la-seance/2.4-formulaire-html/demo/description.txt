@@ -1,0 +1,47 @@
+================================================================================
+
+Avant de débuter la programmation, prenons un peu de temps pour comprendre le rôle des formulaires.
+
+Quelques exemples : 
+Youtube (https://www.youtube.com/)
+Desjardins (https://www.desjardins.com/)
+Zonecours (https://zonecours2.hec.ca/)
+
+Ceci étant fait, passons maintenant à la programmation!
+
+================================================================================
+
+1. Comme d'habitude, insérons le template de base.
+
+2. L'élément "parent" des formulaires est <form> (l'équivalent de <table> pour les tables). Ajoutons donc cet élément.
+
+3. De la même manière que pour les tables, nous ne voyons rien si nous n'ajoutons pas de sous-éléments. Nous devrons donc explorer quelques balises supplémentaires.
+
+4. La balise <input> représente un champ de formulaire. 
+
+4.1 Quelques attributs permettent de configurer cet élément :
+- type (text, number, date, etc.)
+- name
+- placeholder
+- id
+Les attributs obligatoires dans le cadre du cours sont : type, name et id
+
+4.2 Ajoutons donc 2 champs au formulaire (ex. prenom et age), en prenant le temps de configurer les champs avec les attributs ci-haut.
+
+4.3 Ajoutons un 3ème champ au formulaire, mais maintenant de type "submit", avec une valeur ("value") de "Soumettre". Que voyons-nous?
+
+4.4 J'attire votre attention sur la balise <input>. Remarquez-vous quelque chose de spécial? Comment cette balise se ferme-t-elle?
+
+5. Nous pouvons maintenant personnaliser le formulaire en ajoutant certaines étiquettes aux champs, avec la balise "label".
+
+5.1 L'attribut "for" permet de lier l'étiquette au champ portant le "id" correspondant
+
+6. Nous pourrions configurer le formulaire (balise <form>) pour son traitement par le langage de programmation serveur, mais nous verrons celà dans le bloc PHP. Selon vous, grâce à quoi arriverions-nous à configurer cette balise?
+
+Il existe une multitude d'autres éléments ou de possibilités de configuration de l'élément <input> pour construire un formulaire. Si cela est requis, ils vous seront donnés en temps et lieux. Une fois de plus, l'important est de comprendre le fonctionnement.
+
+================================================================================
+
+Notes supplémentaires : Une fois de plus, les snippets peuvent nous permettre de sauver du temps. Ici, il s'agit du snippet "form" (suivi de la touche "Tab" comme d'habitude).
+    
+================================================================================

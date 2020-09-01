@@ -1,0 +1,14 @@
+Une composante fréquemment utilisée est "l'alerte". Elle permet d'informer  l'utilisateur quand au succès ou à l'échec d'une opération, ou simplement de lui donner de l'information.
+
+Comme travail après séance :
+
+1. Téléchargez les fichiers de départ à partir du compte Github.
+
+2. Essayez de reproduire l'aperçu correspondant à la solution finale.  Note : Votre mandat est d'écrire le CSS dans le fichier "style.css" sous le commentaire /* CSS à écrire */
+
+Informations requises :
+- Couleur de police dans l'alerte : #856404;
+- Couleur d'arrière-plan dans l'alerte : #fff3cd;
+- Couleur de la bordure : #ffeeba;  
+
+3. Dans le cadre de cet exercice après séance, je ne fournirai pas plus d'informations. Je  construirai un Tegrity à la place afin de détailler la solution. Vous êtes encouragés à essayer avant de consulter la solution.       

@@ -1,0 +1,86 @@
+================================================================================
+
+Avant de démarrer l'aspect programmation, effectuons un rappel.
+Dans le tier de présentation ("front-end") des applications Web, trois langages sont utilisés : 
+- Le HTML
+- Le CSS
+- Le Javascript
+
+Nous avons vu le HTML (structure et contenu) aux cours 1 et 2, et nous verrons le Javascript (comportement, dynamisme) aux cours 5-8 (Bloc 2).
+
+Le CSS, que nous présentons aux cours 3 et 4 (avec Bootstrap), définit l'apparence des pages Web.
+
+La syntaxe des règles CSS est :
+
+--------------------
+sélecteur {
+    declaration
+}
+--------------------
+
+La portion "déclaration" s'écrit :
+--------------------
+propriété: valeur;
+--------------------
+
+À noter : 
+- Il peut y avoir plusieurs éléments (et/ou autres sélecteurs) dans la même sélection, en utilisant la virgule pour séparer les composantes
+- Il peut y avoir plusieurs lignes de déclaration (propriété: valeur;) à l'intéreur de la même déclaration
+- Nous utiliserons des propriétés simples pour démontrer les sélecteurs, puis discuterons de propriétés plus intéressantes plus tard dans le cours d'aujourd'hui.
+
+================================================================================
+
+Ceci étant dit, commençons la première démonstration afin de vous fournir une compréhension appliquée. 
+
+1. Insérons un template de base HTML
+
+2. Ajoutons :
+- Trois paragraphes avec du Lorem Ipsum
+- Un élément HTML "span" à l'intérieur des deux premiers paragraphes
+- Un lien hypertexte dans le dernier paragraphe
+
+3. Définissons une balise de style pour écrire notre CSS.
+3.1 Cette balise ira dans la section <head> du HTML
+3.2 La balise à utiliser est <style>, avec l'attribut type="text/css"
+3.3 Un snippet peut être utilisé pour vous éviter la mémorisation
+3.4 À l'intérieur de cette balise <style>, nous pouvons écrire du CSS!
+
+================================================================================
+
+Le premier type de sélecteur que nous voyons est le sélecteur "élément".
+
+Il permet de cibler tous les éléments d'un certain type (ex. paragraphe, division, lien hypertexte, table, etc.) afin de leur appliquer un certain style.
+
+4. En utilisant le sélecteur de type "élément", ajoutons du style aux éléments suivants :
+4.1 Paragraphes : couleur rouge et police Arial
+4.2 Éléments span : première lettre en majuscule et police de taille 32px 
+4.3 Lien hypertexte : couleur d'arrière-plan rose
+
+Voilà le tour est joué! Nous avons écrit nos premières lignes de CSS!
+
+================================================================================
+
+Que pouvons-nous faire si nous voulons cibler seulement quelques éléments HTML spécifiques? Ou encore un seul?
+
+Regardons comment les sélecteurs de type ".class" et "#id" peuvent être utiles.
+
+5. Ajoutons un attribut "class" avec une valeur de "feedback-error" aux deux premiers paragraphes.
+
+6. Dans le CSS, nous pouvons cibler ces deux paragraphes avec le sélecteur CSS  de type "class". Nous allons écrire le nom de la classe de la même manière que pour le sélecteur de type "élément", mais cette fois-ci en la précédent du point (".").
+
+7. Ajoutons une couleur d'arrière plan grise pâle pour ces deux paragraphes portant la classe de "feedback-error".
+
+8. Et maintenant, si nous voulions cibler un élément spécifique? Nous pourrions donner une classe ("class") unique à cet élément, mais il existe un attribut spécialement conçu pour cela : l'attribut "id".
+
+9. Donnons au premier paragraphe un id de "first-error".
+
+10. Nous pouvons cibler ce paragraphe avec le sélecteur CSS de type "id". Cette  fois-ci, nous allons précéder la valeur du "id" d'un dièse ("#").
+
+11. Appliquons le style suivant à ce sélecteur : 
+    border: 2px solid blue;
+
+================================================================================
+
+Notes supplémentaires : L'utilisation d'une feuille de style (CSS) externe est recommandée, plutôt que la balise <style>. Nous verrons cette approche plus tard aujourd'hui.
+    
+================================================================================

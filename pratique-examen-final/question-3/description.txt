@@ -1,0 +1,21 @@
+================================================================================
+
+Question 3 (25 points) - Intégration Bloc 2 (JavaScript + jQuery)
+
+Contexte : Vous demandez aux utilisateurs de votre application de saisir leur numéro de téléphone au moment de la création d'un compte. Vous souhaitez rendre l'expérience plus personnalisée en ajoutant de l'interactivité : lorsqu'un utilisateur entre l'indicatif, il verra le code ISO (ex. CA pour Canada) ainsi que le drapeau du pays correspondant à l'indicatif saisi.
+
+Assurez-vous de vous familiariser avec l'aperçu et les fichiers.
+
+Note : Tout le travail se fait dans le fichier 'app.js', sous le code fourni. Les autres fichiers doivent être remis dans leur état initial. 
+
+Informations utiles :
+- Ces méthodes jQuery peuvent vous être utiles:
+  - .val()
+  - .html()
+  - .hide()
+  - .show()
+- L'événement à observer est un "keyup" dans le champ permettant de saisir l'indicatif.
+
+Mention hors examen : ce genre de programmation se fait souvent avec les emojis, mais ici nous utiliserons des images pour nous assurer de la compatibilité.
+
+--------------------------------------------------------------------------------

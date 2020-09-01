@@ -1,0 +1,27 @@
+================================================================================
+
+Cet exercice permet de pratiquer l'écriture de conditions if/else.
+
+1a. Assignez, à une nouvelle variable nommée distance, la distance entre votre domicile et la succursale de Ben & Jerry's la plus proche.
+https://www.google.com/maps/search/ben+%26+jerry's/
+1b. Mettez en place une condition permettant de déterminer si cette succursale est à moins de 10km
+1c. Si c'est le cas, écrivez dans la console "Ce soir, j'irai manger The Tonight Dough"
+1d. Sinon, écrivez dans la console "Ce soir, je devrai manger de la Haagen Dazz à la place"
+
+
+2a. Assignez, à une nouvelle variable nommée options, les valeurs suivantes : "bleu", "vert", "noir", "rose"
+2b. Affichez dans la console le contenu de la variable options
+2c. Assignez à une nouvelle variable nommée couleur votre couleur préférée
+
+2d. Mettez en place une condition permettant de tester si votre couleur préférée fait partie des options de couleur
+Si c'est le cas : affichez dans la console "Votre couleur fait partie des options!"
+Sinon : affichez dans la console "Votre couleur ne fait malheureusement pas partie des options."
+
+2e. Modifiez temporairement votre couleur préférée pour vous assurer que votre condition fonctionne correctement.
+
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

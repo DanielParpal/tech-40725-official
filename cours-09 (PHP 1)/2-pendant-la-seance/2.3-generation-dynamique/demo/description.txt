@@ -1,0 +1,38 @@
+================================================================================
+
+La génération dynamique permet de construire en temps réel la page grâce à des algorithmes.
+
+Nous comprendrons donc dans cette section ce que nous voulons dire par "génération dynamique de contenu"!
+
+Nous avons vu qu'il est possible d'afficher du contenu HTML à partir du PHP à l'aide de la commande echo. À titre d'exemple, nous avons inséré des sauts de ligne avec : echo '<br>';
+
+Nous pouvons également alterner entre PHP et HTML dans le même fichier, à condition de respecter l'utilisation des balises permettant au serveur de comprendre nos intentions.
+
+================================================================================
+
+Effectuons une démonstration concrète :
+
+1. Prenons le fichier de départ 
+
+2. Transformons la ligne 'Bienvenue, NOM DU CLIENT' en contenu dynamique
+2.1 Au haut du fichier, définissons une section pour écrire du PHP grâce aux balises appropriées
+2.2 Définissons une variable $client
+2.3 Donnons-lui une valeur de 'Daniel'
+2.4 Venons insérer la valeur de la variable au bon endroit dans le HTML, en définissant un nouveau jeu de balises PHP nous permettant d'écrire des commandes PHP à l'intérieur même du HTML
+
+Prenons le temps de réfléchir à ce qui vient de se passer. Voyez-vous que le contenu de la variable est dynamiquement transformé au moment de générer la page? Si cette variable était utilisée à plusieurs endroits, ils seraient tous mis à jour en même temps si je changeais la valeur pour 'Jean'. Le contenu est donc dynamique!
+
+3. Effectuons la même opération pour le solde du compte
+3.1 Définissons dans la section du haut une variable $soldeCompte
+3.2 Donnons-lui une valeur de 150
+3.3 Venons écrire une ligne PHP permettant d'afficher le solde du compte.
+
+4. Prenons le temps d'ajouter des balises HTML au solde du compte (ex. <u>) permettant de voir que PHP permet d'envoyer du HTML (des balises) et non pas seulement du texte brut!
+
+À noter : Dans une vraie application, les valeurs de $client et $soldeCompte proviendraient fort probablement d'une requête de base de données.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

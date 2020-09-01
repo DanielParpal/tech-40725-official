@@ -1,0 +1,22 @@
+================================================================================
+
+À votre tour de jouer!
+
+Pour les 10 prochaines minutes, voici le travail à accomplir.
+
+1. Prenez le fichier de départ
+
+2. Ajoutez un lien vers jQuery (CDN) et vers un fichier externe JavaScript que vous allez créer.
+
+3. Ajoutez un item de liste contenant la valeur "Sandwich" grâce à JavaScript. Consultez l'aperçu pour voir le résultat attendu.
+
+Indices : 
+Vous effectuerez la sélection sur l'élément avec un "id" de "panier"
+Vous aurez besoin de la méthode append() pour ajouter l'élément de liste
+Consultez : http://api.jquery.com/append/
+
+================================================================================
+
+Notes supplémentaires : 
+
+================================================================================

@@ -1,0 +1,37 @@
+================================================================================
+
+Chaînes de caractères :
+
+Il existe en programmation un terme précis pour parler d'un morceau de texte : la chaîne de caractères (en anglais : string)
+
+Voici quelques exemples de chaînes de caractères :
+"a"
+"Bonjour et bienvenue dans le cours de programmation"
+"Paul"
+
+Il existe en JavaScript une manière spécifique de définir une chaîne de caractères, et il y a quelques opérations très communes à connaître, comme la concaténation.
+
+================================================================================
+
+Démonstration :
+
+Dans un fichier JavaScript externe (app.js) :
+
+1) Définissons une chaîne de caractères que nous assignerons à une variable 
+2) Utilisons les guillemets doubles
+3) Puis les guillemets simples
+4) Que se passe-t-il si :
+4.1) Nous utilisons un mélange de guillemets? (simples et doubles)
+4.2) Nous utilisons un même guillemet à l'intérieur de la chaîne de caractères?
+
+5) Cela nous amène au concept d'échappement (escaping)
+
+6) Quoi faire pour concaténer ("additionner") deux chaînes de caractères?
+
+En ouverture : les chaînes de caractère sont très communes, et il faut devenir confortable avec leur utilisation.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

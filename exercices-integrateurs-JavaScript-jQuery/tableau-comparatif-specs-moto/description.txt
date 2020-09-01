@@ -1,0 +1,61 @@
+================================================================================
+
+Cet exercice se veut une pratique de vos habiletés JavaScript et jQuery.
+
+Il s'agit de l'exercice intégrateur de niveau intermédiaire (à mi-chemin entre le carrousel simple et l'exercice des disponibilités par couleur). C'est un bon reflet du niveau attendu pour un problème intégrateur à l'examen.
+
+Contexte : Plusieurs applications de commerce électronique vous permettent de comparer leurs produits "côte-à-côte" (side by side).
+
+À titre d'exemple, Honda vous offre l'option de comparer les spécifications de leurs motos afin de vous aider à déterminer la moto qui vous convient le mieux.
+
+Source d'inspiration : https://motorcycle.honda.ca/category/sport (section "Find My Ride")
+
+Dans cet exercice, nous cherchons à reproduire une version simplifiée de cette fonctionnalité. Dans notre application, il sera possible d'ajouter une moto à une liste de comparaison en cliquant sur un bouton, et d'enlever la moto de la liste de comparaison en appuyant sur le bouton à nouveau.
+
+Prenez le temps de regarder l'aperçu vidéo pour avoir une idée du fonctionnement attendu. Je vous encourage à faire un plan de travail avant de commencer à programmer, et même de résoudre le problème "sur papier" sans écrire une ligne de code. Cela vous aidera à développer une approche axée sur la résolution de problème plutôt que la syntaxe.
+
+Votre travail est de répliquer le comportement présenté dans l'aperçu vidéo. Tout le travail est à faire dans le fichier 'app.js'. Ne modifiez rien aux autres fichiers.
+
+Vous aurez besoin des méthodes jQuery suivantes :
+- .html()
+- .data()
+- .show()
+- .delay()
+- .fadeOut()
+- .append()
+
+Voici les données pour chacune des motos :
+
+moto A:
+    annee: 2018
+    modele: CBR 1000RR SP
+    image: images/CBR1000RRSP.png
+    comparee: false
+
+moto B:
+    annee: 2018
+    modele: CBR 1000RR
+    image: images/CBR1000RR.png
+    comparee: false
+
+moto C:
+    annee: 2017
+    modele: CBR 600RR
+    image: images/CBR600RR.png
+    comparee: false
+
+moto D:
+    annee: 2018
+    modele: CBR 650F
+    image: images/CBR650F.png
+    comparee: false
+
+Notes : 
+- L'année, le modèle et l'image doivent être des chaînes de caractères.
+- La propriété 'comparee' est un booléen (true/false), et représente l'état de la moto: est-elle présentement dans la section des motos comparées, ou non?
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

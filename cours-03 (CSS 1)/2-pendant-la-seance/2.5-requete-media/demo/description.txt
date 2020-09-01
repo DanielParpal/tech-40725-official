@@ -1,0 +1,38 @@
+================================================================================
+
+Nous ne voyons presque plus d'application Web qui ne soit pas adaptative ("responsive"). Nous parlons ici d'une apparence qui s'adapte en fonction de l'environnement (appareil, largeur de l'écran, etc.) dans lequel l'application est utilisée. 
+
+De plus, l'affichage avec un système de "grille" (plusieurs colonnes) est très courante, au point où les librairies CSS - dont nous discuterons à la semaine prochaine - mettent cette possibilité au coeur des fonctionnalités.
+
+La requête média CSS est ce qui nous permet de mettre en place un site adaptatif.
+
+Regardons la structure de la requête média, tout en utilisant certaines nouvelles propriétés CSS au passage.
+
+Note : Pour les requêtes médias ("media queries"), vous pouvez vous référer à vos lectures dans le manuel de référence, ou sinon :
+    https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+
+1. Prenons les fichiers de départ.
+
+2. Regardons le résultat final attendu, grâce à l'aperçu.
+
+3. Effectuons une petite démonstration de la requête média, sans parler de l'aspect adaptatif d'une page Web (ex. changer la couleur de la police pour un écran de 992px ou moins).
+
+4. Donnons aux divisions avec "class" de "column" le style suivant :
+- Largeur de 33%
+- Un "float" de "left" (souvenez vous de vos lectures!)
+- Un padding de 10px
+Notez que cela sera le style par défaut lorsqu'aucune "media query" n'est activée.
+
+5. Donnons le style suivant aux divisions avec "class" de "column", pour les écrans de 992px de largeur maximale :
+- Largeur de 50%
+
+6. Donnons le style suivant aux division avec "class" de "column", pour les écrans de 768px de largeur maximale :
+- Largeur de 100%
+
+Dans le cadre du cours, vous n'aurez pas à écrire de requête média en soi. Vous devrez par contre être en mesure de comprendre leur utilisation, et être apte à reconnaître les spécifications implicant une requête média, afin d'écrire les règles CSS au bon endroit. 
+
+================================================================================
+
+Notes supplémentaires : 
+
+================================================================================

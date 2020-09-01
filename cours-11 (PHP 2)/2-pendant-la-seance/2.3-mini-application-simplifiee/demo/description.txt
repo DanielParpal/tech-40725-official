@@ -1,0 +1,59 @@
+================================================================================
+
+Revenons sur la duplication (répétition) de code de la section 2.2. Dans le contexte actuel, il faudrait copier-coller une rangée pour ajouter un cours à la table HTML. 
+
+Imaginons qu'un troisième cours s'ajoute, puis un quatrième, un cinquième, etc. La maintenance du code devient impossible (souvenez-vous de la démonstration du cours 9 avec les albums de musique) : nous avons donc besoin d'un algorithme de génération dynamique.
+
+Nous avons vu, en JavaScript, une structure de données très populaire : le tableau d'objets. Ici, chacun de ces cours est modélisé par un tableau associatif, une structure clé-valeur comme l'objet JavaScript. 
+
+Nous pouvons donc regrouper tous nos tableaux associatifs dans un tableau numérique. Conceptuellement, il s'agit de la même structure que celle présentée au cours 8 avec le tableau d'objets.
+
+Éventuellement, nous verrons que cette structure correspond de manière identique à celle retournée par une requête de sélection (SELECT) envoyée à notre serveur MySQL.
+
+================================================================================
+
+Allons-y une étape à la fois.
+
+1. Regardons les fichiers de départ, qui correspondent à la solution de la section 2.2.
+Note : la définition des deux tableaux associatifs a été déplacée dans un fichier externe ('data.php') pour améliorer notre architecture.
+
+2. Dans 'data.php', définissons un troisième cours (structure : tableau associatif)
+date : 31 octobre 2019
+instructeur : Caroline
+titre : Bootcamp et course
+
+3. Regroupons ces trois tableaux associatifs sous un tableau numérique/indexé, que nous nommerons $cours
+3.1 Utilisons un var_dump() pour regarder le contenu de $cours
+Prenons le temps d'observer les similitudes avec le JavaScript
+
+4. Regardons ce qu'il faudrait faire pour ajouter le cours 3 à la table HTML sans utiliser un algorithme
+
+5. Maintenant, comment pouvons-nous utiliser une boucle foreach() pour générer les lignes dynamiquement? (et éviter la duplication de code)
+
+--------------------------------------------------------------------------------
+
+Maintenant que cette portion est terminée, nous sommes rendus à l'étape qui pourrait vous sempler un peu magique. Assurez-vous donc de comprendre POURQUOI cela fonctionne.
+
+Les requêtes de sélection (SELECT) retournent les données sous un format spécifique* :
+- Chacune des lignes de la table MySQL est modélisée comme un tableau associatif
+- Les clés des tableaux associatifs correspondent exactement aux propriétés (titres des colonnes) de la table MySQL
+- Toutes les lignes de la table MySQL (donc tous les tableaux associatifs) sont regroupées sous un tableau numérique que nous pourrons parcourir
+- Dans le cadre de cette démonstration, nous stockons ce "tableau de tableaux associatifs" sous une variable nommée $cours (même nom que la variable dans 'data.php')
+
+6. Utilisons maintenant la requête de sélection MySQL
+Rappel : Il faut s'assurer d'établir une connexion avant toute chose
+
+7. Regardons et analysons le contenu retourné grâce à un var_dump()
+
+8. Maintenant, enlevons le lien vers 'data.php' et utilisons les données retournées par la requête SQL de sélection.
+
+Mention importante : tout cela fonctionne un peu 'magiquement' car la démonstration a été planifiée pour faire correspondre les clés des tableaux associatifs aux noms de colonnes MySQL. Comme mentionné, assurez-vous de comprendre les éléments de 'magie' pour ne pas vous faire une image mentale erronée!
+
+Note : nous avons omis le développement du formulaire et la requête d'insertion pour cette démonstration, afin de se concentrer sur les nouvelles notions : le tableau de tableaux associatifs, et l'algorithme de génération dynamique. Vous aurez toutefois à écrire le formulaire et connecter la requête d'insertion pour l'exercice intégrateur.
+
+================================================================================
+
+Notes supplémentaires : 
+* En fait, il existe deux options de formats très similaires. Nous voyons celle qui correspond exactement au tableau de tableaux associatifs.
+    
+================================================================================

@@ -1,0 +1,54 @@
+================================================================================
+
+Étant donné qu'il s'agit du premier exercice intégrateur, voici de l'aide supplémentaire si vous êtes bloqué(e). Essayez de vous rendre le plus loin possible avant d'utiliser ce fichier, car vous n'aurez son équivalent pour les problèmes à l'examen final.
+
+À noter également:
+- Il existe une infinité - ou du moins, une grande quantité - de solutions correctes. Celle présentée ci-bas en est une qui fonctionne bien. À l'examen, l'important est de déveloper une solution fonctionnelle, qui respecte les bonnes pratiques présentées en classe, et qui utilise UNIQUEMENT les concepts présentés pendant la session. 
+    
+================================================================================
+
+1. Mettez en place un tableau d'objets contenant les 4 gins (cette étape a été complétée pour vous).
+
+Pour chacun des gins, vous devez modéliser deux propriétés (clés) :
+	nom : Le nom du gin (ex. Absintherie des Cantons, Arbikie Kirsty's Gin Highland Estate, etc.)
+	pays : Le pays d'origine du gin, dans un format "code à 3 lettres" (can, usa ou gbr)
+
+Vous êtes encouragés à utiliser des variables intermédiaires pour écrire les objets avant de les mettre dans un tableau 'gins'.
+
+
+2. Affichez le tableau d'objets dans la console, et le pays d'origine du gin à l'index 2 du tableau des gins ('can') -> cette étape est facultative dans une évaluation, mais permet de valider que tout fonctionne bien, et d'avoir une bonne compréhension de la structure de données (cette étape a été complétée pour vous).
+
+
+3. Maintenant, mettez en place un gestionnaire d'événement pour observer le 'click' sur les éléments permettant de filtrer par pays.
+Note : toutes les actions suivantes seront définies à l'intérieur du gestionnaire d'événement.
+
+
+4. Récupérez le code pays stocké dans l'attribut data de l'élément clické.
+
+
+5. Contexte : La classe "active" permet de donner une couleur d'arrière-plan à un élément, ce qui permet de confirmer à l'utilisateur que son "clic" a bien fonctionné (voir vidéo). Vous pouvez effectuer un test directement dans le HTML en donnant temporairement la classe "active" à un des items de liste (<li>). 
+Nous mettrons donc en surbrillance l'item de liste qui vient d'être cliqué, afin de confirmer la sélection à l'utilisateur. Cela se fera en 2 étapes :
+
+5a. Enlevez la classe "active" à tous les éléments avec la classe "filtre-pays". Vous aurez besoin d'utiliser la méthode jQuery .removeClass("active") sur la sélection.
+Note : la valeur "active" passée entre les parenthèses est le nom de la classe à enlever.
+
+5b. Ajoutez la classe "active" à l'item de liste venant d'etre cliqué. Vous aurez besoin de la méthode jQuery .addClass("active") 
+Note : Prenez le temps de choisir un sélecteur qui rendra cette opération simple.
+
+
+6. Filtrez les gins par pays. Cela se fait en 2 étapes là encore (a. on masque tout, b. on affiche seulement les bons produits).
+
+6a. Masquez tous les éléments avec une classe de "gin-media". Prenez le temps de regarder le code HTML pour comprendre la logique derrière cette action. Vous aurez besoin de la méthode .hide() pour y arriver.
+
+6b. Affichez le(s) gins correspondant au pays cliqué. Vous aurez besoin de la méthode .show(), et d'un peu de créativité pour écrire le sélecteur. La concaténation vous aidera.
+
+
+7. Passons à la portion la plus difficile. Ici, nous accomplirons l'équivalent de la section 2.4-condition-dans-boucle du cours 6, mais en utilisant un tableau d'objets plutôt que des tableaux parallèles.
+En utilisant le tableau d'objets, mettez en place une boucle permettant d'afficher dans la console le nom des gins pour lesquels le pays correspond au code-pays qui a été cliqué. Pour chacun de ces gins, nous verrons : "Le gin X provient du pays Y", où X est le nom du gin et Y est le code pays.
+Note : La syntaxe 'for..of' peut rendre votre vie facile, mais est facultative et ne sera pas démontrée.
+
+
+8. Pour des points bonus (cela peut arriver à l'examen final ;)), affichez la quantité de gins provenant du pays sélectionné. (ex. "Pour le pays can, il y a 2 gin(s).").
+Note : vous aurez besoin d'ajouter du code avant la boucle, à l'intérieur de la boucle, et après la boucle pour y arriver. 
+Indice : une nouvelle variable pourrait vous aider à compter cela...
+

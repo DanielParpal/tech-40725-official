@@ -1,0 +1,22 @@
+================================================================================
+
+À votre tour maintenant! 
+Prenez 10 minutes pour télécharger une image et l'insérer dans un document HTML.
+
+1. Démarrez d'un fichier vide, dans lequel vous allez insérer le template de base.
+
+2. Téléchargez une image sur google, ou utilisez une image de votre choix. Copiez-la dans dans le même dossier que le fichier HTML pour commencer. 
+Note : Vous pouvez renommer l'image pour faciliter l'écriture de la source.
+
+3. Utilisez la balise <img> pour insérer l'image dans le document HTML.
+3.1 Assurez-vous que l'emplacement soit bien spécifié!
+3.2 Essayez de déplacer l'image dans un sous-dossier, et de modifier l'emplacement en conséquence. Validez que l'image s'affiche toujours.
+
+4. Redimensionner l'image grâce à un des attributs suivants : "width" ou "height".
+4.1 Essayez les unités "px" (pixels) ou "%" (pourcentage).
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

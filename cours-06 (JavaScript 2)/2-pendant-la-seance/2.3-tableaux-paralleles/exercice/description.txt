@@ -1,0 +1,23 @@
+================================================================================
+
+À votre tour de jouer! Pendant les 10 prochaines minutes.
+
+1. Téléchargez les fichiers de départ.
+
+Rappel du lien vers Chocolats Favoris : https://www.chocolatsfavoris.com/recettes
+
+2. Modélisez la description de chacune des recettes, en utilisant un tableau qui respecte l'ordre du tableau des titres de recettes précédemment créé en 2.2.
+
+3. Effectuez la même chose pour l'url de chacune des recettes. 
+Note : vous aurez à cliquer sur le bouton "Voir la recette!" afin de récupérer l'url correspondant.
+
+4. Modifiez les instructions à l'intérieur de la boucle pour afficher les informations reliées aux descriptions et aux urls. Vous êtes libres de choisir le format que vous souhaitez pour l'affichage dans la console (eg. une seule ligne par recette, plusieurs lignes, phrase complète vs la valeur, etc.).
+
+5. Assurez-vous que les données affichées à l'intérieur d'une même itération soient bien reliées! (parallèles)
+
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

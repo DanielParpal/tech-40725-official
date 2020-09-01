@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Les sélecteurs CSS</title>
+    <!-- La balise de style vient ici -->
+    <style type="text/css">
+        th {
+            text-decoration: underline;
+        }
+        td {
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            width: 75px;
+        }
+        .temperature-negative {
+            background-color: red;
+            color: white;
+        }
+        #journee-demain {
+            font-size: 4em;
+        }
+    </style>
+</head>
+<body>
+    <h4>Températures prévues pour la semaine</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Lundi</th>
+                <th>Mardi</th>
+                <th>Mercredi</th>
+                <th>Jeudi</th>
+                <th>Vendredi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="journee-demain" class="temperature-negative">-2</td>
+                <td>4</td>
+                <td>2</td>
+                <td class="temperature-negative">-4</td>
+                <td class="temperature-negative">-9</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

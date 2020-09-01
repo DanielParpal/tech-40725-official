@@ -1,0 +1,15 @@
+/* CSS fourni dans le fichier de départ */
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* CSS à écrire */
+

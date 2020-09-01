@@ -1,0 +1,40 @@
+================================================================================
+
+À votre tour de jouer!
+Prenez 10 minutes pour vous familiariser avec les variables et les données
+
+1. Créez un fichier HTML dans lequel vous mettrez le template de base
+
+2. Créez un fichier Javascript que vous allez lier au fichier HTML (assurez-vous d'utiliser la bonne balise au bon endroit)
+
+Dans le fichier Javascript (.js) :
+
+À noter : nous réutiliserons le résultat de cet exercice à la section 2.3, alors assurez-vous de bien comprendre!
+
+À utiliser comme référence :
+http://www.nationsonline.org/oneworld/country_code_list.htm
+
+3. Définissez la variable "paysExpedition" 
+Il s'agit d'une chaîne de caractères : Vous lui donnerez une valeur correspondant à un pays d'expédition, sous un format ISO 3 caractères (regardez le lien de référence : ex. Canada => CAN)
+Il s'agit d'une chaîne de caractères
+
+4. Définissez la variable "paysLivraisonIncluse"
+Il s'agit d'un tableau dans lequel vous définissez tous les pays pour lesquels la livraison est incluse. Choisissez quelques pays dans la liste, et utilisez les codes ISO 3 caractères.
+
+5. Définissez une variable "tarifLivraisonNonIncluse"
+Il s'agit d'un nombre : Cette variable contiendra le tarif pour les livraisons dans les pays ne se trouvant pas dans la liste. Vous pouvez mettre 25$ comme exemple (ou choisir votre tarif).
+
+6. Écrivez le contenu de chacune des variables dans la console, grâce à 3 commandes "console.log".
+Consignes précises :
+6.1 Donnez un contexte pour chacune des variables. Ex: le pays d'expédition est ... 
+Vous aurez besoin de la concaténation pour y arrier
+6.2 Afficher le tableau complet dans la console
+
+7. Ajoutez un nouveau pays au tableau, avec l'action (méthode) .push()
+7.1 Regardez le nouveau contenu de paysExpedition dans la console
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

@@ -1,0 +1,16 @@
+================================================================================
+
+À votre tour maintenant! 
+Prenez 10 minutes pour effectuer l'exercice suivant :
+
+1. Générez le template de base dans un nouveau fichier (encore et encore!)
+2. Dans la section <body>, créez 3 paragraphes (balise <p>)
+3. Ajoutez un peu de contenu dans vos paragraphes (lorem ipsum ou autre)
+4. Donnez la classe "admin-paragraph" aux trois paragraphes
+5. Donnez un id de "first-paragraph" au premier paragraphe 
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

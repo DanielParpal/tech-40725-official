@@ -1,0 +1,17 @@
+Matériel de la capsule
+
+Prérequis :
+- Avoir bien compris la portion sur le HTML, et particulièrement l'écriture d'attributs "class"
+- Comprendre qu'il est possible d'écrire plusieurs valeurs pour l'attribut class en HTML, en séparant ces valeurs par un espace
+  - J'ai ajouté un lien en préparation du cours 4
+- Être confortable avec le CSS, et particulièrement l'utilisation du sélecteur .class
+
+Préparation :
+- Téléchargement du cours 4 à partir de GitHub, et transfert vers votre répertoire racine
+- Création d'un dossier de travail pour la préparation au cours (ex. 1-avant-la-seance)
+- Lecture active de l'introduction à Bootstrap (sections: Quick Start, et CSS)
+  - Je vais vous guider pour cette section, les débuts sont toujours plus complexes
+- Lecture active des articles sur les composantes de Bootstrap 
+  - Effectuons un exemple avec l'alerte ("alert")
+- Lecture active sur la grille ("grid") Bootstrap 
+  - Il s'agit de la portion difficile du cours 4, alors SVP prenez le temps de bien lire, tester et comprendre!

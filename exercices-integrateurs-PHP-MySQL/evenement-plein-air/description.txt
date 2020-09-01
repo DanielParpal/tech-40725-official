@@ -1,0 +1,34 @@
+================================================================================
+
+Cet exercice se veut une pratique des concepts PHP vus au cours 9 uniquement (sans MySQL), ainsi qu'une opportunité de pratiquer le HTML et Bootstrap. Il s'agit du plus simple des 2 exercices intégrateurs en lien avec le Bloc 3.
+
+Plusieurs sites de commerce électronique utilisent un CMS* (content management system) sous un format ou un autre (parfois intégré dans leur plateforme de commerce). 
+
+Sans connaître les détails, l'application Web de MEC (Mountain Equipment Coop) utilise fort probablement un CMS pour effectuer la gestion de ses événements de plein air. 
+
+Si vous inspectez les deux événements suivants, vous réaliserez que la structure de la page est la même. Le CMS est probablement responsable de collecter certaines données spécifiques (ces données sont remplies par un admin), et de les afficher sous un format précis :
+      -> http://evenements.mec.ca/node/196511
+      -> http://evenements.mec.ca/node/201711
+
+Note : vous trouverez deux aperçus du site (apercu-1 et apercu-2), au cas où le lien ne fonctionne pas pour vous. Il y a également deux autres aperçus (apercu-3 et apercu-4) présentant la version que nous développerons dans cet exercice.
+
+L'objectif de cet exercice est donc de mettre en place un script de génération dynamique de contenu. Vous utiliserez le "mini-CMS" qui est en place, c'est-à-dire le système de variables définies dans 'index.php'.
+
+Tout le travail s'effectuera dans 'app.html.php', à l'exception d'une ligne dans 'index.php' pour effectuer l'inclusion du fichier 'app.html.php'.
+
+Vous aurez besoin de ces composantes et classes Bootstrap:
+- Le container
+- Une alerte, de type "danger"
+- La grille, avec une colonne de 4 unités à gauche et une autre de 8 unités à droite
+- Pour mettre certains titres en gris: .text-muted
+- Pour l'espacement vertical entre les blocs de texte de la colonne de droite: mt-2
+
+Note importante : Dans le cadre de l'examen, vous n'auriez PAS à reproduire l'apparence d'une page Web (avec des classes Bootstrap ou règles CSS) sans être guidé(e) beaucoup plus clairement. Vous pourriez même avoir un template statique déjà stylisé en code de départ, et avoir à le rendre dynamique. Ne perdez donc pas trop de temps avec cet aspect dans la réalisation de l'exercice intégrateur. Le "focus" devrait être mis surtout sur la cohabitation du HTML et du PHP - incluant l'affichage conditionnel de la bannière d'alerte.
+
+*SGC en français : système de gestion du contenu
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

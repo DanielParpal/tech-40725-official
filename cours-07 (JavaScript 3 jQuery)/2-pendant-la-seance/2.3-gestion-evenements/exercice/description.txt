@@ -1,0 +1,28 @@
+================================================================================
+
+À votre tour de jouer!
+
+Pour les 15 prochaines minutes, voici le travail à accomplir.
+
+Nous mettrons en place un système où on affiche dans la console la valeur de l'attribut data-tag-produit du bouton cliqué.
+
+Étapes :
+
+1. Prenez le fichier de départ
+
+2. Ajoutez un lien vers jQuery et vers un fichier JavaScript externe (à créer)
+
+3. Ajouter un gestionnaire d'événement (copier-coller le bloc de code)
+3.1 La sélection sera faite sur tous les éléments avec une "class" de "btn-achat"
+3.2 L'événement sera un clique de souris ('click')
+3.3 Les actions à prendre :
+- On récupère la valeur de l'attribut data-tag-produit grâce à la méthode .data() et le sélecteur $(this)
+- On affiche cette valeur dans la console
+
+Documentation pertinente : http://api.jquery.com/data/
+
+================================================================================
+
+Notes supplémentaires : 
+
+================================================================================

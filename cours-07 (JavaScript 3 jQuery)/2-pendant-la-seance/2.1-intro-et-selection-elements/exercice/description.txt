@@ -1,0 +1,29 @@
+================================================================================
+
+À votre tour de jouer avec jQuery et la sélection d'éléments!
+
+Pour les 10 prochaines minutes, voici le travail à accomplir.
+
+1. Prenez le fichier de départ, qui correspond à une version modifiée de la solution d'un exercice sur la syntaxe CSS (cours 3).
+
+Note : nous ferons des exercices plus en lien avec les applications de commerce électronique aux sections 2.2 et 2.3.
+
+2. Effectuez l'inclusion de jQuery en utilisant le CDN (rappelez-vous de mettre un favori pour vous sauver du temps).
+Note : Visitez https://code.jquery.com pour récupérer le CDN.
+
+3. Créez ensuite un fichier .js dans lequel vous mettrez vos instructions, et incluez-le dans votre fichier html grâce à la balise <script>
+
+4. Sélectionnez, grâce à jQuery, toutes les cellules du corps de la table (td) et modifiez leur contenu html grâce à la méthode .html(). Vous pouvez mettre le contenu de votre choix.
+4.1 Visualisez que cela fonctionne bien.
+
+5. Sélectionnez, grâce à jQuery, tous les éléments ayant un attribut "class" de "temperature-negative" et modifiez leur contenu html grâce à la méthode .html()
+5.1 Visualisez que cela fonctionne bien.
+
+6. Sélectionnez, grâce à jQuery, l'élément ayant un attribut "id" de "journee-demain" et modifiez son contenu html grâce à la méthode .html()
+6.1 Visualisez que cela fonctionne bien.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

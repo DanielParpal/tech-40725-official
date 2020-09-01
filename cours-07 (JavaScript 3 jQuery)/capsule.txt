@@ -1,0 +1,5 @@
+Matériel de la capsule
+
+Préparation :
+- Petit coup de main pour démarrer avec jQuery
+- Regardons ensemble les articles partagés sur ZoneCours

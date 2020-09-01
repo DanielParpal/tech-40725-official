@@ -1,0 +1,33 @@
+================================================================================
+
+Reprenons le template de base pour poursuivre notre découverte du HTML et de certaines balises.
+
+1. Qu'est-ce qu'une balise? Son rôle dans un langage balisé?
+
+2. Plus concrètement, que voulons-nous décrire avec ces balises? Exemples?
+
+3. Commençons avec une balise simple à comprendre : le paragraphe
+    3.1 <p></p>
+    3.2 Étant donné qu'un paragraphe est un élément visible... où doit-il aller?
+    3.3 Quoi mettre à l'intérieur?
+    3.4 Pourquoi ne voyons-nous pas la balise à l'écran?
+        Leçon importante à tirer!
+    3.5 Si je voulais créer un deuxième paragraphe? Un troisième?
+
+4. Continuons avec une balise très importante : l'hyperlien ("anchor tag")
+    4.1 <a></a>
+        Note : Pensez à "anchor tag" pour "a"
+    4.2 Quoi mettre à l'intérieur de ces balises?
+    4.3 Comment le navigateur saura-t-il où aller au moment du clic?
+    4.4 Les attributs : aperçu
+
+5. Maintenant, si je voulais ajouter un commentaire?
+    5.1 Le rôle des commentaires
+    5.2 La balise à utiliser
+    5.3 Le raccourci pour sauver du temps (Ctrl + é)
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

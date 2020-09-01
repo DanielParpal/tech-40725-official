@@ -1,0 +1,37 @@
+================================================================================
+
+1. Commençons par insérer le template de base HTML. En rappel, vous pouvez utiliser "html" suivi de la touche Tab pour le générer.
+
+2. Passons maintenant au vif du sujet : les tables HTML
+Quel est leur rôle? Organiser les données de type tabulaire.
+À titre d'exemple, regardons :
+- Le site du NASDAQ (http://www.nasdaq.com/)
+- Le site de la NHL (https://www.nhl.com/standings)
+
+3.1 Cela nous permet par le fait même de voir comment inspecter une page HTML existante dans Chrome afin d'examiner sa structure!
+
+3.3 La balise mère : <table>
+
+3.4 Chaque rangée doit être définie grâce à la balise <tr>
+
+3.5 Les cellules contiennent les données, et sont définies grâce à la balise <td>
+
+3.6 Chaque rangée/ligne doit contenir une quantité identique de cellules
+
+3.7 Pour l'en-tête, utiliser <th> au lieu de <td>
+
+3.8 Finalement, regroupons les rangées du corps de la table à l'intérieur d'une  balise <tbody> et mettons la rangée d'en-tête dans une balise <thead>
+
+4. Comment pouvons-nous sauver du temps dans la construction des tables?
+4.1 Grâce aux snippets
+4.2 En conservant un modèle de basee
+
+================================================================================
+
+Notes supplémentaires : 
+
+- Assurez-vous de conserver un formattage visuel propre! Cela est très important (obligatoire dans le cadre du cours) et démontre le soucis de précision du programmeur, en plus d'aider à la compréhension du code.
+
+- En ouverture : Pensez-vous vraiment que la plupart des tables sont à construites et mises à jour à la main? D'où viendraient les informations si elles ne sont pas directement entrées à la main?
+    
+================================================================================

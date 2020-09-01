@@ -1,0 +1,39 @@
+================================================================================
+
+Nombres :
+
+Tout comme en JavaScript, nous ne prendrons pas le temps d'entrer dans les détails très techniques sur les différents types de nombres - entiers, décimaux, etc - ainsi que sur les différents systèmes (décimal, hexadécimal, etc.). Cela est trop poussé pour le cadre du cours.
+
+L'objectif est de comprendre comment utiliser les nombres :
+- Leur écriture (sans guillemets, avec un point pour les décimales)
+- Les principaux opérateurs
+
+À noter : nous avons repris de manière quasi identique les différentes sous-sections sur les données et variables. Cela permet de constater que les concepts se ressemblent grandement entre les différents langages de programmation.
+
+================================================================================
+
+Regardons :
+
+1. Comment faire une addition?
+2. Une multiplication? 
+3. Soustraction?
+4. Avec des nombres entiers? Décimaux?
+
+Prenons le temps de comprendre le rôle du point-virgule :
+5. À quoi sert-il?
+6. Est-il obligatoire?
+
+Les opérateurs de comparaison :
+7. Plus grand que (>)
+8. Plus petit que (<)
+9. Égal à (==)
+
+En ouverture :
+10. Discutons du concept d'ordre de précédence
+11. Comment ajouter un commentaire
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

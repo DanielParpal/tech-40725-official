@@ -1,0 +1,31 @@
+================================================================================
+
+Variables :
+
+S'il y a bien un concept universel aux langages de programmation, c'est celui des variables.
+
+Nous avons vu en JavaScript le rôle des variables, ainsi que l'approche pour définir une variable.
+
+En rappel, nous pouvons voir les variables comme de petites boîtes qui conservent de l'information dans la mémoire de l'ordinateur.
+
+Il existe toutefois deux différences principales entre JavaScript et PHP :
+1. En PHP, nous n'avons pas besoin du mot-clé 'var' qui précède la définition de la variable.
+2. En PHP, le nom des variables doit commencer par $ (ex. $nom, $client, etc.)
+
+================================================================================
+
+Démonstration :
+
+1. Donnons la valeur 42 à une variable nommée "$age"
+2. Analysons chacun des éléments de la ligne
+2.1 Regardons les différences avec JavaScript (var, $)
+3. Si je voulais afficher cette variable? 
+3.1 Le rôle de echo
+4. Que faire pour modifier sa valeur? 
+5. Tout comme en JavaScript, les variables ne permettent pas seulement de stocker des nombres. Elles peuvent stocker tout type de valeur dont les chaînes de caractères et les tableaux!
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

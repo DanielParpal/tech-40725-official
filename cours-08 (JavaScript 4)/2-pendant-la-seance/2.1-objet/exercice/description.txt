@@ -1,0 +1,34 @@
+================================================================================
+
+À votre tour. Prenez 10 minutes pour pratiquer la syntaxe de base des objets en JavaScript.
+
+Nous utiliserons les recettes de Chocolats Favoris tout comme nous l'avons fait au cours 6. Cela nous permettra de bien comprendre les différences entre les tableaux et les objets.
+https://www.chocolatsfavoris.com/recettes
+
+1. Téléchargez les fichiers de départ.
+
+2. Modélisez une recette sous la forme d'objet, et assignez-la à une nouvelle variable nommée recette_A.
+Note : vous aurez besoin des clés titre, description et url pour construire votre objet.
+
+3. Affichez votre objet dans la console.
+
+4. Affichez le titre de votre recette dans la console.
+
+5. Affichez sa description.
+
+6. Modélisez une autre recette sous la forme d'objet, et assignez-là à une nouvelle variable nommée recette_B.
+
+7. Affichez votre objet dans la console.
+
+8. Mettez en place une condition : 
+- si le url de la recette B est une chaîne de caractères vide, affichez dans la console : le lien est brisé pour la recette B
+- sinon, affichez dans la console le lien url vers la recette B
+Assurez-vous de tester votre condition avec différentes valeurs de url.
+
+9. Prenez le temps de réfléchir aux différences entre le tableau de noms de recettes (utilisé à l'exercice 2.2 du cours 6) et un objet de type recette. 
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

@@ -1,0 +1,31 @@
+================================================================================
+
+Nous avons vu comment écrire du CSS à l'intérieur d'un fichier HTML, grâce à la balise <style> dans la section <head> du fichier HTML.
+
+Cette approche est toutefois à éviter - à part pour effectuer quelques tests rapides ou si cela est spécifié - pour quelques raisons, dont :
+    - En programmation, nous essayons d'isoler les responsabilités des fichiers et morceaux de code afin d'être le plus clair possible. Dans ce cas-ci, nous voulons isoler le code définissant le style (CSS) du code définissant la structure (HTML).
+    - Nous voulons pouvoir réutiliser un même fichier CSS pour plusieurs pages HTML sans avoir à copier-coller du code (concept "DRY")
+
+Nous verrons donc comment il est possible d'écrire du CSS dans un fichier séparé et de l'inclure à partir du fichier HTML
+
+1. Reprendre le fichier final de la démonstration 2.1 sur les sélecteurs
+
+2. Créer un nouveau fichier "style.css"
+
+3. Transférer le code CSS compris à l'intérieur de la balise <style> (sans toutefois inclure la balise <style> elle-même)
+
+4. Si on rafraîchit la page, nous verrons que le style est "disparu".
+
+5. On supprime la balise <style> et on la remplace par une balise permettant de lier un fichier CSS à un fichier HTML : la balise <link>
+
+6. Les attributs rel, href et type doivent être spécifiés. Le snippet "link" permet de sauver du temps.
+
+7. De la même façon que pour la source d'une image, nous devons spécifier le lien vers le fichier de style.
+
+8. Si on rafraîchit la page à nouveau, nous verrons que le style est "revenu"!
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

@@ -1,0 +1,29 @@
+================================================================================
+
+0. Utilisons "html" + la touche "tab" pour créer le template de base (démonstration).
+Note : si cela ne fonctionne pas pour une raison quelconque, vous pouvez récupérer le template de base sur le compte Github du cours (démonstration).
+
+1. Regardons le rôle des sections principales d'une page HTML.
+    1.1 Balise <!DOCTYPE>
+    1.2 Balise <html>
+    1.3 Balise <head>
+        1.3.1 Informations méta comme le titre
+        1.3.2 Définition du CSS
+    1.4 Balise <body>
+        1.4.1 Tout le contenu visible (voyons par nous mêmes!)
+        1.4.2 Définition du Javascript (à la fin de la balise)
+        
+Que se passerait-il si nous essayions de simplement écrire du texte dans le fichier index.html sans utiliser ces balises? 
+Pourquoi les utiliser alors?
+
+2. Analysons le fonctionnement global d'un langage balisé, ainsi que les meilleures pratiques à observer :
+    2.1 Balise d'ouverture et balise de fermeture (à part quelques exceptions)
+    2.2 Arborescence comme un "arbre", avec indentations
+    2.3 Une seule balise html, head et body
+    2.4 Toutes les autres balises - que nous verrons sous peu - peuvent être utilisées plusieurs fois dans le même document.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

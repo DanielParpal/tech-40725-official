@@ -1,0 +1,12 @@
+.jumbotron {
+    background: none;
+    color: white;
+}
+#lexus-ux {
+    background: url('images/lexus-1.jpg') no-repeat center;
+}
+#lexus-rx {
+    background: url('images/lexus-2.jpg') no-repeat center;
+    /* Vous pouvez désactiver cette ligne pour tester */
+    display: none;
+}

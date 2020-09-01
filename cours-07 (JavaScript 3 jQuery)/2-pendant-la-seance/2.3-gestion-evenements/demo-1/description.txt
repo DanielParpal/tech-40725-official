@@ -1,0 +1,51 @@
+================================================================================
+
+Nous arrivons maintenant à la section qui démontre la réelle puissance (et nature) de l'interactivité : les gestionnaires d'événement.
+
+Nous avons vu à la section précédente comment afficher ou masquer une bannière d'alerte, mais cette modification au DOM n'a pas vraiment de sens si elle n'est pas reliée à un événement précis.
+
+Quelques exemples d'événement pourraient être :
+- Le clic d'un bouton
+- Passer sa souris par dessus une zone
+- Saisir de l'information dans un formulaire
+
+Nous utiliserons la syntaxe suivante (nécessitant la librairie jQuery) afin de se simplifier la vie :
+
+$('selecteur').on('evenement', function() {
+    // Actions à prendre si cet événement est observé
+});
+
+La première étape est de copier-coller ce morceau de code dans votre application
+
+Il faut ensuite configurer ces trois éléments :
+1. 'selecteur' => vous devez écrire votre propre sélecteur (référez-vous à la section 2.1)
+2. 'evenement' => le nom de l'événement vous sera fourni, mais vous devez penser à l'écrire ici (ex. 'click', 'keyup', 'mouseover', etc.)
+3. Actions à prendre : vous devez écrire ce qui est attendu lorsque l'événement est observé/activé. Exemples : l'alerte est affichée/masquée, l'élément est ajouté au panier d'achat, etc.
+
+Référence utile : http://api.jquery.com/on/
+
+Conseil : dans les actions à prendre, j'aime utiliser console.log() en premier lieu pour valider que mon gestionnaire d'événement fonctionne bien.
+
+================================================================================
+
+Étapes pour réaliser la démonstration :
+
+1. Prenons le fichier de départ 
+
+2. Ajoutons un lien vers jQuery et vers un fichier JavaScript externe (à créer)
+
+3. Mise en place du gestionnaire d'événement (copier-coller le bloc de code)
+3.1 Sélection : élément avec "id" de "inputPrix"
+3.2 Événement : lorsque l'utilisateur saisi du texte ('keyup')
+3.3 Actions à prendre :
+- Récupérer la valeur courant du champ, grâce à la méthode .val()
+- Comparer cette valeur à 50 :
+  - Si plus grand, afficher la bannière de succès et masquer la banière d'échec
+  - Sinon, afficher la bannière d'échec et masquer la bannière de succès
+  
+================================================================================
+
+Notes supplémentaires : 
+
+    
+================================================================================

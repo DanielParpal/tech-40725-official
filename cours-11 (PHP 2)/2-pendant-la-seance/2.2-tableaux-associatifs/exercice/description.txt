@@ -1,0 +1,47 @@
+================================================================================
+
+À votre tour de pratiquer l'utilisation du tableau associatif.
+
+Ici, nous ne continuerons pas sur l'exercice des tailles ("S", "M", "L"), car il n'offre pas un contexte intéressant pour les tableaux associatifs.
+
+Reprenons plutôt l'exercice des recettes de Chocolat Favoris du cours 9 comme source d'inspiration. 
+
+Ici, vous définirez 2 recettes distinctes, en utilisant les tableaux associatifs, puis vous utiliserez les données pour générer deux cartes Bootstrap (cours 4).
+
+Pendant les 15 prochaines minutes :
+
+1. Définissez le tableau associatif permettant de modéliser la recette A. Voici les données :
+
+- titre : ÉCORCES MAGIQUES AU CHOCOLAT, AUX ÉPICES ET AUX CANNEBERGES BIO
+- description : Écorces « magiques »? Oui, oui! La magie s’opère dès que les canneberges fraîches entrent en contact avec le chocolat!
+- image : images/gateau-canneberges.png
+- url : https://www.chocolatsfavoris.com/recettes/ecorces-magiques-au-chocolat-aux-epices-et-aux-canneberges-bio
+
+Prenez le temps d'utiliser un var_dump() pour vous assurer que le tableau associatif est bien défini.
+
+
+2. Définissez le tableau associatif permettant de modéliser la recette B. Voici les données :
+
+- titre : GÂTEAU ÉCLATÉ
+- description : Le seul, l'unique... Le gâteaux Éclaté maison!
+- image : images/gateau-eclate.png
+- url : https://www.chocolatsfavoris.com/recettes/gateau-eclate
+
+Prenez le temps d'utiliser un var_dump() pour vous assurer que le tableau associatif est bien défini.
+
+3. Effectuez l'inclusion du fichier d'affichage ('app.html.php'), et prenez le temps de vous familiariser avec la carte Bootstrap déjà en place.
+
+4. Dans cette carte Bootstrap, remplacez les marqueurs {{A DÉFINIR}} par les valeurs appropriées de la recette A. 
+Note : La source de l'image et le href du lien seront plus intimidants à écrire, car vous devez utiliser le PHP pour écrire une valeur d'attribut HTML. Utilisez la même approche (balises PHP et echo) et tout fonctionnera!
+
+5. Dupliquez la carte Bootstrap, et effectuez la même manoeuvre avec la recette B.
+
+6. Assurez-vous de comprendre pourquoi les liens vers les images fonctionnent 'magiquement'... où sont les fichiers? Étaient-ils préparés pour vous?
+
+7. En ouverture, prenez le temps de philosopher sur le problème de duplication de code. Vous avez eu à copier coller la carte Bootstrap, et lorsqu'on duplique du code, c'est un signe qu'une meilleure solution existe. Que pourrions-nous utiliser comme structure de données et algorithme?
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

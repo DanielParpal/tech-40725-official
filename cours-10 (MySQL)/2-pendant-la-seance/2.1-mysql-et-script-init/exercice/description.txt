@@ -1,0 +1,15 @@
+================================================================================
+
+À votre tour d'initialiser votre base de données hec. Prenons 5 minutes pour faire les étapes ci-dessous.
+
+1. Suivez les étapes requises pour accéder à l'outil graphique PHPMyAdmin. 
+
+2. Dans la base de données hec, exécutez le script d'initialisation SQL afin de mettre en place la table 'articles'.
+
+3. Observez le contenu de la table 'articles'. Vous pouvez même vous amuser à ajouter un nouvel article manuellement.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

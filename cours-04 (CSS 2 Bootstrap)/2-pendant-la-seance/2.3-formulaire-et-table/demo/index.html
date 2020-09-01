@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Démo 2.3 - Le formulaire avec Bootstrap</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container mt-5">	
+		<form>
+			<div class="form-group row">
+				<label for="nomProduit" class="col-sm-2 col-form-label">Nom du produit :</label>
+				<div class="col-sm-6">
+					<input type="text" class="form-control" id="nomProduit" name="nomProduit">
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="prix" class="col-sm-2 col-form-label">Prix :</label>
+				<div class="col-sm-6">
+					<input type="text" class="form-control" id="prix" name="prix">
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-sm-10">
+					<button type="submit" class="btn btn-primary">Ajouter à l'inventaire</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

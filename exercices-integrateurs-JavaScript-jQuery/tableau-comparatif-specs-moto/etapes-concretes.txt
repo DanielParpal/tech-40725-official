@@ -1,0 +1,55 @@
+================================================================================
+
+Voici de l'aide supplémentaire si vous êtes bloqué(e). Essayez de vous rendre le plus loin possible avant d'utiliser ce fichier, car vous n'aurez son équivalent pour les problèmes à l'examen final.
+
+1. Modélisez les 4 motos à l'aide de la structure clé-valeur appropriée, et en utilisant les données fournies dans la description.
+
+2. Regroupez les 4 motos sous une structure appropriée (tableau d'objets), et assignez cette structure à une nouvelle variable que vous nommerez 'motos'.
+
+3. Mettez en place un gestionnaire d'événements pour observer le click des boutons de comparaison.
+
+Toutes les actions suivantes prennent place à l'intérieur du gestionnaire d'événements (incluant l'item 13).
+
+4. Videz la section (liste) affichant les motos comparées, afin d'avoir une liste vide à laquelle vous ajouterez les motos appropriées plus tard.
+Vous aurez besoin d'une sélection de type "id" ainsi que de la méthode .html(), à laquelle vous passerez une chaîne de caractères vide ("").
+
+5. Récupérez l'index de la moto, à partir de l'attribut data approprié de l'élément cliqué. Assurez-vous de stocker cet index dans une nouvelle variable, car vous en aurez besoin pour accéder au bon élément du tableau des motos.
+
+6. Mettez en place une condition permettant de tester si la moto cliquée est présentement dans un état "comparé" (valeur de true pour la clé/propriété "comparee" de la moto appropriée).
+
+SI VRAI (points 7, 8 et 9) :
+
+7. Changez l'état pour un état "non comparé" dans le tableau d'objets, en donnant une valeur de false à la propriété "comparee" de la moto appropriée.
+
+8. Affichez la bannière informant l'utilisateur du succès de l'opération (référez-vous à l'aperçu vidéo au besoin). Assurez-vous de sélectionner la bonne banière (il y en a 2).
+Vous aurez besoin d'une sélection de type "id", ainsi que des méthodes suivantes :
+.show()
+.delay(2000)
+.fadeOut(1000)
+
+9. Modifiez le contenu HTML du bouton venant d'être cliqué, afin d'afficher "Comparer"
+Pensez au sélecteur permettant d'y arriver simplement... Vous aurez besoin de la méthode .html()
+
+
+SINON (points 10, 11 et 12) :
+
+10. Changez l'état pour un état "comparé" dans le tableau d'objets, en donnant une valeur de true à la propriété "comparee" de la moto appropriée.
+
+11. Affichez la bannière informant l'utilisateur du succès de l'opération. Assurez-vous de sélectionner la bonne banière (il y en a 2).
+Vous aurez besoin d'une sélection de type "id", ainsi que des méthodes suivantes :
+.show()
+.delay(2000)
+.fadeOut(1000);
+
+12. Modifiez le contenu HTML du bouton venant d'être cliqué, afin d'afficher "Enlever"
+Pensez au sélecteur permettant d'y arriver simplement... Vous aurez besoin de la méthode .html()
+
+13. Création de la liste des motos comparées :
+Maintenant, à l'extérieur de la condition et de ses actions (points 6 à 12), nous voulons générer la liste des motos comparées.
+Pour y arriver, nous allons parcourir le tableau des motos et générer la liste finale à partir des motos ayant une valeur de 1 pour la propriété "comparee".
+
+Vous ne serez pas guidé(e) dans un niveau de détails aussi élevé la dernière section. Voici quelques pointeurs: 
+- Vous aurez besoin d'une boucle, d'une condition, ainsi que d'une opération jQuery sur la liste HTML avec la méthode .append().
+- Conseil : Prenez le temps d'ajouter un item de liste manuellement dans votre fichier HTML afin de comprendre ce qui doit être "append" pour générer une liste. Bien évidemment, n'oubliez pas d'enlever l'item de liste après avoir effectué le test.
+
+--------------------------------------------------------------------------------

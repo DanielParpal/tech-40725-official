@@ -1,0 +1,31 @@
+================================================================================
+
+Regarderons comment une application Web fonctionne de manière sommaire.
+
+1. Présentation du DOM, et de son inspection dans un navigateur (Chrome ici)
+    1.0 Création d'un fichier (nommé index.php)
+    1.1 Commençons avec le HTML (seulement). Que voyons-nous?
+    1.2 Maintenant, si on ajoute du CSS?
+    1.3 Quel rôle le Javascript joue-t-il? (ex. changer le innerHTML, le style, etc.)
+    1.4 Et le PHP dans tout cela?
+    1.5 Une base de données? (utilisons le projet Nike pour y arriver)
+
+Prenons le temps de bien comprendre quel rôle joue chaque langage et composante.
+
+================================================================================
+
+Notes supplémentaires : 
+
+Les fichiers qui composent le code vivent sur un serveur. Une base de données
+peut être utilisée pour stocker et récupérer les données requises pour le 
+fonctionnement de notre application Web.
+
+Le résultat final, livré à l'utilisateur, est toujours un mélange de HTML, CSS
+et Javascript. Le Javascript viendra lui-même altérer le HTML, et le CSS lui 
+donnera son apparence (style).
+
+Petite mention : Ceci est un aperçu de ce que nous verrons au courant de la session! 
+    Ne vous découragez pas si cela semble complexe ou si certains détails vous 
+    échappent!
+    
+================================================================================

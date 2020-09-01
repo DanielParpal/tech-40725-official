@@ -1,0 +1,23 @@
+================================================================================
+
+Prenez maintenant 10 minutes pour effectuer les étapes suivantes :
+
+1. Utilisez le fichier HTML de départ, dans lequel vous ajouterez le lien vers la librairie Bootstrap.
+
+2. Ajoutez les "class" de "container" et "row" aux bons endroits. Regardez les indices directement dans le fichier HTML.
+
+3. Maintenant, ajoutez la "class" permettant d'être à 3 colonnes pour les écrans de 992px et plus. Petit indice : écrans de taille "lg".
+3.1 Prenez le temps de valider que cela fonctionne (vous voyez bien 3 colonnes)
+3.2 Si vous avez bien fait le travail, vous tomberez à 1 colonne lorsque vous réduisez la largeur de l'écran sous 992px.
+
+4. Ajoutez la "class" permettant d'être à 2 colonnes pour les écrans de taille "md" (entre 768px et 992px).
+
+5. Validez le fonctionnement : Sous 992px vous tombez en affichage 2 colonnes, et sous 768px, vous restez en affichage 1 colonne.
+
+Voilà! Bootstrap nous offre énormément de flexibilité, il s'agit de connaître les options qui sont disponibles, et d'être en mesure de lire la documentation!
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

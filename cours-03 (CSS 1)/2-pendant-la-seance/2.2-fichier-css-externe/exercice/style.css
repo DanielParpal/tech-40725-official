@@ -1,0 +1,17 @@
+th {
+    text-decoration: underline;
+}
+td {
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    width: 75px;
+}
+.temperature-negative {
+    background-color: red;
+    color: white;
+}
+#journee-demain {
+    font-size: 4em;
+}

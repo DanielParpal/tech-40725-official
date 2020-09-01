@@ -1,0 +1,9 @@
+Préparation : 
+- Au besoin, réviser les formulaires HTML et les tables HTML (cours 2)
+- Au besoin, réviser la carte Bootstrap (cours 4)
+- Réviser les tableaux (numériques) en PHP (cours 9)
+- Réviser le matériel du cours 10
+- Lecture active des articles partagés :
+  - Boucle foreach() -> prenez le temps d'écrire un tableau pour tester
+  - Tableau associatif
+

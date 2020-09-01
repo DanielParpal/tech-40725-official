@@ -1,0 +1,34 @@
+================================================================================
+
+Cet exercice se veut une pratique de vos habiletés JavaScript et jQuery (particulièrement une intégration des cours 5 et 7).
+
+Il s'agit de l'exercice intégrateur le plus simple des 3 exercices.
+
+Regardons une définition d'un 'carrousel', tirée de la documentation Bootstrap :
+"The carousel is a slideshow for cycling through a series of content [...]"
+
+Les carrousel sont très populaires, car ils donnent un bel effet d'interactivité à vos applications.
+
+À titre d'exemple, si vous regardez le site de Lexus (https://www.lexus.ca/lexus/fr), vous verrez qu'en page principale, quatre images avec un titre et une description défilent une à la suite de l'autre. Il s'agit donc d'un carrousel à 4 éléments.
+
+Dans le cadre de cet exercice, nous bâtirons nous-mêmes notre propre système de 'carrousel', mais avec 2 éléments, sans effet graphique de glissement horizontal, et sans de boutons de navigation (prochain, précédent, pause, etc.). 
+
+Il existe bien évidemment plusieurs options puissantes permettant de créer un carrousel sans grand effort de programmation jQuery (ex. la librairie http://kenwheeler.github.io/slick/), mais il est intéressant de se pratiquer à partir de zéro afin de se familiariser avec la programmation JavaScript/jQuery.
+
+Objectif (résultat attendu) : après 5 secondes, la bannière 1 (image + titre + description) sera masquée et la bannière 2 sera affichée. Après un autre 5 secondes, la bannière 2 sera masquée et la bannière 1 sera affichée à nouveau. Cela se répètera à l'infini (alternance entre bannière 1 et 2 à chaque 5 secondes). L'aperçu vidéo vous aidera à mieux comprendre ce qui se passe (changement de bannière à chaque 5 secondes).
+
+Tout le travail est à faire dans le fichier 'app.js', sous la ligne 11 (qui mentionne l'endroit du code à ajouter). Ne modifiez rien aux autres fichiers.
+
+Conseil : si vous voyez une nouvelle fonction (comme 'setTimeout()' ici), ne soyez pas intimidé(e). Prenez le temps de comprendre ce qui se passe en utilisant la console. Le but n'est pas de vous piéger mais simplement d'offrir un contexte de travail intéressant et appliqué au commerce électronique, alors je vous donnerai au besoin les explications nécessaires.
+
+Vous aurez besoin des méthodes jQuery:
+- .show()
+- .hide()
+
+Réflexion : si vous aviez 5 bannières au lieu de 2, comment pourriez-vous écrire le code pour éviter la duplication des "if"? Essayez de le faire pour constater le problème et trouver une solution!
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

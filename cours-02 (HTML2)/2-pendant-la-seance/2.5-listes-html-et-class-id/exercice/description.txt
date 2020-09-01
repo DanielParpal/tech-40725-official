@@ -1,0 +1,17 @@
+================================================================================
+
+À votre tour maintenant!  Prenez 10 minutes pour construire une liste.
+
+1. Pour l'exercice, cherchez sur Google comment vous pourriez programmer une liste ordonnée. La balise parent sera différente de celle pour la liste non-ordonnée.
+
+2. Ajoutez quelques éléments, à votre discrétion.
+
+3. Donnez une classe de "list-colored" à la balise parent de la liste. Veuillez noter que l'attribut est "class".
+
+4. Assignez à la deuxième balise <li> l'attribut "id" avec une valeur de "id-test".
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

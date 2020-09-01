@@ -1,0 +1,29 @@
+================================================================================
+
+Tableaux (arrays) :
+
+Nous avons discuté en profondeur du rôle des tableaux en programmation (souvent appelés des "listes") pendant le Bloc 2. 
+
+En PHP, nous avons la même structure de données portant le même nom de "tableau". Sa syntaxe de base (définition, accès/modification d'éléments) est identique à celle du JavaScript. 
+
+Certaines fonctionnalités (connaître la quantité d'éléments, ajouter un élément, etc.) utilisent toutefois une syntaxe différente, mais conservent la même logique.
+
+================================================================================
+
+Démonstration :
+
+1. Regardons comment définir un tableau en PHP.
+
+Jouons un peu avec notre tableau :
+2. Pour lire/utiliser un élément?
+3. Pour modifier un élément?
+
+Maintenant :
+4. Comment fais-je pour ajouter un élément? $mon_tableau[]
+5. Propriété : Si je veux connaître la quantité d'éléments dans le tableau : count()
+
+Nous ne verrons pas l'équivalent du .includes() (permet de tester la présence d'un élément dans un tableau en JavaScript), mais pour ceux qui sont curieux, vous pouvez chercher la fonction 'in_array()' en PHP.
+
+Note : nous verrons les boucles et d'autres concepts plus avancés au cours 11.
+
+================================================================================

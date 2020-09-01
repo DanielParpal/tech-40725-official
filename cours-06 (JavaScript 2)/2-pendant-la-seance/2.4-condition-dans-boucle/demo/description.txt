@@ -1,0 +1,17 @@
+================================================================================
+
+À cette section, nous allons encore combiner deux concepts connus afin de former une idée plus avancée : l'utilisation d'une condition dans une boucle. 
+
+Cette idée est très commune dans les applications de commerce électronique : parcourir un tableau, et prendre une action seulement sur les éléments répondant à un certain critère.
+
+Avez-vous un exemple en tête?
+
+Voici ce que nous voulons accomplir ici : afficher tous les produits coûtant moins de 100$.
+
+Nous avons déjà modélisé les données permettant d'y arriver, mais nous devrons mettre en place une condition à l'intérieur de la boucle. Faisons-le!
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

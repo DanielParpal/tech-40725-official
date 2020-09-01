@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+        #alerte-avec-rabais-20, #alerte-sans-rabais-20 {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <br>
+        <form>
+            <div class="form-group row">
+                <label for="inputPrix" class="col-sm-5 col-form-label">
+                    Veuillez entrer le prix :
+                </label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="inputPrix" placeholder="ex. 125">
+                </div>
+            </div>
+        </form>
+        <div id="alerte-avec-rabais-20" class="alert alert-success" role="alert">
+            Félicitations, vous obtiendrez 20% de rabais sur cet article!
+        </div>
+        <div id="alerte-sans-rabais-20" class="alert alert-danger" role="alert">
+            L'article que vous désirez acheter ne vous qualifie pas pour le rabais de 20%. Veuillez sélectionner un article avec un prix supérieur à 50$ pour obtenir le rabais.
+        </div>
+    </div>
+</body>
+</html>

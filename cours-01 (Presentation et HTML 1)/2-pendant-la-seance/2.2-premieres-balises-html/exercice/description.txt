@@ -1,0 +1,20 @@
+================================================================================
+
+À votre tour maintenant! 
+Prenez 10-15 minutes pour jouer avec quelques balises HTML.
+
+1. Partez d'un fichier vide (index.html).
+    À noter : Essayez de conserver vos exercices d'une fois à l'autre
+2. Créez le template de base (rappel : touche "html" + tab)
+3. Dans le corps (body), créez une "division" grâce à la balise div
+4. Dans cette division, ajoutez un lien vers http://facebook.com
+5. Visualisez le contenu
+6. Changez le texte du lien, sans changer l'attribut href
+
+================================================================================
+
+Notes supplémentaires : 
+
+Voyons voir comment l'utilisation de snippets peut sauver du temps!
+    
+================================================================================

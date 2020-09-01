@@ -1,0 +1,42 @@
+================================================================================
+
+Nous sommes maintenant en mesure de modéliser des données sous la forme de tableaux (cours 5, et rappel aujourd'hui au cours 6), et de les parcourir grâce à une boucle 'for' (cours 6, aujourd'hui).
+
+Il est toutefois rare de vouloir conserver seulement une information sur un "objet" (gardez ce mot bien en tête, vous comprendrez pourquoi au cours 8!). À titre d'exemple, pour les produits MEC, nous pourrions vouloir modéliser leur titre (nom), leur prix, ainsi que leur évaluation (sur 5).
+
+Une première approche permettant une telle modélisation est l'utilisation de tableaux parallèles. Nous verrons une autre approche (plus commune et puissante) au cours 8, mais nous devrons pour cela introduire de nouvelles idées. Ici, avec les tableaux parallèles, nous connaissons déjà les concepts requis : il suffira d'être ingénieux.
+
+Nous avons déjà mis en place le tableau des titres de produits. Nous devrons définir deux autres tableaux : le tableau des prix, et le tableau des évaluations.
+
+Ces tableaux seront dit "parallèles". Plus concrètement, cela veut dire que les valeurs associées (reliées) seront à la même position (index) dans chacun des tableaux. 
+
+Cette modélisation ingénieuse nous permet de relier les informations associées en utilisant un même index. Grâce à une boucle, nous pourrons parcourir "parallèlement" les trois tableaux, et accéder les valeurs associées à chacune des itérations.
+
+Voici une représentation schématique de ce que voulons acccomplir au niveau de la modélisation :
+
+titres :
+[titre produit 1, titre produit 2, titre produit 3, etc...]
+
+prix :
+[prix produit 1,  prix produit 2,  prix produit 3, etc...]
+
+evaluations :
+[eval produit 1,  eval produit 3,  eval produit 3, etc...]
+
+
+Voici les étapes concrètes de la démonstration :
+
+1. Comme point de départ, reprenons les fichiers de la démonstration 2.2 dans leur état final.
+
+2a. Modélisons le tableau des prix
+2b. Modélisons le tableau des évaluations
+Note : le positionnement des éléments est important, et doit être le même que pour le tableau des titres de produits.
+
+3. Modifions notre boucle pour utiliser les trois tableaux et afficher les informations associées.
+
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

@@ -1,0 +1,19 @@
+Matériel de la capsule
+
+Prérequis :
+- Avoir une base solide en HTML et CSS (cours 1 à 4)
+
+Préparation :
+(je vais enlever ces deux éléments à la prochaine capsule, cela sera pris pour acquis)
+- Téléchargement du cours 5 à partir de GitHub, et transfert vers votre répertoire racine
+- Création d'un dossier de travail pour la préparation au cours (ex. 1-avant-la-seance)
+
+Ensuite :
+- Lecture de "Premiers pas en JavaScript" (voir détails sur ZoneCours sur les sous-sections à lire/ignorer) :
+  - Qu'est-ce que JavaScript (seulement lire les concepts sans faire de tests)
+  - Stocker les informations (lecture active)
+  - Mathématiques de base (lecture active)
+  - Gérer du texte (lecture active)
+  - Les tableaux (lecture active)
+- Lecture active de l'article sur les décisions en JavaScript
+

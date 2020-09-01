@@ -1,0 +1,15 @@
+================================================================================
+
+Voici de l'aide supplémentaire si vous êtes bloqué(e). Essayez de vous rendre le plus loin possible avant d'utiliser ce fichier, car vous n'aurez son équivalent pour les problèmes à l'examen final.
+
+Tout d'abord, pour un problème de cette nature, essayez de penser immédiatement à ouvrir PHPMyAdmin et exécuter le script d'initialisation.
+
+Voici un rappel du flux de la mini-application fonctionnelle :
+    -> Connexion à la base de données
+    -> Insertion dans la base de données des données du formulaire, de manière conditionnelle à ce que le formulaire vienne d'être soumis
+    -> Lecture (sélection) de toutes les lignes de la table
+    -> Affichage de la page 'views/app.html.php'
+
+N'oubliez pas de connecter le formulaire à la requête d'insertion, afin que les données saisies soient celles qui sont insérées dans la table.
+
+--------------------------------------------------------------------------------

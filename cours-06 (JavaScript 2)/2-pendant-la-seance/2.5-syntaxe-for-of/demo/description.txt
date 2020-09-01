@@ -1,0 +1,22 @@
+================================================================================
+
+Il est tellement fréquent de vouloir parcourir un tableau que plusieurs langages offrent une boucle plus "élégante" pour y arriver. En JavaScript, nous avons la boucle 'for..of' qui permet d'itérer sur chacun des éléments d'un tableau plus facilement.
+
+Dans le cadre du cours, l'utilisation de cette boucle est totalement optionnelle. Assurez-vous de bien comprendre ses contraintes et sa syntaxe si vous décidez de l'utiliser. Ceci étant dit... avec un peu d'effort, vous allez réaliser qu'elle simplifie l'écriture de code lorsque le contexte permet de s'en servir!
+
+Première chose très importante, cette boucle peut seulement être utilisée pour parcourir UN (seul) tableau. Les tableaux parallèles ne sont pas éligibles à son utilisation, car nous n'avons pas accès à un index numérique avec 'for..of', ce qui est le dénominateur commun entre des tableaux parallèles.
+
+Ensuite, prenons le temps de comprendre la "magie" faite pour vous.
+
+La boucle 'for..of' vous donne directement accès à chacun des éléments, tour à tour, sans avoir besoin d'utiliser un compteur, de spécifier la longueur du tableau, et le mécanisme d'itération (ex. i = i + 1).
+
+Utilisons les fichiers finaux de la section 2.2 comme point de départ.
+
+Nous allons transformer la boucle 'for' en boucle 'for..of'.
+
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

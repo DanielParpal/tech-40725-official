@@ -1,0 +1,55 @@
+================================================================================
+
+Voici de l'aide supplémentaire si vous êtes bloqué(e). Essayez de vous rendre le plus loin possible avant d'utiliser ce fichier, car vous n'aurez son équivalent pour les problèmes à l'examen final.
+
+================================================================================
+
+PORTION 1
+
+1. Prenez le temps de vous familiariser avec les fichiers fournis ainsi que l'aperçu.
+
+Les étapes 2 et 3 sont facultatives, mais peuvent vous aider à construire un modèle mental de la structure de données qu'est le "tableau de tableaux associatifs" (équivalent du tableau d'objets JavaScript).
+
+2. Modélisez une troisième recette dans le fichier 'data.php' en utilisant un tableau associatif. Les données sont : 
+
+titre : PÂTE À CHOUX
+description : Pour faire votre pâte à choux favorite!
+image : images/pate-choux.png
+url : https://www.chocolatsfavoris.com/recettes/puff-pastry
+
+3. Toujours dans 'data.php', ajoutez cette recette au tableau des $recettes
+
+4. Mettez en place un algorithme de génération dynamique des cartes dans le fichier approprié ('cartes.html.php'). 
+Cela prendra une boucle permettant de parcourir votre tableau $recettes (tableau numérique), et d'utiliser chacun des éléments (une recette = tableau associatif) afin de générer le contenu.
+
+5. Connectez votre base de données, et remplacez l'utilisation des données statiques écrites à la main ('data.php') par la requête de sélection SQL. 
+
+Note : prenez le temps de comprendre pourquoi cela fonctionne. La compréhension de la structure des données est nécessaire pour bien réussir! Entre autres, la variable $recettes est utilisée dans 'data.php' et pour contenir les données retournées par la requête de sélection. Également, les clés définies pour chacun des tableaux associatifs correspondent exatement aux titres de colonnes de la table MySQL. Cette magie était donc planifiée, mais il faut bien la comprendre.
+
+================================================================================
+
+PORTION 2
+
+6. Développez le formulaire dans le fichier approprié ('formulaire.html.php')
+Vous aurez besoin de 4 champs et étiquettes, et d'un bouton de soumission.
+Prenez le temps de donner un style Bootstrap ainsi que les attributs HTML nécessaires.
+
+7. Mettez en place l'insertion dans la table MySQL en utilisant le fichier approprié, ainsi que la condition d'insertion (si le formulaire vient d'être soumis).
+Assurez-vous de connecter chacun des champs, tel que discuté au cours 10.
+
+8. Testez le fonctionnement avec les données suivantes :
+
+- titre : TACOS AU CHOCOLAT
+- description : Pourquoi se contenter de simple tacos... Quand on peut manger des tacos au chocolat!
+- image : images/tacos-chocolat.png
+- url : https://www.chocolatsfavoris.com/recettes/tacos-au-chocolat
+
+Il faut bien sûr que l'image existe à l'emplacement spécifié (ce qui est le cas pour l'image spécifiée ci-haut, cela était planifié également ;)).
+
+Voilà, le tour est joué!
+
+================================================================================
+
+Note :
+- Les portions 1 et 2 peuvent être développées dans l'ordre inverse si vous trouvez cela plus facile à faire (à part quelques détails comme la connexion qui doivent être mis en place au départ).
+

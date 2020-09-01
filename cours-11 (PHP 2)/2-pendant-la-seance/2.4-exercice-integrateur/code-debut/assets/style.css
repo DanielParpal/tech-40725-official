@@ -1,0 +1,19 @@
+/* 
+Vous ne devez pas modifier ce fichier. 
+Si vous effectuez certains tests, assurez-vous de le remettre
+dans son état initial.
+*/
+body {
+    background-color: #fffcea;
+}
+.header {
+    background: url(../images/pattern-wave-small-beige.svg);
+    background-size: 104px 16px;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+}
+.header > img {
+    max-width: 400px;
+}

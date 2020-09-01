@@ -1,0 +1,15 @@
+================================================================================
+
+Chaque élément HTML peut être vu comme une boîte.
+
+Il y a en fait deux types principaux de "boîte" (block, inline), mais cela sort du cadre du cours.
+
+Regardons ce que nous voulons dire par "boîte" (box).
+
+Nous explorerons au passage quelques exemples de bordure, de marges (margin) et de "padding".
+
+================================================================================
+
+Notes supplémentaires : 
+
+================================================================================

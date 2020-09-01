@@ -1,0 +1,18 @@
+================================================================================
+
+À votre tour maintenant d'utiliser l'approche de la feuille de style externe.
+Prenez 5 minutes pour :
+
+1. Télécharger le fichier de départ de l'exercice 2.2 (ou copier-coller le résultat de l'exercice 2.2 dans un nouveau fichier HTML).
+
+2. Créer un fichier CSS externe avec un nom pertinent (ex. style.css). Assurez-vous d'avoir une extension .css.
+
+3. Tranférer le code CSS dans ce fichier.
+
+4. Remplacer la balise <style> par une balise <link>, en spécifiant correctement les différents attributs (rel, href, type).
+
+================================================================================
+
+Notes supplémentaires : 
+
+================================================================================

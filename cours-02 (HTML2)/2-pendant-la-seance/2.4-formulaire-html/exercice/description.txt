@@ -1,0 +1,22 @@
+================================================================================
+
+À votre tour maintenant! 
+Prenez 10 minutes pour créer un formulaire HTML.
+
+1. Démarrez d'un fichier vide, dans lequel vous allez insérer le template de base.
+
+2. Créez la balise "parent" du formulaire (<form>).
+
+3. À l'intérieur du formulaire, ajoutez deux champs (<input>) : le premier pour le nom de l'item acheté (type texte) et le deuxième pour la quantité achetée.
+
+4. Ajoutez une étiquette (<label>) pour chacun des champs.
+
+5. Ajoutez un bouton pour soumettre le formulaire (indice : input de type submit).
+
+6. Visionez votre formulaire dans le navigateur, et essayez de le soumettre. Que remarquez-vous?
+
+================================================================================
+
+Notes supplémentaires : Il existe certaines technologies permettant d'utiliser un formulaire tout en évitant le rafraîchissement de la page. Nous en reparlerons plus tard dans la session (Bloc : Javascript).
+    
+================================================================================

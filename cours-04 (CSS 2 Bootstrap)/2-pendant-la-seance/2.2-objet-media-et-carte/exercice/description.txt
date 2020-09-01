@@ -1,0 +1,25 @@
+================================================================================
+
+À votre tour de jouer! 
+Prenez 10 minutes pour effectuer les étapes suivantes :
+
+1. Créez un fichier HTML et ajoutez le template de base
+
+2. Intégrez Bootstrap grâce au lien CDN fourni dans la documentation
+2.1 Gardez ce lien proche, il vous servira très souvent!
+
+3. Maintenant, allez fouiller dans la documentation Bootstrap, et plus précisément dans la section "Components/Card".
+
+4. Ajoutez cette carte à votre page HTML, en prenant le temps de formatter correctement le HTML (indentation).
+
+5. Téléchargez une image, et spécifiez la source (attribut src) dans la balise <img> pour que l'image s'affiche correctement dans la carte.
+
+6. Prenez le temps de personnaliser le titre et la description de la carte.
+
+Note: à ceux qui ont fait le "Laboratoire-Carte" en exercice après séance du cours 3, cela devrait vous rappeler quelques souvenirs!
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

@@ -1,0 +1,23 @@
+================================================================================
+
+À votre tour de pratiquer l'utilisation de la boucle foreach().
+
+Pendant les 10 prochaines minutes :
+
+1. Définissez un tableau des tailles, contenant les valeurs suivantes :
+- "S"
+- "M"
+- "L"
+
+2. Utilisez la commande var_dump() pour vous assurer que votre tableau soit bien défini, puis mettez en commentaire le var_dump()
+
+3. Mettez en place un algorithme permettant de générer dynamiquement les items de liste (<li>)
+3.1 Donnez une classe HTML de "list-group-item" à vos items de liste (il s'agit d'une classe Bootstrap qui donnera un certain style)
+
+4. En rappel de la portion sur les tableaux : sous la définition de votre tableau (point 1), utilisez la syntaxe appropriée pour ajouter la taille "XL" à votre tableau. Prenez le temps de rafraîchir votre page et de vous assurer que tout fonctionne bien.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

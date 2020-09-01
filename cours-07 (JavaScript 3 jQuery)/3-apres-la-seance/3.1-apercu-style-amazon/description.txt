@@ -1,0 +1,48 @@
+================================================================================
+
+La page d'accueil d'Amazon offre une vaste sélection d'items que vous pouvez consulter. 
+
+Pour chaque item, on vous offre un bouton "Quick look" lorsque vous passez votre souris par-dessus (voir "apercu-1.png" et "apercu-2.png" ou encore le site d'Amazon).
+
+Ensuite, lorsque vous cliquez ce bouton "Quick look", vous voyez une fenêtre présentant les informations principales ainsi qu'une image de plus grand format.
+
+Voici l'exercice, qui est une version simplifiée de ce système de "Quick look" :
+
+1. Téléchargez le fichier de départ HTML, le fichier CSS, les images ainsi que l'aperçu vidéo qui présente le résultat final.
+
+2. Ajoutez un lien vers jQuery et vers un fichier externe JavaScript (que vous devrez créer) dans la page HTML.
+
+3. Mettez en place les comportements suivants :
+
+3.1 Lorsque vous passez votre souris par dessus une division avec une "class" de "book-display", vous affichez le bouton "Quick look" correspondant. 
+
+Quelques informations utiles : 
+- Événement "mouseenter" http://api.jquery.com/mouseenter/
+- Méthode .show() pour afficher un élément
+
+
+3.2 Lorsque la souris sort d'une des division avec une "class" de "book-display", le bouton "Quick look" correspondant est masqué
+
+Quelques informations utiles :
+- Événement "mouseleave" http://api.jquery.com/mouseleave/
+- Méthode .hide() pour masquer un élément
+
+
+3.3 Lorsque l'utilisateur clique sur un des boutons "Quick look", vous affichez dans la console "Le bouton permet d'ouvrir la fenêtre modale : {fenetreModale}", où {fenetreModale} est dynamiquement lu à partir de l'attribut data-modal-window du bouton cliqué. Cela remplace l'affichage réel de la fenêtre modale.
+
+Quelques informations utiles :
+- Événement "click" http://api.jquery.com/mouseleave/
+- console.log() pour afficher dans la console
+
+================================================================================
+
+Indices globaux : 
+- Vous pouvez voir le contenu complet de la page en désactivant certaines règles CSS qui masquent les boutons et les fenêtres d'information. Cela vous aidera à mieux comprendre les éléments disponibles. Vous n'avez aucun HTML à écrire (ni des éléments, ni des attributs).
+- Vous aurez besoin à plusieurs endroits du sélecteur $(this) ainsi que de la méthode .data(). Cela vous permettra de renforcer votre compréhension de ces éléments!
+
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Question 1</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.4.1.min.css">
+</head>
+<body>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-6">
+				<div class="card p-3">
+					<p>Veuillez choisir une des options suivantes pour la livraison:</p>
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Option de livraison</th>
+								<th>Prix</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr id="row-option-purolator" class="row-option">
+								<td>
+									Purolator Express Air
+									<a 
+										class="btn btn-primary btn-sm btn-selection-livraison float-right" 
+										data-option-livraison="purolator"
+										href="#">
+										sélectionner
+									</a>
+								</td>
+								<td>44.99$</td>
+							</tr>
+							<tr id="row-option-ups" class="row-option">
+								<td>
+									UPS Service Terrestre
+									<a 
+										class="btn btn-primary btn-sm btn-selection-livraison float-right" 
+										data-option-livraison="ups"
+										href="#">
+										sélectionner
+									</a>
+								</td>
+								<td>29.99$</td>
+							</tr>
+							<tr id="row-option-postes" class="row-option">
+								<td>
+									Postes Canada
+									<a 
+										class="btn btn-primary btn-sm btn-selection-livraison float-right" 
+										data-option-livraison="postes"
+										href="#">
+										sélectionner
+									</a>
+								</td>
+								<td>14.99$</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<div class="col-6">
+				<div class="card p-3">
+					<h5>Votre commande</h5>
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Article</th>
+								<th>Prix</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>iPhone X</td>
+								<td>799.99$</td>
+							</tr>
+							<tr>
+								<td>Plan de protection</td>
+								<td>99.99$</td>
+							</tr>
+							<tr>
+								<td>Livraison</td>
+								<td id="prixLivraison">N/D</td>
+							</tr>
+							<tr>
+								<td>Total (excluant les taxes)</td>
+								<td id="prixTotal">N/D</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

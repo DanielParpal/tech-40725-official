@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercice intégrateur</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="banniere-moto-ajoutee" class="alert alert-info alert-selection text-center">
+        La moto a été ajoutée à la sélection!
+    </div>
+    <div id="banniere-moto-enlevee" class="alert alert-warning alert-selection text-center">
+        La moto a été enlevée de la sélection!
+    </div>
+    
+    <div class="container">
+        <div class="row mt-5 mb-5">
+            <div class="col-3 text-center">
+                <img src="images/CBR1000RRSP.png">
+                <h5 class="text-muted">2018</h5>
+                <h5>CBR 1000RR SP</h5>
+                <a id="bouton-ajout-0" class="btn btn-outline-primary btn-ajout-comparaison" data-index-moto="0" href="#">
+                    Comparer
+                </a>
+            </div>
+            <div class="col-3 text-center">
+                <img src="images/CBR1000RR.png">
+                <h5 class="text-muted">2018</h5>
+                <h5>CBR 1000RR</h5>
+                <a id="bouton-ajout-1" class="btn btn-outline-primary btn-ajout-comparaison" data-index-moto="1" href="#">
+                    Comparer
+                </a>
+            </div>
+            <div class="col-3 text-center">
+                <img src="images/CBR600RR.png">
+                <h5 class="text-muted">2017</h5>
+                <h5>CBR 600RR</h5>
+                <a id="bouton-ajout-2" class="btn btn-outline-primary btn-ajout-comparaison" data-index-moto="2" href="#">
+                    Comparer
+                </a>
+            </div>
+            <div class="col-3 text-center">
+                <img src="images/CBR650F.png">
+                <h5 class="text-muted">2018</h5>
+                <h5>CBR 650F</h5>
+                <a id="bouton-ajout-3" class="btn btn-outline-primary btn-ajout-comparaison" data-index-moto="3" href="#">
+                    Comparer
+                </a>
+            </div>
+        </div>
+        
+        <h4 class="mt-5 text-center">Liste des motos comparées</h4>
+        
+        <ul id="section-motos-comparees" class="list-group mt-3">
+
+        </ul>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

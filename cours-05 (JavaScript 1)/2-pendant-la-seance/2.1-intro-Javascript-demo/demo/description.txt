@@ -1,0 +1,98 @@
+================================================================================
+
+Effectuons un rappel du rôle de Javascript : rendre notre page interactive.
+
+Regardons le site d'Amazon (amazon.ca) pour essayer de comprendre ce qu'on veut dire par "interactivité" :
+- En page d'accueil, nous avons un carrousel ('carousel')
+- Ensuite, cliquons sur un des menus du haut, pour voir ce qui se passe
+- Allons ensuite voir la page d'un produit avec plusieurs variantes
+  - Passons notre souris par dessus quelques options : voyez-vous?
+
+L'intégration est tellement bien réussie qu'on vient à prendre cette interactivité comme étant "natif" au Web (ex. un élément HTML "carousel", ou "menu-deroulant").
+
+Toutefois, derrière tout cela, il y a du JavaScript (beaucoup!). Nous débutons le Bloc 2 (JavaScript) aujourd'hui, et nous regarderons la syntaxe de base de ce langage.
+
+================================================================================
+
+JavaScript est le premier "vrai" langage de programmation à l'étude cette session.
+
+Nous avons déjà parlé de HTML et CSS :
+HTML : Langage de balisage (Hypertext Markup Language)
+CSS : Langage de feuilles de style
+
+Ainsi, lorsque nous utilisons l'expression "langage de programmation" pour le HTML et le CSS, il s'agit en fait d'un abus de langage.
+
+Regardons une définition un peu plus stricte d'un langage de programmation :
+
+En informatique, un langage de programmation est une notation conventionnelle destinée à formuler des algorithmes et produire des programmes informatiques qui les appliquent. D'une manière similaire à une langue naturelle, un langage de programmation est composé d'un alphabet, d'un vocabulaire, de règles de grammaire et de significations(1,2).
+
+Les langages de programmation permettent de décrire d'une part les structures des données qui seront manipulées par l'appareil informatique, et d'autre part d'indiquer comment sont effectuées les manipulations, selon quels algorithmes. Ils servent de moyens de communication par lesquels le programmeur communique avec l'ordinateur, mais aussi avec d'autres programmeurs ; les programmes étant d'ordinaire écrits, lus, compris et modifiés par une équipe de programmeurs(3).
+
+Il y a donc le concept d'algorithme, de structure de données, de manipulations, etc. qui n'existaient pas ni en HTML ni en CSS. Nous ferons donc une première petite démonstration dans laquelle nous allons commencer notre étude de Javascript.
+
+Il n'y aura pas d'exercice pour cette première section, alors je vous propose de coder avec moi pour ceux qui le désirent, et de m'arrêter si vous avez une question. 
+
+1 (en) Maurizio Gabbrielli et Simone Martini, Programming Languages: Principles and Paradigms, Springer, 2010 [détail des éditions] (ISBN 9781848829138)
+2 (en) Kenneth C. Louden et Kenneth A. Lambert, Programming Languages: Principles and Practices, Cengage Learning, 2011 [détail des éditions] (ISBN 9781111529413)
+3 (en) William Sims Bainbridge, Berkshire Encyclopedia of Human-computer Interaction, vol. 2, Berkshire Publishing Group LLC, 1994 [détail des éditions] (lire en ligne [archive])
+
+================================================================================
+
+La première chose à comprendre est qu'il faut définir une zone où le navigateur sera en mesure de comprendre que nous écrivons du Javascript. Les deux options sont très similaires à celles que nous avions vues pour le CSS :
+
+1) Directement dans la page HTML, avec une balise appropriée (<script>)
+
+2) En créant un fichier externe Javascript (.js) que nous allons lier dans notre page HTML (avec une balise <script> également)
+
+Note : Il existe plusieurs critères permettant de déterminer où il est préférable de mettre un script. 
+
+Dans le cadre du cours, je vous demanderais de mettre le script à la fin du body. Si vous le mettez au haut du body, ou encore dans la section head, il faut ajouter une consigne validant que le document HTML est pleinement chargé avant d'exécuter le JavaScript. Nous ne verrons pas cette commande dans le cours.
+
+Tout comme pour le CSS, l'approche à préconiser est celle d'inclure un fichier externe afin de conserver les responsabilités séparées. 
+
+================================================================================
+
+En Javascript, vous ne verrez pas à l'écran le résultat de votre code comme pour le HTML. Éventuellement, nous serons en mesure de manipuler les éléments HTML avec Javascript, mais en cours de développement, il nous faut un outil dédié pour voir le fruit de nos efforts.
+
+Note : Il est vrai que "document.write()", tel que présenté dans le livre, nous permet d'écrire dans la fenêtre, mais cela est trop avancé pour débuter.
+
+La console Javascript est un outil dédié à notre développement : elle permet de visualiser ce qui se passe dans notre code! Nous pouvons aussi effectuer des tests directement à l'intérieur de la console.
+
+À titre d'exemple, si je voulais écrire Bonjour, Monde! en HTML, j'écrirais simplement "Bonjour, Monde!" dans un fichier HTML et on le verrais à l'écran. Par contre, je ne pourrais pas faire la même chose en Javascript. 
+
+Vous devez donc apprendre à utiliser la console - cela implique d'avoir un navigateur offrant cette option (googler "console navigateur XYZ" pour savoir comment y arriver si vous n'êtes pas dans Chrome)
+
+Maintenant, si j'écris dans mon script : console.log("Bonjour, Monde!");
+Je peux rafraîchir ma page et voir dans la console : "Bonjour, Monde!"
+La console est donc notre "fenêtre" vers le code Javascript. Nous l'utiliserons sans cesse dans le bloc Javascript. Devenez confortable à l'utiliser!
+
+================================================================================
+
+Donc pour cette démonstration :
+
+Décortiquons ce qui se passe dans la ligne suivante :
+console.log("Bonjour, Monde!");
+
+- console
+- log()
+- le point entre les deux
+ "Bonjour, Monde!"
+- le ;
+
+Note : Soyez rassurés, nous verrons plus loin dans le Bloc 2 certains concepts plus excitants. Nous verrons comment cibler des éléments HTML pour les rendre interactifs. 
+
+Nous allons d'ailleurs approfondir l'interaction avec les éléments HTML au cours 7 (JavaScript 3: jQuery).
+
+================================================================================
+
+Regardons les différentes options d'inclusion d'un script JavaScript :
+
+1) Approche à préconiser : script externe avec inclusion 
+2) Directement dans le HTML (seulement pour des tests)
+3) Écrire dans la console (attention, cela n'est pas gardé en mémoire par l'application, alors seulement s'en servir pour apprendre ou débuger!)
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

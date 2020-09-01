@@ -1,0 +1,22 @@
+================================================================================
+
+À votre tour de jouer avec les requêtes INSERT INTO à partir de votre application! Prenons 10 minutes pour y arriver.
+
+Note : Avant de débuter, je vous encourage à conserver une fenêtre de PHPMyAdmin ouverte, afin de valider que l'insertion dans la base de données fonctionne.
+
+1. Téléchargez les fichiers de départ 
+
+2. Observez le contenu du fichier 'db/insert-into-articles.php'
+
+3. Cherchez à l'utiliser en faisant son inclusion dans le fichier index.php
+Note : n'oubliez pas votre connexion à MySQL à partir de PHP, qui est essentielle pour tout type de requête!
+
+4. En rafraîchissant la page index.php, vous devriez vous retrouver à ajouter le même article à votre table à chaque rafraîchissement!
+
+5. Modifiez la valeur des variables dans le fichier 'db/insert-into-articles.php', et rafraîchissez la page à nouveau. Un nouvel article devrait être ajouté dans votre table!
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

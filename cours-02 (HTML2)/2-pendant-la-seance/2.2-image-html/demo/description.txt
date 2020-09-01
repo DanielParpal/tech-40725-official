@@ -1,0 +1,32 @@
+================================================================================
+
+1. Tout d'abord, le concept le plus important à comprendre pour l'utilisation  d'images en HTML est que cela se fait en deux étapes distinctes : 
+a) La préparation (téléchargement/création) de l'image
+b) L'écriture du code HTML, grâce à la balise <img>
+
+2.1 Commençons donc par télécharger une image sur Google (exemple classique du logo des Expos)
+
+2.2 Nous pouvons renommer l'image pour un nom plus simple et la placer dans le dossier de travail (pour l'instant le même dossier que notre fichier HTML)
+
+3. Maintenant que la préparation de l'image est faite, nous pouvons passer à la portion "code". Nous utiliserons la balise <img>. Voyons ce qui se passe lorsque nous tapons "img" suivi de la touche Tab (vous devriez commencer à être familier avec les snippets, comme "html" pour générer le template de base!)
+3.1 Faites attention par contre, la balise <img> n'a pas besoin d'être fermée  avec une balise de fermeture!
+
+4. Pour l'attribut "src", nous allons spécifier l'emplacement de l'image. Il s'agit ici d'un emplacement relatif, où le chemin de départ est le dossier dans lequel le fichier HTML se situe.
+
+5. Regardons à l'écran ce que nous avons à ce point.
+
+6. Et si l'image se retrouvait dans un sous-dossier?
+6.1 Et si nous faisions une erreur dans l'écriture de l'emplacement?
+
+7. Nous pourrions spécifier les dimensions de l'image grâce aux attributs "width" et "height".
+7.1 Ces attributs peuvent être spécifiés en pixels (px) ou en pourcentages (%).
+7.2 Si on en spécifie juste un des deux, automatiquement l'autre est ajusté pour conserver la proportion
+7.3 (Nous verrons que le CSS peut également être utilisé pour ajuster la taille des images dans le Bloc 2 (CSS)
+
+8. L'attribut "alt" est également requis. Voyons voir comment l'utiliser.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

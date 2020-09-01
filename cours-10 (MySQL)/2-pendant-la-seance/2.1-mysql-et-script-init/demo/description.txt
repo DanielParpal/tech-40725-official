@@ -1,0 +1,56 @@
+================================================================================
+
+Pour le cours d'aujourd'hui, nous parlerons principalement :
+
+- Du rôle des bases de données dans une application Web
+- De l'utilisation d'un outil graphique comme PHPMyAdmin pour gérer nos bases de données
+- De l'écriture et utilisation de requêtes SQL à partir de PHP
+- Du rôle des formulaires comme source dynamique d'information pour notre interaction avec les bases de données
+
+Donc, comme le nom le suggère, une base de données permet de stocker les données de notre application Web. Le format de bases de données le plus répandu est la base de données relationnelle. Il existe toutefois différents formats et technologies.
+
+À titre d'exemple, si vous vous intéressez de plus près au monde des applications Web modernes, mongoDB est une technologie relativement populaire, offrant une alternative faisant partie du mouvement 'noSQL'. mongoDB ne travaille donc pas avec SQL, et ses schémas ne sont pas 'relationnels'.
+
+Les bases de données utilisant le langage SQL sont toutefois les plus communes, et il est plus simple d'être introduit aux bases de données en utilisant le SQL.
+
+Le SQL est le langage de requête, mais ce langage est à la base de plusieurs technologies de base de données, comme MS SQL (MS pour Microsoft), PostGreSQL, et MySQL.
+
+Dans le cadre du cours, nous aborderons les bases de données MySQL.
+
+================================================================================
+
+Parlons rapidement de la structure d'une base de données relationnelles.
+
+Pour nous simplifier la vie, on peut voir une base de données relationnelle comme un ensemble de tables ("à la Excel") qui sont en relation entre elles.
+
+Voici un exemple simple : 
+- Nous avons une première table avec des produits à vendre
+- Pour chaque produit, nous voulons pouvoir spécifier quelques propriétés (ex. la description, le prix, le fabricant, etc.)
+- Ensuite, nous avons une deuxième table pour stocker les achats
+- Pour les achats, nous voulons spécifier de nouvelles propriétés (ex. le nom du client, le produit acheté, la quantité achetée, la date de l'achat, etc.)
+
+Nous voulons donc mettre notre table de produits et notre table d'achats en RELATION, d'où le concept de base de données relationnelle.
+
+Ces relations sont au plus souvent gérées par ce que nous appelons des clés (primaires, étrangère, etc.). Ainsi, à titre d'exemple, nous définirons une "clé primaire" pour chaque ligne de notre table de produits (ex. notre premier produit aura un 'id' de 1, notre deuxième un 'id' de 2, etc.). 
+
+Ensuite, lorsque nous voudrons référencer un produit à partir de la table des achats, nous utiliserons cette valeur de 'id' comme 'clé étrangère'. 
+
+Regardons un petit schéma pour nous aider à comprendre.
+
+Nous n'entrerons malheureusement pas plus en détails dans la conception de bases de données.
+
+================================================================================
+
+Mettons donc nos mains dans le "concret" des bases de données pour mieux comprendre ce qui se passe.
+
+Pour cela, exécutons le script d'initialisation dans PHPMyAdmin.
+
+1. Nous devons créer une nouvelle base de données (database) que nous nommerons 'hec'
+2. Assurez-vous de toujours bien sélectionner la base de données hec
+3. Prenons-le temps de regarder ce que nous avons dans la table publications après avoir exécuté le script
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

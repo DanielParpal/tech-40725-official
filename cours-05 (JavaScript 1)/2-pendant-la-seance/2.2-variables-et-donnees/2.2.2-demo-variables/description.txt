@@ -1,0 +1,35 @@
+================================================================================
+
+Variables :
+
+S'il y a bien un concept universel aux langages de programmation, c'est celui des variables.
+
+Mais qu'est-ce donc une variable?
+
+Nous pouvons voir les variables comme de petites boîtes qui conservent de l'information dans la mémoire de l'ordinateur.
+
+À titre d'exemple, je peux stocker la valeur 42 à l'intérieur d'une petite boîte que j'appellerai "age", et que je pourrai réutiliser plus tard.
+
+================================================================================
+
+Nous travaillerons maintenant dans un fichier JavaScript externe, afin de nous familiariser avec l'inclusion de fichiers JavaScript.
+
+Démonstration :
+
+1) Écrivons une ligne pour donner la valeur 42 à une variable nommée "age"
+2) Analysons chacun des éléments de la ligne
+3) Si je voulais utiliser cette variable? 
+3.1) Dans une addition? 
+3.2) Pour afficher sa valeur dans la console?
+4) Que faire pour modifier sa valeur? 
+5) Quelque chose qu'on voit souvent en programmation : x = x + Y
+
+6) Nous n'avons pas vu encore les chaînes de caractères, mais les variables ne permettent pas seulement de stocker des nombres. Elles peuvent stocker tout type de valeur!
+
+En ouverture : attention, on ne définit pas une formule comme on le fait en mathématique. Les variables doivent avoir une valeur au moment de leur utilisation. Faisons une petite démonstration là-dessus.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

@@ -1,0 +1,35 @@
+================================================================================
+
+Tableaux/arrays (version simplifiée) :
+
+Maintenant, plutôt que de vouloir conserver un seul nom de produit dans une variable - cela serait une chaîne de caractères - disons que je voulais conserver plusieurs noms de produit sous une même étiquette (variable).
+
+Il existe ce qui s'appelle un tableau (en anglais : array), que nous pouvons voir comme une "liste" pour se simplifier la vie (même si c'est plus qu'une liste, dans le cadre du cours, c'est suffisant comme analogie!)
+
+================================================================================
+
+Démonstrations :
+
+1. Regardons comment définir un tableau 
+1.1 Analysons les différents éléments formant le tableau
+1.2 Cette méthode est plus simple que celle présentée dans le livre! Elle correspond à celle de l'article Mozilla, disponible sur Zonecours.
+
+Note : vous pouvez choisir l'approche qui vous convient
+
+Jouons un peu avec notre tableau :
+2. Pour lire/utiliser un élément?
+3. Pour modifier un élément?
+
+Maintenant :
+4. Comment fais-je pour ajouter un élément? .push()
+5. Propriété : Si je veux connaître la quantité d'éléments dans le tableau (.length), ce qui nous permettrait à titre d'exemple de déterminer la quantité de produits dans un panier d'achats
+6. Si je veux savoir si un élément fait partie de mon tableau? .includes()
+
+On voit que, pour utiliser certaines propriétés et prendre certaines actions avec mon tableau, je peux utiliser la syntaxe :
+tableau.propriété
+ou 
+tableau.action()
+
+Note : le mot technique pour une action est une méthode.
+
+================================================================================

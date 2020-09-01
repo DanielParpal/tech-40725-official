@@ -1,0 +1,52 @@
+================================================================================
+
+Nous avons vu à la section précédente une première méthode permettant de modifier le DOM : cette méthode est html()
+
+En rappel, le DOM peut être vu comme l'assemblage des éléments et de leurs styles sous un format d'arbre, offrant un interface (point d'entrée) pour le JavaScript.
+
+Ainsi, avec la méthode html(), nous modifions cet assemblage en temps réel, en venant changer le contenu html de certains éléments.
+
+Nous pouvons toutefois faire bien plus : 
+- Masquer/afficher un élément 
+- Modifier ses règles CSS
+- Ajouter ou enlever un attribut .class
+- Faire glisser un élément
+etc...
+
+La documentation complète se trouve au :
+http://api.jquery.com/
+
+================================================================================
+
+Effectuons une démonstration afin de comprendre ce que nous voulons dire par "modifier le DOM".
+
+Regardons notre fichier de départ, qui contient une alerte de succès (verte) et une alerte d'erreur (rouge). Prenons le temps de visualiser son contenu dans une fenêtre si nous enlevons la règle CSS qui cache l'élément.
+Note : pour simplifier l'exemple, la règle CSS n'a pas été mise dans un fichier CSS externe...
+
+Maintenant, voici ce que nous voudrons faire pour pratiquer nos habiletés de sélection et de manipulation du DOM :
+
+1. Masquons la bannière d'erreur (rouge) grâce à la méthode hide()
+1.1 La sélection se fera sur l'élément avec un "id" de "alerte-sans-rabais-20"
+
+2. Affichons la bannière de succès (verte), en lui donnant une animation, grâce à la méthode slideToggle()
+2.1 La sélection se fera sur l'élément avec un "id" de "alerte-avec-rabais-20"
+
+3. Masquons la bannière de succès (verte), en lui donnant une animation d'un autre type (fade), grâce à la méthode fadeOut()
+3.1 La sélection sera identique au point 2.1
+
+4. Il serait intéressant d'ajouter un délai entre les deux opérations précédentes, comme nous le voyons souvent sur les sites : un message est affiché, puis disparaît par lui-même après quelques secondes.
+4.1 Utilisons la méthode delay() afin d'ajouter un délai
+4.2 La sélection sera identique au point 2.1
+4.3 Assurons-nous d'ajouter cette commande entre les deux opérations précédentes
+
+Nous pouvons voir que jQuery permet de jouer avec le DOM facilement! Ce type d'opération serait beaucoup plus complexe en utilisant seulement du JavaScript et du CSS vanilles.
+
+================================================================================
+
+Notes supplémentaires : 
+Pour information : Une autre approche serait de tout chaîner cela :
+$('#alerte-avec-rabais-20').slideToggle().delay(2000).fadeOut(2000);
+
+Toutefois, dans le cadre du cours, nous pouvons garder nos commandes sur des lignes séparées.
+    
+================================================================================

@@ -1,0 +1,22 @@
+================================================================================
+
+Nous utiliserons souvent le sélecteur $(this) en combinaison avec la méthode .data() afin de pouvoir sélectionner un élément lors de l'exécution, et récupérer de l'information.
+
+Voici les étapes plus concrètes :
+
+1. Prenons le fichier de départ 
+
+2. Ajoutons un lien vers jQuery et vers un fichier JavaScript externe (à créer)
+
+3. Mise en place du gestionnaire d'événement (copier-coller le bloc de code)
+3.1 Sélection : éléments avec "class" de "btn"
+3.2 Événement : lorsque l'utilisateur clique ("click") un des liens
+3.3 Actions à prendre :
+- Récupérer la valeur de l'attribut 'data-test' du bouton cliqué
+- Afficher cette valeur dans la console
+  
+================================================================================
+
+Notes supplémentaires : 
+
+================================================================================

@@ -1,0 +1,24 @@
+================================================================================
+
+Voici de l'aide supplémentaire si vous êtes bloqué(e). Essayez de vous rendre le plus loin possible avant d'utiliser ce fichier, car vous n'aurez son équivalent pour les problèmes à l'examen final.
+
+La position initiale est 1, signifiant que nous affichons au départ la bannière 1.
+
+À chaque 5 secondes (à l'intérieur de la fonction setTimeout() déjà en place) :
+
+- SI la position actuelle est égale à 1
+    -> Masquez la bannière 1
+        - La méthode à utiliser est .hide()
+    -> Affichez la bannière 2
+        - La méthode à utiliser est .show()
+    -> Assignez la valeur 2 à la position
+- SINON
+    -> Masquez la bannière 2
+        - La méthode à utiliser est .hide()
+    -> Affichez la bannière 1
+        - La méthode à utiliser est .show()
+    -> Assignez la valeur 1 à la position
+
+Note : Chaque bannière est contenue dans un élément HTML parent possédant un attribut 'id'. Ainsi, pour les sélecteurs, utilisez le type 'id', et déterminez le bon sélecteur en examinant le HTML.
+
+================================================================================

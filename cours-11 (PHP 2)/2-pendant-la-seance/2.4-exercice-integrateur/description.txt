@@ -1,0 +1,24 @@
+================================================================================
+
+Nous sommes rendus à l'exercice intégrateur du Bloc 3! Félicitations pour votre travail, et voici une belle opportunité de consolider vos acquis.
+
+Nous continuerons sur notre lancée, et utiliserons la page de recettes de Chocolats Favoris pour nous inspirer.
+
+Voici le travail à accomplir :
+- Téléchargez les fichiers et prenez le temps de vous familiariser avec le code de départ
+- Prenez le temps de regarder l'aperçu vidéo
+- Votre travail est de répliquer le comportement démontré dans la capsule vidéo
+
+Étant donné qu'il s'agit du premier exercice intégrateur en lien avec le Bloc 3, voici quelques conseils:
+- Pensez au flux de votre application (connexion, insertion, sélection, affichage) et gardez en tête la vue d'ensemble ("big picture") tout au long de l'exercice
+- À partir de ce flux, réfléchissez aux implications de chacune des étapes. À titre d'exemple, pour l'insertion:
+  - J'aurai besoin d'un formulaire - je vais le développer en HTML, avec un style Bootstrap
+  - Je vais connecter mes champs à la requête d'insertion grâce à la variable $_POST et les clés appropriées, correspondant au "name" des champs
+  - etc.
+- Référez-vous au fichier "étapes-concrètes.txt" au besoin - ce type de fichier ne serait pas fourni pour une évaluation, mais peut vous aider à construire un modèle mental de ce qui est nécessaire (à haut niveau) pour solutionner les exercices intégrateurs du Bloc 3. 
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

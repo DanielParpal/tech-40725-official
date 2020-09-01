@@ -1,0 +1,4 @@
+Préparation : 
+- Installation et configuration de MAMP (Mac) / XAMPP (PC) (consulter les capsules spécifiques)
+- echo et var_dump()
+- Lecture active des articles

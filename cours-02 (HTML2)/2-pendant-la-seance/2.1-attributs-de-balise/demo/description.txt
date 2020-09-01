@@ -1,0 +1,33 @@
+================================================================================
+Les attributs permettent de configurer les balises utilisées.
+
+Nous avons vu au dernier cours que, pour la balise <a> (anchor tag), l'attribut href permet de spécifier l'emplacement où le lien nous redirigera. Il existe toutefois une très grande quantité d'attributs, et il serait très difficile de tous les apprendre.
+À titre d'exemple, pour une image, dont nous parlerons bientôt, nous voulons spécifier sa source grâce à l'attribut src.
+
+L'objectif est donc de comprendre le fonctionnement des attributs plutôt que d'essayer de tous les apprendre. Nous pratiquerons ici avec deux attributs qui peuvent être utilisés sur toutes les balises, et qui seront très utiles pour la portion CSS :
+a) class
+b) id
+
+1. Prenons le temps de générer un template de base à nouveau
+2. Créons trois division (balise <div>)
+    Note : Nous allons utiliser les "snippets" avec la touche tab
+3. Ajoutons un peu de contenu pour chacune des divisions 
+    Note : le générateur lorem ipsum peut être très utile
+3. Donnons une classe (attribut class) aux deux premières divisions
+4. Prenons le temps de comprendre comment fonctionne cet attribut 
+    4.1 L'emplacement de l'attribut
+    4.2 Le nom de l'attribut
+    4.3 Le signe d'égalité 
+    4.4 La valeur de l'attribut
+    4.5 Les guillemets pour contenir la valeur
+5. Donnons maintenant un "id" à la première division
+6. L'attribut href est simple à comprendre, mais pourquoi utiliserions-nous ces attributs class et id? 
+    6.1 Démo rapide de leur lien vers CSS
+    6.2 Pour Javascript cela sera pratique également
+    6.3 À court terme : l'important est de comprendre comment assigner des attributs à une balise. Nous verrons le rôle spécifique des attributs pertinents en temps et lieux.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

@@ -1,0 +1,25 @@
+================================================================================
+
+1. Gardez en tête qu'en tant que programmeur, il nous arrive très souvent de ne plus être certain de l'utilisation exacte d'une balise. Voici comment nous pourrions chercher l'information requise pour définir une liste en HTML.
+1.1 Ouvrir Google
+1.2 Taper "liste HTML"
+1.3 Lire la documentation. Quelques sites sont particulièrement utiles :
+    - Stack Overflow
+    - w3school
+
+Note : Pour l'examen intra, il est toutefois important de bien connaître les éléments que nous voyons, puisque l'ordinateur ne sera pas permis.
+
+2. Ici nous utiliserons la liste non-ordonnée ("unordered list"), définie avec la balise <ul>.
+
+3.1 En premier lieu, ajoutons la balise parent <ul>
+3.2 Ensuite, ajoutons quelques éléments à notre liste, avec la balise <li>
+3.3 Vous pouvez faire un parallèle avec les tables et formulaires, où une balise parent doit être utilisée pour regrouper les sous-éléments.
+
+4. Profitons-en pour pratiquer l'écriture d'attributs "class" et "id". 
+Notez que ces attributs seront très utiles pour l'écriture de règles CSS.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

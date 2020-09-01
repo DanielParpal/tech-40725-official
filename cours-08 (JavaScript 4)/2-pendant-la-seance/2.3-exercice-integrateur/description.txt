@@ -1,0 +1,37 @@
+================================================================================
+
+Nous sommes rendus à une des étapes les plus excitantes du cours! Nous avons couvert beaucoup de matière : le HTML, le CSS et Bootstrap, les bases du JavaScript, l'utilisation de jQuery pour manipuler le DOM, les structures de données plus avancées en JavaScript... wow!
+
+Il est temps d'intégrer tout cela, et de vous donner l'opportunité de vous pratiquer.
+
+Voici le travail à accomplir :
+- Téléchargez les fichiers et prenez le temps de vous familiariser avec le code de départ
+- Prenez le temps de regarder l'aperçu vidéo
+- Votre travail est de répliquer le comportement démontré dans la capsule vidéo
+
+
+Note : tout le travail est à effectuer dans le fichier app.js. 
+Les autres fichiers ne doivent pas être modifiés, mis à part pour des tests temporaires si vous voulez valider quelque chose. Vous n'avez pas à créer de nouveaux fichiers.
+
+Précisions :
+- L'ajout de la classe .active aux items de liste permet de donner l'effet de surlignement bleu.
+- Vous aurez besoin des méthodes jQuery suivantes :
+  - .data => https://api.jquery.com/data/
+  - .removeClass => https://api.jquery.com/removeClass/
+  - .addClass => https://api.jquery.com/addClass/
+  - .hide => https://api.jquery.com/hide/
+  - .show => https://api.jquery.com/show/
+- Vous aurez également besoin d'un gestionnaire d'événement, tel que présenté à la séance 7. Référez-vous au template, et ici l'événement sera un "click".
+
+
+================================================================================
+
+Notes supplémentaires : 
+
+Voici quelques conseils plus "haut niveau" :
+- Ne vous découragez pas, il s'agit de votre premier exercice intégrateur. Vous deviendrez de plus en plus confortable à force de pratiquer - et vous verrez que plusieurs "patterns" (assemblages d'idées) se répètent. 
+- Assurez-vous de comprendre ce qui vous est donné (HTML, CSS, JavaScript). Le point de départ est là pour vous simplifier la vie, mais vous devez savoir comment l'utiliser.
+- Effectuez des tests préalables (ou intermédiaires) au besoin. Un exemple serait de valider l'utilisation de la méthode .addClass() avant d'essayer de l'utiliser dans le gestionnaire d'événements. Souvenez-vous qu'il est impossible de comprendre un assemblage sans comprendre les concepts unitaires.
+- Ne regardez pas la solution avant d'avoir essayé au meilleur de vos capacités. Ensuite, au besoin, trouvez ce qui vous permet de débloquer, et continuez sans regarder le reste de la solution. Cherchez donc à maximiser votre apprentissage - simplement consulter la solution ne vous apportera rien.
+    
+================================================================================

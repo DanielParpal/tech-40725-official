@@ -1,0 +1,25 @@
+================================================================================
+
+Dans l'exercice précédent, nous avons ajouté une ligne à la main dans notre table des publications. Nous devons toutefois être en mesure d'effectuer cette insertion directement dans l'application (le 'back-end').
+
+Regardons donc comment PHP nous permet d'envoyer des requêtes INSERT INTO à notre base de données.
+
+1. Téléchargeons le code de départ
+
+2. Dans 'index.php', assurons-nous d'avoir une connexion à notre base de données, grâce à l'inclusion du fichier 'db/connexion-MySQL.php'
+
+3. Maintenant, prenons le temps de regarder le fichier 'db/insert-into-publications.php' et de comprendre l'action qui sera prise si on utilise ce fichier
+
+4. Incluons-le à partir de 'index.php'
+
+5. Rafraîchissons notre page dans le navigateur afin "d'exécuter" le script d'insertion.
+
+6. Si on regarde notre table à partir de PHPMyAdmin maintenant?
+
+7. Si je change la valeur des variables qui servent à construire le script d'insertion, et que je rafraîchis la page à nouveau. Que vois-je dans la table à partir de PHPMyAdmin?
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

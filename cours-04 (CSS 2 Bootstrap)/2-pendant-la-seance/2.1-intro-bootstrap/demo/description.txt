@@ -1,0 +1,45 @@
+================================================================================
+
+Bienvenue dans le cours sur Bootstrap! Nous aurons à partir d'aujourd'hui de belles applications Web avec une finition professionnelle! 
+
+Pour vous mettre en contexte, imaginez que, pour chacun de vos projets, vous avez besoin de styliser des boutons, des tables et des "cartes" (avec le CSS). Souhaiteriez-vous réinventer la roue à chaque fois?
+
+Maintenant, imaginez que je vous offre d'embaucher deux excellents développeurs front-end, afin qu'ils accumulent et construisent pour vous, sur une période de quelques années, une grande quantité de règles CSS sous le format d'une librairie réutilisable de projets en projets.
+
+Et bien, Bootstrap, c'est à peu près ça!
+
+================================================================================
+
+Pour cette section, nous ferons une démonstration seulement, alors SVP travaillez avec moi si vous voulez maximiser votre apprentissage.
+
+1. Effectuons une copie du fichier HTML de départ.
+
+2.1 Si nous prenons le temps de regarder le fichier HTML, nous verrons que le lien hypertext (balise <a>) a deux "class" : "btn" et "btn-primary"
+2.2 Nous verrons aussi que la division dessous ce lien a des "class" de "alert" et "alert-warning". Ne portons pas trop d'attention à "mt-5" qui sert seulement à ajouter une marge (espacement)
+
+Note : Cela devrait vous rappeler l'exercice du bouton et l'exercice après séance (cours 3) sur les alertes (si vous l'avez fait).
+
+3. Maintenant, regardons le fichier "bootstrap.css". Il s'agit du fichier CSS que votre fameuse équipe de designers et développeurs vous a remis. Note: vous verrez aussi "bootstrap-reboot.css" et "bootstrap-grid.css", nous pourrons en parler plus tard si vous voulez.
+-------------------------------
+3.1 Si on regarde à partir de la ligne 2378, nous verrons plusieurs règles CSS en lien avec les "class" de "btn" et "btn-primary".
+3.2 Et si on regarde à partir de la ligne 5105, nous verrons plusieurs règles CSS en lien avec les alertes ("alert" et "alert-warning").
+3.3 Donc, en théorie, si nous ajoutons un lien (<link>) vers ce fichier CSS, les règles devraient s'appliquer automatiquement? Essayons-le!
+
+À CE MOMENT TRÈS PRÉCIS, VOUS DEVRIEZ ÊTRE TRÈS HEUREUX! :)
+
+4. Nous pouvons utiliser ce qui s'appelle un CDN pour éviter d'avoir à télécharger et copier le fichier CSS pour chaque projet/exercice.
+4.1 Plus facile et rapide pour le développement
+4.2 Lien disponible dans la documentation Bootstrap
+
+5. Petite note sur la division de "class" "container"
+
+6.1 Petit test : Si on enlève le lien vers le fichier (ou le CDN) tout simplement? Tout le style disparait!
+6.2 Et si on fait une erreur dans le nom des classes? Effectivement, le style désiré n'est plus appliqué sur l'élément.
+
+================================================================================
+
+Notes supplémentaires : Si nous souhaitons écraser une règle CSS de Bootstrap, la bonne approche est de le faire dans un fichier séparé afin de conserver la librairie intacte. Cela est pratique courante, car la librarie sert de point de départ.
+
+Une grande compétence pour Bootstrap est la capacité de chercher dans leur documentation, et de connaître les options et composantes! Il est pratiquement impossible de tout connaître par coeur, alors il faut apprendre à chercher!
+    
+================================================================================

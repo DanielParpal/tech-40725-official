@@ -1,0 +1,5 @@
+Préparation :
+- Avoir MAMP/XAMPP d'installé et configuré (cela devrait être déjà complété)
+- Lecture des chapitres 37 et 41 (pas besoin de faire une lecture "active")
+
+Profitez-en pour réviser les concepts moins bien compris, et pour terminer le TP2!

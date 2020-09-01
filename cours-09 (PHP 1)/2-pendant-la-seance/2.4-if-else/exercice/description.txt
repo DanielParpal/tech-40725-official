@@ -1,0 +1,22 @@
+================================================================================
+
+À votre tour d'utiliser les conditions en PHP afin de générer le contenu d'une page de manière dynamique!
+
+Voici les spécifications pour l'exercice :
+- Si la quantité est supérieure à 0, nous voulons afficher le bouton d'achat ainsi que la quantité disponible (affichage dynamique tel que vu à la section 2.3)
+- Si la quantité est égale à 0, nous voulons masquer le bouton d'achat et la quantité disponible, et à la place afficher l'alerte rouge mentionnant que cet item n'est plus disponible
+
+Étapes :
+
+1. Téléchargez le fichier de départ et prenez le temps de vous familiariser avec le contenu => il correspond environ à la solution de l'exercice 2.3
+
+2. Utilisez les conditions en PHP (if/else) pour répondre aux spécifications
+2.1 Vous trouverez quelques indices en commentaires dans le code afin de vous aider
+
+Note : cet exemple est particulièrement pertinent, car il s'agit d'une logique d'affaires que nous retrouvons très fréquemment sur les applications de e-commerce : si la quantité est égale à 0, il n’est plus possible d’acheter le produit et une bannière d'alerte est affichée.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

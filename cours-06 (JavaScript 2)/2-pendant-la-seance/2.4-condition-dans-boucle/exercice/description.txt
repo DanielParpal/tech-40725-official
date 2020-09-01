@@ -1,0 +1,31 @@
+================================================================================
+
+À votre tour! 
+
+Petite mise en contexte : nous mettrons en place une condition permettant de tester si un lien est "brisé". Pour notre application, un lien est brisé si sa valeur est une chaîne de caractères vide (""). 
+
+Si le lien est brisé, nous afficherons un message dans la console : "Le lien est brisé et la recette ABCD(titre) ne s'affichera pas."
+Sinon, nous afficherons les informations de la même manière qu'à l'exercice 2.3.
+
+
+Dans les 10 prochaines minutes :
+
+1. Téléchargez les fichiers de départ.
+
+2. Pour le troisième url, donnez une valeur de "" (ce qui correspond à une chaîne de caractères vide). Cela nous permettra de tester notre condition.
+
+3. Mettez en place une condition permettant de tester si un lien est brisé (si sa valeur est "").
+
+3.1 Si le test est vrai : affichez un message dans la console : 
+	Le lien est brisé et la recette ABCD(titre) ne s'affichera pas.
+
+3.2 Sinon :
+	Affichez l'ensemble des informations sur la recette, tel qu'au point 2.3.
+
+Bien joué!
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

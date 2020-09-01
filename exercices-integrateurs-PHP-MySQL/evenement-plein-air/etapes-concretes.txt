@@ -1,0 +1,45 @@
+================================================================================
+
+Voici de l'aide supplémentaire si vous êtes bloqué(e). Essayez de vous rendre le plus loin possible avant d'utiliser ce fichier, car vous n'aurez son équivalent pour les problèmes à l'examen final.
+
+Voici les étapes concrètes : 
+
+----------------
+Dans 'index.php'
+----------------
+
+- Effectuez l'inclusion du fichier d'affichage 'app.html.php'
+
+-------------------
+Dans 'app.html.php'
+-------------------
+
+- Essayez de reproduire la page HTML et son apparence, en utilisant des valeurs statiques, et sans perdre trop de temps (voir note dans description.txt). Dans le contexte de l'exercice, c'est tout à fait correct si l'apparence de votre page diffère légèrement de celle de la solution.
+    -> Template de base HTML
+    -> Inclusion de la librairie Bootstrap
+    -> Division "container"
+    -> Alerte Bootstrap de type "danger" (nous rendrons son affichage conditionnel plus loin)
+    -> Système de grille Bootstrap avec une colonne de 4 unités à gauche et une colonne de 8 unités à droite 
+- Dans la colonne de gauche :
+    -> Titres h6 pour les titres (ex. PÉRIODE, HEURE, etc.)
+    -> Pour les titres h6, donnez les "class" : "text-muted mt-2"
+    -> Éléments paragraphes pour les valeurs sous les titres
+- Dans la colonne de droite :
+    -> Une image avec "class" de "mt-5"
+    -> Vous pouvez essayer de donner une largeur de 80% à l'image si vous le souhaitez
+    -> Un paragraphe pour la description de l'événement
+    
+
+Maintenant, rendez la page dynamique en utilisant la cohabitation de PHP et HTML (portion importante de l'exercice):
+- Remplacez les morceaux statiques par les variables PHP
+- Pour l'alerte : 
+    -> Regardez quelle variable peut être utilisée pour déterminer dynamiquement si une alerte doit être affichée 
+    -> Mettez en place une condition if/else
+
+- Prenez le temps de modifier la valeur de quelques variables et de regarder l'affichage résultant pour valider votre travail.
+
+En ouverture : si vous voulez également pratiquer certaines notions du cours 11, vous pouvez réfléchir à la modélisation des données sous un tableau associatif nommé $evenement. Quelles seraient les clés? Que devriez-vous changer à votre script de génération dynamique?
+
+Vous êtes encouragés à essayer de mettre en place ces modifications.
+
+--------------------------------------------------------------------------------

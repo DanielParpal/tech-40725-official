@@ -1,0 +1,31 @@
+================================================================================
+
+Il est bien beau de pouvoir consulter la table dans PHPMyAdmin, mais nous voulons que notre application puisse elle-même interagir avec la base de données.
+
+Voici les étapes :
+
+1. Initialisons une connexion à la base de données à partir de l'application (grâce au PHP). 
+1.1 À partir du fichier index.php, incluons le fichier 'db/connexion-MySQL.php'
+1.2 Assurons-nous que le nom d'utilisateur est correctement défini 
+Note : Le script de connexion doit TOUJOURS être utilisé avant d'envoyer les requêtes SQL
+Note 2 : N'oubliez pas de modifier le nom d'utilisateur! Cela est une cause d'erreur fréquente!
+
+2. Incluons le fichier 'db/select-publications.php'
+2.1 Prenons le temps de regarder le fichier
+Note : Nous voyons ici une requête SELECT à l'oeuvre, envoyée à partir de notre application PHP. Voyez-vous comment le langage 'back-end' joue un rôle de pivot entre la base de données et le 'front-end'?
+2.2 Si je fais un var_dump() de la variable $publications à partir de index.php?
+
+3. Je veux toutefois faire plus que simplement afficher le contenu de la variable $publications. Je veux qu'un script d'affichage s'en serve pour présenter une table dynamiquement construire, où on voit toute les publications.
+3.1 Incluons le fichier 'views/app.html.php'
+3.2 Prenons le temps de regarder ce fichier ainsi que 'views/table.html.php'
+
+Et maintenant, si j'ajoutais une ligne dans la table 'publications' à partir de PHPMyAdmin, que verrions-nous?
+
+Informations :
+- Développez l'habitude d'utiliser var_dump() pour observer le contenu retourné par vos requêtes! Cela vous aidera à écrire vos algorithmes de génération de contenu dynamique (en particulier les boucles dont nous parlerons au cours 11).
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

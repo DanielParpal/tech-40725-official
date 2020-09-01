@@ -1,0 +1,16 @@
+================================================================================
+
+1a. Assignez, à une nouvelle variable nommée suggestions, 4 titres de produits pouvant représenter des suggestions d'achat pour un client donné de votre application de commerce électronique.
+
+1b. En utilisant la technique des 6 étapes présentée en classe, écrivez une boucle permettant de parcourir le tableau des suggestions et de les afficher dans la console.
+
+
+2a. Assignez, à une nouvelle variable nommée succursales, le nom de 3 succursales différentes pour une compagnie où vous allez souvent magasiner (ex. Pour Costco, on pourrait utiliser : Montréal - rue Bridge, Marché Central, et Brossard - Boulevard Taschereau)
+
+2b. Écrivez une boucle permettant de parcourir le tableau des succursales et de les afficher dans la console. Essayez d'y arriver sans regarder les notes de cours ni votre solution au point 1b.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

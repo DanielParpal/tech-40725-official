@@ -1,0 +1,25 @@
+================================================================================
+
+Les formulaires sont très fréquemment utilisés car ils sont au coeur de l'interaction avec l'utilisateur. Ils demeurent relativement difficiles à styliser sans librairie (à partir de zéro).
+
+Prenons le temps de regarder la démonstration 2.4 du cours 2. Nous pouvons voir à quel point les formulaires de base sont horribles!
+
+La démonstration :
+
+1. Démarrons d'un fichier HTML vide, dans lequel nous ajoutons le template de base.
+
+2. Ajoutons le lien vers Bootstrap (CDN).
+
+3. Ajoutons une division de type "container" avec une marge au dessus (mt-5).
+
+4. Regardons dans la documentation les différentes options pour les formulaires. Une des options que j'aime bien est le formulaire "horizontal".
+
+5. Copions le HTML, et gardons seulement les deux premiers champs de type texte. Nous pouvons également réduire la largeur des champs.
+
+6. Voilà, la démonstration est terminée... si simple!
+
+================================================================================
+
+Notes supplémentaires : Assurez-vous quand même de comprendre ce que vous faites lorsque vous utilisez Bootstrap. Ne vous contentez pas de copier-coller sans avoir idée du fonctionnement.
+    
+================================================================================

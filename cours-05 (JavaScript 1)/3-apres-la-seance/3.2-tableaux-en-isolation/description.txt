@@ -1,0 +1,37 @@
+================================================================================
+
+Cet exercice permet de vous pratiquer votre écriture/utilisation de tableaux en JavaScript. Assurez-vous de suivre les étapes (votre code doit être séquentiel comme nous en avons parlé).
+
+1. Visitez le lien suivant sur Wayfair
+https://www.wayfair.ca/fr/decoration-et-coussins/sb0/coussins-decoratifs-gris-et-argent-c1871599.html
+
+Note : si le lien est brisé au moment de faire les exercices, vous pouvez visiter la section de votre choix sur le site de Wayfair (https://www.wayfair.ca) et utiliser les 4 premiers produits.
+
+2. Modéliser le titre des 4 premiers produits en utilisant un tableau.
+
+3. Affichez dans la console la quantité d'éléments dans votre tableau, en utilisant la propriété que nous avons vue.
+
+4. Ajoutez un élément au tableau sans avoir à modifier votre définition initiale du tableau.
+
+5. Affichez à nouveau la quantité d'éléments dans votre tableau. Elle devrait avoir augmenté de 1!
+
+6. Affichez l'élément à l'index 2 dans la console.
+
+7. Modifiez-le pour le produit suivant : "Housse de coussin en velours Payson"
+
+8. Affichez le à nouveau. 
+
+9. Comment feriez-vous pour tester la présence de cet élément dans votre tableau? Nous avons vu une certaine méthode (action) permettant d'y arriver. Assignez le résultat à une nouvelle variable nommée est_present
+
+10. Affichez la valeur booléenne de cette variable est_present.
+
+11. Reprenez les éléments 9 et 10, mais sans l'étape intermédiare de la variable : affichez directement dans la console le résultat du test permettant de savoir si cet élément est dans votre tableau.
+
+Good job!
+
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

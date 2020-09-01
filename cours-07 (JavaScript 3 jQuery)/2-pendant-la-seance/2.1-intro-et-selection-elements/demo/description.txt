@@ -1,0 +1,73 @@
+================================================================================
+
+Rappel du concept de l'interactivité en JavaScript.
+
+Reprendre la démonstration de la bannière lorsqu'un utilisateur remplit un champ.
+
+================================================================================
+
+jQuery est une librairie Javascript, de la même manière que Boostrap est une librairie CSS (et aussi Javascript, même si nous n'en n'avons pas parlé). Les librairies nous permettent d'accomplir plus de travail en moins de temps, en s'appuyant sur le travail existant de développeurs d'expérience.
+
+Il faut comprendre que, lorsque nous écrivons du jQuery, nous écrivons en fait dans le langage JavaScript.
+
+Avant même de nous lancer dans l'étude de jQuery, il est important de pointer que la library jQuery n'est plus aussi populaire qu'elle l'a déjà été. Cela ne veut pas dire pour autant que, d'un point de vue pédagogique, il n'est pas pertinent de l'étudier pour mieux comprendre comment le JavaScript nous aide à rendre nos pages interactives.
+https://trends.google.com/trends/explore?date=all&geo=US&q=jquery,react
+
+Vous pouvez voir, dans le dossier '2.1/demo', le contenu exact de la librairie jQuery. Il s'agit d'environ 10000 lignes de code JavaScript. 
+
+Prenons le temps de regarder la "vocation" de jQuery :
+Directement de : http://jquery.com/
+1) Qu'est-ce que jQuery
+2) Parcours et manipulation de jQuery
+3) Gestion d'événements
+4) AJAX
+
+Nous ferons quelques démonstrations et exemples pour les points 1, 2 et 3.
+Nous toucherons en ouverture le AJAX (point 4) avec une explication très sommaire et simplement théorique (aucune démo/exercice).
+
+================================================================================
+
+Ceci étant dit, commençons la première démonstration concrète.
+
+Pendant les deux premiers cours sur JavaScript, nous avons travaillé dans la console. 
+Cela nous a permis d'apprendre différents types de données, de travailler avec les variables, et d'étudier certaines structures de contrôles. 
+
+Il maintenant temps d'utiliser JavaScript pour rendre notre page interactive! Pour utiliser un terme technique, nous allons nous servir de l'interface du DOM (Document Object Model) pour modifier le contenu de notre page et donner un effet d'interactivité.
+
+Utilisons le fichier de départ comme base de travail. Nous reprendrons les mêmes éléments HTML que dans le cours 3 sur la syntaxe CSS afin d'illustrer le parallèle.
+
+La première étape est d'inclure la librairie jQuery dans notre projet. Nous utiliserons un CDN (content delivery network), de la même façon que nous l'avons fait pour Bootstrap. Il est un peu plus pénible de trouver le lien vers le CDN, alors prenez le temps de le mettre dans vos favoris...
+
+https://code.jquery.com
+
+Note : assurez-vous d'utiliser le lien sécurisé 'https'.
+
+Nous devons ensuite créer un fichier externe JavaScript (et le lier) dans lequel nous écrirons nos commandes jQuery (n'oubliez pas, cela est en fait du JavaScript!)
+
+================================================================================
+
+Avant de souhaiter modifier les éléments de notre page, il faut comprendre comment les sélectionner. Le parallèle est l'écriture de règles CSS : il faut d'abord comprendre comment sélectionner les éléments sur lesquels nous appliquons les règles.
+
+Un des grands avantages de jQuery est que nous pouvons sélectionner les éléments de notre page grâce à une approche et une philosophie similaires au CSS. 
+
+Cela a été conçu ainsi afin de simplifier la vie aux développeurs front end.
+
+1. Écrivons une ligne permettant de sélectionner tous les éléments paragraphes (<p>)
+1.1 Comment pourrions-nous y arriver en CSS? Voyez-vous le parallèle?
+1.2 Ici, $() joue le rôle d'indiquer que nous sélectionnons un élément grâce à jQuery. La "commande" $() ne fonctionnerait pas sans l'inclusion de la librairie jQuery => prenons le temps de le prouver!
+
+2. Cela est bien beau, mais comment pouvons-nous être certain que les éléments ont bel et bien été sélectionnés?
+2.1 Utilisons la méthode .html() sur notre sélection, afin de modifier leur contenu html et prouver que notre sélection est correcte.
+2.2 À noter : nous utilisons cette méthode simple pour démontrer le fonctionnement de la sélection. Nous verrons au bloc 2.2 plus de méthodes permettant de modifier le DOM.
+
+3. Sélectionnons maintenant les éléments avec l'attribut "class" de "feedback-error". Comment pouvons-nous y arriver?
+3.1 Validons le fonctionnement en modifiant leur contenu html.
+
+4. Finalement, sélectionnons les éléments avec l'attribut "id" de "first-error".
+4.1 Validons le fonctionnement en modifiant leur contenu html.
+
+================================================================================
+
+Notes supplémentaires : Assurez-vous d'inclure jQuery avant votre fichier JavaScript, car celui-ci dépend des fonctionnalités jQuery.
+    
+================================================================================

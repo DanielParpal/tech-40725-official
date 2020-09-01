@@ -1,0 +1,15 @@
+================================================================================
+
+1. Mettez en place un tableau nommé evaluations_produits, et donnez-lui les valeurs initiales suivantes : 5, 3, 4, 4, 3, 5, 2, 4, 3, 1, 2
+
+2. Parcourez le tableau evaluations_produits, et pour chacune des évaluations :
+Si elle est supérieure ou égale à 4, écrivez dans la console : Produit recommandé! Évaluation de n/5.
+Sinon, écrivez dans la console : Produit à éviter. Évaluation de n/5.
+
+Note : bien évidemment, le n représente la valeur de l'évaluation.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

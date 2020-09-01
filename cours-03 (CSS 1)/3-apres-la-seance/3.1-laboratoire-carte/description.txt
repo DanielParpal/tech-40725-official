@@ -1,0 +1,32 @@
+================================================================================
+
+Les "cartes" sont fréquemment utilisées en développement Web. Elles représentent une composante flexible permettant de combiner une image, un titre, une description et un bouton ("call to action"). On les retrouve dans les sites nous permettant de sélectionner un forfait, dans les sites de commerce électronique, et dans une certaine mesure sur les sites de réseaux sociaux (publication avec photo).
+
+Vous pouvez consulter l'aperçu pour mieux saisir ce que nous appellons la "carte", et pour avoir une idée du résultat final attendu.
+
+Voici le travail à faire pour cet exercice:
+
+1. Téléchargez les fichiers de départ à partir du compte Github.
+
+2. Donnez à la carte le style suivant :
+- Largeur de 300px
+- Bordure de 1px, continue et de couleur "lightgrey"
+- Rayon de bordure de 4px
+    
+3. Donnez au corps de la carte (soyez observateurs sur les attributs "class") le style suivant :
+- Un "padding" de 12px afin de "faire respirer" le texte (espace sur les côtés)
+- Une taille de police de 1.1em
+
+4. Donnez au titre de niveau 5 (<h5>) le style suivant, mais en utilisant un sélecteur class :
+- Une taille de police de 1.25em
+- Une marge de dessus (margin-top) de 15px
+- Une marge de dessous (margin-bottom) de 15px
+
+5. En utilisant un sélecteur de type "class", donnez à l'image une largeur de 100% afin de la contraindre dans l'espace disponible.
+
+================================================================================
+
+Notes supplémentaires : 
+Vous remarquerez que le bouton est déjà stylisé dans le fichier de départ. Étant donné que vous avez déjà l'occasion de pratiquer l'écriture de règles CSS pour un bouton dans le cadre du Projet Nike, je vous ai fourni cette portion ici.
+    
+================================================================================

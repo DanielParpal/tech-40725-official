@@ -1,0 +1,20 @@
+================================================================================
+
+1a. Reprenez vos tableaux parallèles de suggestions et prix de la portion 1 de 3.3-tableaux-paralleles.
+
+1b. Affichez dans la console toutes les suggestions pour lesquelles le prix est inférieur ou égal à 25$.
+
+
+2a. Reprenez vos tableaux parallèles de succursales et distances de la portion 2 de 3.3-tableaux-paralleles.
+
+2b. Pour toutes les succursales :
+2c. Si la succursale est à moins de 5km, affichez dans la console : "La succursale X est à distance de marche (n km)."
+2d. Sinon, affichez dans la console : "La succursale X n'est pas à distance de marche (n km)."
+
+Note : bien évidemment, X et n représentent respectivement le nom de la succursale et la distance.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

@@ -1,0 +1,29 @@
+================================================================================
+
+À votre tour maintenant de vous pratiquer avec les requêtes SELECT, envoyées à partir de votre application PHP!
+
+Pendant les 10 prochaines minutes :
+
+1. Téléchargez les fichiers de départ
+
+Note : Les étapes ci-dessous se font dans le fichier 'index.php'
+
+2. Créez la connexion vers votre base de données MySQL, grâce à l'inclusion du fichier 'db/connexion-MySQL.php'
+
+3. Sélectionnez toutes les données de la table des articles grâce au fichier 'db/select-articles.php'
+
+4a. Trouvez le nom de la variable contenant les données retournées par la requête de sélection, et affichez son contenu grâce à var_dump() dans le fichier index.php.
+4b. Mettez le var_dump() en commentaire après l'avoir utilisé.
+
+5. Affichez le contenu en incluant le fichier d'affichage 'views/app.html.php'
+Note: Au cours 11, nous verrons comment écrire une boucle, tel qu'utilisée dans le fichier 'table.html.php'.
+
+6. Visionnez le contenu de votre page 'index.php', et assurez-vous qu'il reflète ce que vous voyez dans PHPMyAdmin
+
+7. Finalement, ajoutez un item à la main dans votre table (à partir de PHPMyAdmin), et rafraîchissez votre affichage pour voir le changement se refléter.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

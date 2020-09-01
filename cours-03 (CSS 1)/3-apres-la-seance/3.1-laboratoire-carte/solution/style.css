@@ -1,0 +1,35 @@
+/* CSS fourni dans le fichier de départ */
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* CSS à écrire */
+
+.card {
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+.card-body {
+    padding: 12px;
+    font-size: 1.1em;
+}
+
+.card-title {
+    font-size: 1.25em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-img-top {
+    width: 100%;
+}

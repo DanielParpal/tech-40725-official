@@ -1,0 +1,41 @@
+================================================================================
+
+Nous avons regardé la semaine passée (cours 3) comment nous pourrions créer un système de 3 colonnes lorsque notre application est visualisée sur un écran d'une largeur de plus de 992px, qui réduit à 2 colonnes pour les écrans de largeur inférieure à 992px, et qui réduit à 1 colonne pour les écrans de moins de 768px.
+
+Toutefois, si nous souhaitions avoir 4 colonnes? Ou encore deux colonnes de largeur différentes? Si nous voulions que les points de rupture ("breakpoints") soient différents? 
+
+Devrions-nous écrire toutes les combinaisons possibles? Bootstrap nous offre toutes ces options, à condition de comprendre le fonctionnement et de savoir comment bien utiliser les "class"!
+
+Un peu de théorie pour débuter :
+- 12 unités de largeur dans le système de grid
+- 5 types d'écran à gérer (XS, S, M, L, XL)
+- Il faut utiliser une division parent "container" et une autre division "row" pour contenir les colonnes
+
+================================================================================
+
+Pour la démonstration, voici ce que nous ferons :
+
+1. Créons un fichier HTML et ajoutons un lien vers la librairie Bootstrap.
+
+2. Ajoutons une division de "class" "container" dans laquelle nos colonnes seront contenues.
+
+3. Ajoutons deux divisions de "class" "row"
+
+4. À l'intérieur de chacune des "row", ajoutons 2 colonnes:
+4.1 Une avec du lorem ipsum, et une autre avec une image ("img-fluid" pour aider au formattage)
+
+5. Réduisons la largeur des colonnes à 4 unités, elles semblent trop large pour le contenu.
+5.1 Si nous voulons les centrer horizontalement? "justify-content-center"
+5.2 Si nous voulons aligner le contenu verticalement? "align-items-center"
+
+6. Maintenant, nous constatons que peu importe la largeur de l'écran, le format demeure le même (2 colonnes). Comment pourrions-nous faire en sorte, qu'à partir d'un certain point de rupture, le format se modifie?
+
+7. Ajoutons un bouton d'achat pour donner une apparence un peu plus réelle.
+
+Comme vous pouvez le constater, il y aurait d'autres améliorations potentielles, mais nous allons arrêter notre démonstration ici. 
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

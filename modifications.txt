@@ -1,0 +1,2 @@
+Cours 5:
+	- Inverser les étiquettes "Langage de programmation" et "Algorithme" dans les diapos (leur définition respective est inversée)

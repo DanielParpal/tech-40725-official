@@ -1,0 +1,16 @@
+/* CSS fourni dans le fichier de départ */
+
+.container {
+    width: 80%;
+    padding-left: 10%;
+}
+
+
+/* CSS à écrire */
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    padding: 12px 30px;
+    border-radius: 5px;
+}

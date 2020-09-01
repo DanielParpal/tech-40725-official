@@ -1,0 +1,17 @@
+p {
+    color: red;
+    font-family: Arial;
+}
+span {
+    text-transform: capitalize;
+    font-size: 32px;
+}
+a {
+    background-color: pink;
+}
+.feedback-error {
+    background-color: lightgrey;
+}
+#first-error {
+    border: 2px solid blue;
+}

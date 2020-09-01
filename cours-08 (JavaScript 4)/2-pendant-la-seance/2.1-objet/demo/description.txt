@@ -1,0 +1,60 @@
+================================================================================
+
+Nous avons présenté les tableaux au cours 5, une structure de données permettant de regrouper des données de même nature. On parle souvent de "listes" ou de "collections" comme alternatives à la terminologie officielle de "tableaux" (liste de clients, collection de produits, etc.). En théorie, on pourrait utiliser des types différents à l'intérieur d'une même liste/collection, mais en pratique c'est très rarement le cas.
+
+Nous avons continué le travail sur les tableaux au cours 6, et avons pris l'exemple suivant pour nous pratiquer à parcourir des tableaux : une liste de noms de chandails vendus par MEC.
+
+D'ailleurs, pour les démonstrations du cours d'aujourd'hui, nous conserverons l'application Web de MEC comme source d'inspiration :
+https://www.mec.ca/fr/sexe/femmes/produits/vetements/manteaux-en-laine-polaire-chandails-et-chandails-a-capuchon/c/271
+
+Il existe une structure de données permettant d'associer des valeurs à des "clés". En JavaScript, nous appelons cette structure un "objet". Contrairement au tableau, nous ne souhaitons pas ici modéliser des données de même nature sous un format de liste/collection, mais plutôt modéliser des données interreliées. 
+
+Prenons un exemple pour clarifier ce que nous voulons dire. Pour un chandail donné, nous pourrions vouloir modéliser son titre, son prix, et son évaluation sous une structure unifiée. Nous voyons ici que ces attributs (clés) sont de natures différentes, mais sont reliés et appartiennent au même objet.
+
+Note : Dans le cadre de ce cours, la notion d'objet se limite au "regroupement de données apparentées". Nous ignorons la programmation orientée objet (un sujet toutefois fascinant). 
+
+Nous verrons, au cours 11, l'équivalent de l'objet JavaScript en PHP : le tableau associatif. Cette structure clé-valeur peut donc porter un nom différent dans d'autres langages de programmation, mais avec le même objectif. D'autres exemples sont : le dictionnaire en Python, le hash en Ruby, ou encore le HashMap en Java. 
+
+Prenons donc le temps de décortiquer l'exemple de l'objet chandail. Nos 3 clés sont : 
+- Le nom du chandail 
+- Le prix du chandail
+- L'evaluation du chandail
+
+D'un point de vue schématisé, nous voudrions exprimer la relation entre ces clés et leurs valeurs respectives de cette manière :
+
+nom : "Cardigan Covert de Arc'teryx - Femmes"
+prix : 199.95
+evaluation : 4.5
+
+Note au lecteur curieux : Éventuellement, nous nous retrouverons avec plusieurs objets de type "chandail" que nous voudrons regrouper dans une structure de données unifiée, mais allons-y une étape à la fois. 
+
+================================================================================
+
+Commençons donc à écrire un peu de code pour mieux comprendre la syntaxe et le rôle de l'objet.
+
+1. Modélisons un premier chandail, en utilisant cette structure de données qu'on appelle un objet. 
+
+2. Affichons-le dans la console.
+
+3. Prenons le temps de comparer l'objet avec un tableau. 
+Note : assurons-nous de comprendre dans quels cas l'objet est un meilleur choix, et dans quels cas le tableau est un meilleur choix.
+Note 2 : avec un tableau, nous avons également une clé qu'on appelle un "index". Cette clé est toutefois numérique et implicite dans plusieurs opérations.
+
+Maintenant, en utilisant l'objet :
+4a. Affichons le nom du premier chandail dans la console.
+4b. Regardons la syntaxe alternative pour accéder à une des valeurs.
+
+5a. Modifions le prix de ce chandail.
+5b. Affichons-le dans la console.
+
+6. Modélisons maintenant un deuxième chandail.
+
+7. Affichons-le dans la console.
+
+Voilà, c'était l'introduction aux objets, une structure de données permettant de définir et utiliser un ensemble d'informations apparentées sous la forme 'clé: valeur'.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

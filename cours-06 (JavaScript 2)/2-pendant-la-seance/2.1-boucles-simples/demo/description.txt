@@ -1,0 +1,58 @@
+================================================================================
+
+Nous avons introduit le concept d'algorithme (une suite finie et non ambiguë d'opérations ou d'instructions permettant de résoudre une classe de problèmes) à la séance 5, et avons étudié les décisions (if/else) comme un premier pilier de l'algorithmie.
+
+Une autre idée très importante dans l'écriture d'algorithmes est la répétition. Nous voulons effectuer la même tâche (ou une tâche très similaire) plusieurs fois, sans avoir à dupliquer notre code (ex. copier-coller un bloc de code).
+
+Prenons le temps de regarder un exemple où la répétition est présente. Nous verrons qu'elle peut être cachée pour l'oeil non expérimenté, mais qu'elle est en fait partout dans les applications de commerce électronique (et dans les logiciels en général).
+
+Voici le site de Mountain Equipment Coop (MEC), une application de commerce électronique typique. On affiche un catalogue de produits:
+https://www.mec.ca/fr/sexe/femmes/produits/vetements/manteaux-en-laine-polaire-chandails-et-chandails-a-capuchon/c/271
+
+Prenons spécifiquement le titre de chacun des produits (nous verrons plus tard aujourd'hui, ainsi qu'au cours 8, comment modéliser des structures de données plus avancées).
+
+En informatique, les questions d'entrevue tournent souvent autour de la modélisation de données et leur traitement avec les algorithmes.
+
+Ainsi, conceptuellement, comment pourrions-nous modéliser l'ensemble des titres, puis les afficher tour à tour dans la console?
+
+Gardons cette idée en tête pendant l'ensemble de la séance d'aujourd'hui. Nous commencerons avec des boucles simples, mais à la fin de la séance, nous jouerons avec des tableaux parallèles et des boucles avec condition!
+
+================================================================================
+
+Ceci étant dit, introduisons l'idée de boucle en programmation, qui rend possible la répétition.
+
+La boucle à connaître obligatoirement dans le cours est la boucle 'for'. À noter : il y en existe plusieurs autres, et nous verrons d'ailleurs aussi la boucle 'for..of' à la fin de la séance. Son utilisation sera toutefois facultative.
+
+Regardons la syntaxe de la boucle 'for'.
+
+Tiré directement de l'article partagé sur ZoneCours 
+(https://developer.mozilla.org/fr/docs/Apprendre/JavaScript/Building_blocks/Looping_code)
+---------------------------------------------------
+for (initialisation; condition de sortie; expression finale) {
+  // code à exécuter
+}
+
+Nous avons ici :
+
+1. Le mot-clé for, suivi par des parenthèses.
+
+2. A l'intérieur des parenthèses, on a trois "éléments" :
+	a) Une initialisation — il s'agit souvent d'une variable initialisée à une certaine valeur, qui est incrémentée afin de compter le nombre de fois où la boucle s'est exécutée. On peut également la nommer compteur.
+	b) Une condition de sortie — comme mentionné précédemment, cela définit le moment où la boucle doit arrêter de s'exécuter. C'est généralement une expression contenant un opérateur de comparaison, un test pour voir si la condition de sortie est atteinte.
+	c) Une expression finale — Elle est toujours évaluée (ou exécutée) chaque fois que la boucle a effectué une itération complète. Cela sert souvent à incrémenter (ou dans certains cas décrémenter) le compteur, pour le rapprocher de la valeur de la condition de sortie.
+
+3. Des accolades contenant un bloc de code — ce code sera exécuté chaque fois que la boucle itère.
+---------------------------------------------------
+
+Comme souvent, c'est bien beau de voir la théorie, mais un exemple concret (ici nous en ferons même deux) permet de mieux comprendre.
+
+a) Premier exemple : affichons 5 fois "Hello world" dans la console.
+À noter : pour l'instant, nous travaillons dans la console, parce que nous n'avons pas encore appris comment modifier le contenu de notre page (grâce au DOM). Soyez patients, au cours 7 nous ferons exactement cela!
+
+b) Deuxième exemple : affichons les nombres de 0 à 9, en utilisant la variable initialisée (le "compteur" dans la boucle 'for'.
+
+================================================================================
+
+Notes supplémentaires : 
+    
+================================================================================

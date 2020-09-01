@@ -1,0 +1,11 @@
+Matériel de la capsule
+
+Prérequis :
+- Être solide avec les bases JavaScript du cours 5 (je ne pourrais assez insister!)
+	- Particulièrement les tableaux et les conditions
+
+Préparation :
+- Lecture de "Les boucles dans le code"
+	- L'exemple important est celui avec les chats, dans "Les boucles dans le code"
+- Lecture de "Boucles et itérations"
+- Comme toujours, les sections spécifiques à préparer sont sur ZoneCours
