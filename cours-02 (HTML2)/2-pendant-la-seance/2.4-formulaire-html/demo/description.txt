@@ -3,9 +3,9 @@
 Avant de débuter la programmation, prenons un peu de temps pour comprendre le rôle des formulaires.
 
 Quelques exemples : 
-Lululemon (https://shop.lululemon.com/)
-Nike (https://www.nike.com/ca/)
-Vans (https://www.vans.ca/shop/womens-shoes-en-ca)
+- Lululemon (https://shop.lululemon.com/)
+- Nike (https://www.nike.com/ca/)
+- Vans (https://www.vans.ca/shop/womens-shoes-en-ca)
 
 Ceci étant fait, passons maintenant à la programmation!
 
