@@ -1,24 +1,25 @@
 ================================================================================
 
-1. Commençons par insérer le template de base HTML. En rappel, vous pouvez utiliser "html" suivi de la touche Tab pour le générer.
+1. Commençons par insérer le template de base HTML.
 
 2. Passons maintenant au vif du sujet : les tables HTML
 Quel est leur rôle? Organiser les données de type tabulaire.
 À titre d'exemple, regardons :
-- Le site du NASDAQ (http://www.nasdaq.com/)
+- Le site du NASDAQ (https://www.nasdaq.com/market-activity)
 - Le site de la NHL (https://www.nhl.com/standings)
+À noter: les tables ne doivent PAS être utilisées pour formatter le contenu visuellement. Il existe des techniques appropriées pour cela.
 
-3.1 Cela nous permet par le fait même de voir comment inspecter une page HTML existante dans Chrome afin d'examiner sa structure!
+Prenons le temps d'inspecter ces pages dans Chrome afin d'examiner leur structure.
 
 3.3 La balise mère : <table>
 
 3.4 Chaque rangée doit être définie grâce à la balise <tr>
 
-3.5 Les cellules contiennent les données, et sont définies grâce à la balise <td>
+3.5 Les cellules contiennent les données, et sont définies grâce à la balise <td> (table data)
 
-3.6 Chaque rangée/ligne doit contenir une quantité identique de cellules
+3.6 Chaque rangée/ligne doit contenir une quantité identique de cellules (dans le cadre du cours)
 
-3.7 Pour l'en-tête, utiliser <th> au lieu de <td>
+3.7 Pour l'en-tête, utiliser <th> (table header) au lieu de <td>
 
 3.8 Finalement, regroupons les rangées du corps de la table à l'intérieur d'une  balise <tbody> et mettons la rangée d'en-tête dans une balise <thead>
 

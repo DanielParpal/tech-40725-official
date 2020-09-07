@@ -17,6 +17,6 @@ Prenez 10 minutes pour créer un formulaire HTML.
 
 ================================================================================
 
-Notes supplémentaires : Il existe certaines technologies permettant d'utiliser un formulaire tout en évitant le rafraîchissement de la page. Nous en reparlerons plus tard dans la session (Bloc : Javascript).
+Notes supplémentaires : Il existe certaines technologies permettant d'utiliser un formulaire tout en évitant le rafraîchissement de la page (comme le AJAX). Cela sort malheureusement du cadre du cours.
     
 ================================================================================

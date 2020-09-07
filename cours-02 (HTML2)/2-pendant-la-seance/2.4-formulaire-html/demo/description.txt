@@ -3,9 +3,9 @@
 Avant de débuter la programmation, prenons un peu de temps pour comprendre le rôle des formulaires.
 
 Quelques exemples : 
-Youtube (https://www.youtube.com/)
-Desjardins (https://www.desjardins.com/)
-Zonecours (https://zonecours2.hec.ca/)
+Lululemon (https://shop.lululemon.com/)
+Nike (https://www.nike.com/ca/)
+Vans (https://www.vans.ca/shop/womens-shoes-en-ca)
 
 Ceci étant fait, passons maintenant à la programmation!
 
@@ -26,7 +26,7 @@ Ceci étant fait, passons maintenant à la programmation!
 - id
 Les attributs obligatoires dans le cadre du cours sont : type, name et id
 
-4.2 Ajoutons donc 2 champs au formulaire (ex. prenom et age), en prenant le temps de configurer les champs avec les attributs ci-haut.
+4.2 Ajoutons donc 2 champs au formulaire (ex. nom et rétroaction), en prenant le temps de configurer les champs avec les attributs ci-haut.
 
 4.3 Ajoutons un 3ème champ au formulaire, mais maintenant de type "submit", avec une valeur ("value") de "Soumettre". Que voyons-nous?
 

@@ -9,7 +9,7 @@ a) class
 b) id
 
 1. Prenons le temps de générer un template de base à nouveau
-2. Créons trois division (balise <div>)
+2. Créons trois divisions (balise <div>)
     Note : Nous allons utiliser les "snippets" avec la touche tab
 3. Ajoutons un peu de contenu pour chacune des divisions 
     Note : le générateur lorem ipsum peut être très utile
