@@ -1,6 +1,6 @@
 ================================================================================
 
-Les tables HTML sont par défaut très sobres et ennuyantes. Nous regarderons comment styliser une table dans ce "laboratoire". Cela vous encouragera à pratiquer l'utilisation de plusieurs propriétés CSS. 
+Les tables HTML sont par défaut (sans style ajouté) très sobres et ennuyantes. Nous regarderons comment styliser une table dans ce "laboratoire". Cela vous encouragera à pratiquer l'utilisation de plusieurs propriétés CSS. 
 
 En exercice après séance, vous pourrez continuer la pratique de l'écriture de règles CSS avec le "laboratoire-carte", et découvrir d'autres propriétés CSS par le fait même.
 

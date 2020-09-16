@@ -1,0 +1,13 @@
+p {
+	color: red;
+	font-family: Arial;
+}
+span, a {
+	font-size: 1.4em;
+}
+.paragraphe-test {
+	border: 1px solid blue;
+}
+#premier-paragraphe {
+	background-color: lightgrey;
+}

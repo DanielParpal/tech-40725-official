@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Démo 2.1 - Les sélecteurs (et la syntaxe de base)</title>
+	<style type="text/css">
+		p {
+			color: red;
+			font-family: Arial;
+		}
+		span, a {
+			font-size: 1.4em;
+		}
+		.paragraphe-test {
+			border: 1px solid blue;
+		}
+		#premier-paragraphe {
+			background-color: lightgrey;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<p id="premier-paragraphe" class="paragraphe-test">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, <span class="paragraphe-test">consectetur consectetur</span> consectetur adipisicing elit, <a href="http://amazon.ca">Lien vers Amazon</a> sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+		</p>
+		<p class="paragraphe-test">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+		</p>
+	</div>
+</body>
+</html>

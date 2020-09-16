@@ -4,7 +4,7 @@ Nous avons vu comment écrire du CSS à l'intérieur d'un fichier HTML, grâce �
 
 Cette approche est toutefois à éviter - à part pour effectuer quelques tests rapides ou si cela est spécifié - pour quelques raisons, dont :
     - En programmation, nous essayons d'isoler les responsabilités des fichiers et morceaux de code afin d'être le plus clair possible. Dans ce cas-ci, nous voulons isoler le code définissant le style (CSS) du code définissant la structure (HTML).
-    - Nous voulons pouvoir réutiliser un même fichier CSS pour plusieurs pages HTML sans avoir à copier-coller du code (concept "DRY")
+    - Nous voulons pouvoir réutiliser un même fichier CSS pour plusieurs pages HTML sans avoir à copier-coller du code (concept "DRY" Don't Repeat Yourself)
 
 Nous verrons donc comment il est possible d'écrire du CSS dans un fichier séparé et de l'inclure à partir du fichier HTML
 

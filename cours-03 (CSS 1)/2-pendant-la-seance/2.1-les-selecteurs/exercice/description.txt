@@ -6,7 +6,7 @@ Prenons 10-15 minutes pour pratiquer l'utilisation des trois types de sélecteur
 - .class
 - #id
 
-1. Téléchargez le fichier de départ, et renommez-le pour index.html si vous le désirez
+1. Téléchargez le fichier de départ, et renommez-le si vous le désirez
 
 2. Ouvrez la balise de style dans la section <head> du fichier HTML, afin de pouvoir écrire du CSS.
 
