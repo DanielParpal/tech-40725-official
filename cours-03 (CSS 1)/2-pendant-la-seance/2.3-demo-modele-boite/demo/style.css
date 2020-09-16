@@ -1,0 +1,5 @@
+p {
+	border-top: 1px solid black;
+	border-right: 2px dashed red;
+	padding: 12px 16px 20px 24px;
+}

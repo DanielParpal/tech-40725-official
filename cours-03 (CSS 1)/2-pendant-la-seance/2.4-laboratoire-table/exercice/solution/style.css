@@ -1,0 +1,30 @@
+/* CSS fourni dans le fichier de départ */
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+/* CSS à écrire */
+.positive-variation {
+	color: darkgreen;
+}
+
+.negative-variation {
+	color: red;
+}
+
+th {
+	border-bottom: 2px solid #dee2e6;
+}
+
+th, td {
+	padding: 12px;
+	border-top: 1px solid #dee2e6;
+}
