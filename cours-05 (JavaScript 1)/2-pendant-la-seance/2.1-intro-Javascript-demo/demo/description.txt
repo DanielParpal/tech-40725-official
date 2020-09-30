@@ -1,6 +1,6 @@
 ================================================================================
 
-Effectuons un rappel du rôle de Javascript : rendre notre page interactive.
+Effectuons un rappel du rôle de Javascript : rendre les éléments de notre page interactifs et dynamiques.
 
 Regardons le site d'Amazon (amazon.ca) pour essayer de comprendre ce qu'on veut dire par "interactivité" :
 - En page d'accueil, nous avons un carrousel ('carousel')
@@ -8,7 +8,7 @@ Regardons le site d'Amazon (amazon.ca) pour essayer de comprendre ce qu'on veut 
 - Allons ensuite voir la page d'un produit avec plusieurs variantes
   - Passons notre souris par dessus quelques options : voyez-vous?
 
-L'intégration est tellement bien réussie qu'on vient à prendre cette interactivité comme étant "natif" au Web (ex. un élément HTML "carousel", ou "menu-deroulant").
+L'intégration est tellement bien réussie qu'on vient à prendre cette interactivité comme étant "native" au Web (ex. un élément HTML "carousel", ou "menu-deroulant").
 
 Toutefois, derrière tout cela, il y a du JavaScript (beaucoup!). Nous débutons le Bloc 2 (JavaScript) aujourd'hui, et nous regarderons la syntaxe de base de ce langage.
 
@@ -18,9 +18,9 @@ JavaScript est le premier "vrai" langage de programmation à l'étude cette sess
 
 Nous avons déjà parlé de HTML et CSS :
 HTML : Langage de balisage (Hypertext Markup Language)
-CSS : Langage de feuilles de style
+CSS : Langage de style
 
-Ainsi, lorsque nous utilisons l'expression "langage de programmation" pour le HTML et le CSS, il s'agit en fait d'un abus de langage.
+Ainsi, lorsque nous utilisons l'expression "langage de programmation" pour le HTML et le CSS, il s'agit d'un abus de langage.
 
 Regardons une définition un peu plus stricte d'un langage de programmation :
 
@@ -52,11 +52,9 @@ Tout comme pour le CSS, l'approche à préconiser est celle d'inclure un fichier
 
 ================================================================================
 
-En Javascript, vous ne verrez pas à l'écran le résultat de votre code comme pour le HTML. Éventuellement, nous serons en mesure de manipuler les éléments HTML avec Javascript, mais en cours de développement, il nous faut un outil dédié pour voir le fruit de nos efforts.
+En Javascript, vous ne verrez pas à l'écran le résultat de votre code (comme pour le HTML) sans utiliser l'API du DOM dont nous parlerons au cours 7. Éventuellement, nous y arriverons, mais pour pouvoir comprendre ce qui se passe avec notre code dès maintenant, nous allons introduire un outil très pratique: la console. 
 
 Note : Il est vrai que "document.write()", tel que présenté dans le livre, nous permet d'écrire dans la fenêtre, mais cela est trop avancé pour débuter.
-
-La console Javascript est un outil dédié à notre développement : elle permet de visualiser ce qui se passe dans notre code! Nous pouvons aussi effectuer des tests directement à l'intérieur de la console.
 
 À titre d'exemple, si je voulais écrire Bonjour, Monde! en HTML, j'écrirais simplement "Bonjour, Monde!" dans un fichier HTML et on le verrais à l'écran. Par contre, je ne pourrais pas faire la même chose en Javascript. 
 
@@ -68,7 +66,7 @@ La console est donc notre "fenêtre" vers le code Javascript. Nous l'utiliserons
 
 ================================================================================
 
-Donc pour cette démonstration :
+Donc pour cette démonstration:
 
 Décortiquons ce qui se passe dans la ligne suivante :
 console.log("Bonjour, Monde!");

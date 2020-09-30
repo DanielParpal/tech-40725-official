@@ -2,7 +2,7 @@
 
 Nombres :
 
-Dans la section sur les nombres, nous ne prendrons pas le temps d'entrer dans les détails très techniques sur les différents types de nombre - entiers, décimaux, etc - ainsi que sur les différents systèmes (décimal, hexadécimal, etc.). Cela est trop poussé pour le cadre du cours.
+Dans la section sur les nombres (et les booléens), nous ne prendrons pas le temps d'entrer dans les détails très techniques sur les différents types de nombre - entiers, décimaux, etc - ainsi que sur les différents systèmes (décimal, hexadécimal, etc.). Cela est trop poussé pour le cadre du cours.
 
 L'objectif est de comprendre comment utiliser les nombres :
 - Leur écriture (sans guillemets, avec un point pour les décimales)
@@ -26,11 +26,13 @@ Les opérateurs de comparaison :
 8. Plus petit que (<)
 9. Égal à (==)
 
+10. Profitons-en pour parler des booléens!
+
 En ouverture :
-10. Discutons du concept d'ordre de précédence
-11. Comment ajouter un commentaire
-12. cmd + K pour nettoyer la console
-13. Plus d'informations dans les articles disponibles dans Zonecours
+11. Discutons du concept d'ordre de précédence
+12. Comment ajouter un commentaire
+13. cmd + K pour nettoyer la console
+14. Plus d'informations dans les articles disponibles dans Zonecours
 
 ================================================================================
 

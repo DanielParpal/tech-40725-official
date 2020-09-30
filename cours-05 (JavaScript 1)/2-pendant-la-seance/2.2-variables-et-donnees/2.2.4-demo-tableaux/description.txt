@@ -14,8 +14,6 @@ Démonstrations :
 1.1 Analysons les différents éléments formant le tableau
 1.2 Cette méthode est plus simple que celle présentée dans le livre! Elle correspond à celle de l'article Mozilla, disponible sur Zonecours.
 
-Note : vous pouvez choisir l'approche qui vous convient
-
 Jouons un peu avec notre tableau :
 2. Pour lire/utiliser un élément?
 3. Pour modifier un élément?

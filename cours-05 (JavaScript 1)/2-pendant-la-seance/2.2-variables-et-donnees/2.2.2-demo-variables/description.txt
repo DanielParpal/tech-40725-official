@@ -18,6 +18,7 @@ Démonstration :
 
 1) Écrivons une ligne pour donner la valeur 42 à une variable nommée "age"
 2) Analysons chacun des éléments de la ligne
+2.1) Le signe d'égalité doit être vu comme un symbole d'assignation
 3) Si je voulais utiliser cette variable? 
 3.1) Dans une addition? 
 3.2) Pour afficher sa valeur dans la console?
