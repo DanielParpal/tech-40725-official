@@ -4,9 +4,10 @@ Nombres :
 
 Dans la section sur les nombres (et les booléens), nous ne prendrons pas le temps d'entrer dans les détails très techniques sur les différents types de nombre - entiers, décimaux, etc - ainsi que sur les différents systèmes (décimal, hexadécimal, etc.). Cela est trop poussé pour le cadre du cours.
 
-L'objectif est de comprendre comment utiliser les nombres :
-- Leur écriture (sans guillemets, avec un point pour les décimales)
+L'objectif est de comprendre comment utiliser les nombres et les booléens:
+- Écriture des nombres (sans guillemets, avec un point pour les décimales)
 - Les principaux opérateurs
+- Utilisation des booléens
 
 ================================================================================
 
