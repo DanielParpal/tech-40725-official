@@ -1,0 +1,17 @@
+.book-display {
+    text-align: center;
+    position: relative;
+}
+
+.btn-quick-look {
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    bottom: 15px;
+    left: 40px;
+    right: 40px;
+    margin: auto;
+    
+    /*Activer la règle ci-dessous pour cacher les boutons au départ */
+    display: none;
+}
