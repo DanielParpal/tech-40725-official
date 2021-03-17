@@ -19,7 +19,7 @@ Conseil pour chacune des questions suivantes : utilisez un console.log() pour ob
 1f. Comment feriez-vous pour afficher la source de l'image du deuxième pantalon?
 1g. Quel est le type de donnée contenu par les clés 'couleur' et 'image' (nombre, booléen, chaîne de caractères, etc.)? Comment avez-vous fait pour le savoir?
 
-Questions plus avancées - à l'examen il n'y aura pas ce type de structure de données imbriquée, mais il est bon de se pratiquer avec des problèmes plus complexes! : 
+Questions plus avancées: 
 1h. Quelle est la structure de données (tableau? objet? tableau d'objets? etc.) contenue sous la clé 'disponibilites' pour chacun des pantalons?
 1i. Comment avez-vous fait pour le savoir?
 1j. Combien d'éléments y a-t-il pour chacun des tableaux?
@@ -30,7 +30,7 @@ Questions plus avancées - à l'examen il n'y aura pas ce type de structure de d
 
 --------------------------------------------------------------------------------
 
-Maintenant que vous êtes confortable avec la structure de données, passons au vif du sujet, et programmons notre application. Les questions 2 à 6 reflètent le niveau attendu pour un examen final - vous devriez être en mesure de composer cela sans indices/aide.
+Maintenant que vous êtes confortable avec la structure de données, passons au vif du sujet, et programmons notre application. Les questions 2 à 6 reflètent le niveau attendu pour un examen final (le projet de session est toutefois plus difficile alors les questions 7 à 11 sont pertinentes!) - vous devriez être en mesure de composer cela sans indices/aide.
 
 2. Mettez en place un gestionnaire d'événement pour observer un 'mouseenter' sur tous les éléments HTML permettant de sélectionner par couleur (trouvez la classe appropriée).
 
@@ -49,7 +49,7 @@ Vous aurez besoin d'un sélecteur id approprié, ainsi que de la méthode .attr(
 
 --------------------------------------------------------------------------------
 
-Portion plus avancée : pour la suite de l'exercice, nous aurons besoin des tableaux d'objets stockés sous les clés 'disponibilites'. Comme mentionné précédemment, il n'y aurait pas une telle structure imbriquée à l'examen, mais il est bon de se pratiquer dans des contextes plus complexes.
+Portion plus avancée : pour la suite de l'exercice, nous aurons besoin des tableaux d'objets stockés sous les clés 'disponibilites'. Comme mentionné précédemment, il n'y aurait pas une telle structure imbriquée à l'examen, mais il est bon de se pratiquer dans des contextes plus complexes, et cela pourrait (pourra!) être utile pour le projet de session.
 
 Toujours à l'intérieur de la condition décrite en 5, donc à la suite de la ligne écrite en 6 :
 

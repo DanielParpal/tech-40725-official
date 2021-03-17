@@ -24,6 +24,13 @@ Votre travail est de répliquer le comportement présenté dans l'aperçu vidéo
 Conseil : au besoin, effectuez quelques tests en isolation avec ces méthodes avant de débuter l'exercice.
 Vous êtes aussi encouragés à comprendre le rôle de la classe "unavailable", en l'appliquant manuellement (directement dans le HTML) sur les éléments responsables d'indiquer la disponibilité des pantalons. Assurez-vous toutefois d'enlever les classes après vos tests.
 
+De plus, prenez le temps d'observer les implications de l'ajout d'une nouvelle variante de couleur: 'brown'. Il suffit:
+- d'ajouter les données à notre tableau d'objet 'pantalons'
+- d'ajouter la tuile de couleur au HTML, avec l'attribut data et les classes appropriés
+- d'écrire une règle CSS pour le sélecteur .color-brown (cela a été fait pour vous dans style.css)
+- d'ajouter l'image images/pants-brown.png au dossier approprié, assumant que ce soit la source spécifiée pour le nouveau pantalon (cela a été fait pour vous)
+AUCUNE modification aux algorithmes n'est nécessaire, car ils sont pleinement dynamiques. Avec quelques connaissances supplémentaires et un "back-end" fonctionnel, nous pourrions réduire les interventions manuelles encore plus, voire les éliminer complètement.
+
 ================================================================================
 
 Notes supplémentaires : 

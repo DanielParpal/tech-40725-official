@@ -4,7 +4,7 @@ Cet exercice se veut une pratique de vos habiletés JavaScript et jQuery (partic
 
 Il s'agit de l'exercice intégrateur le plus simple des 3 exercices.
 
-Regardons une définition d'un 'carrousel', tirée de la documentation Bootstrap :
+Regardons une définition d'un 'carousel', tirée de la documentation Bootstrap :
 "The carousel is a slideshow for cycling through a series of content [...]"
 
 Les carrousel sont très populaires, car ils donnent un bel effet d'interactivité à vos applications.

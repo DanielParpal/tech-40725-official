@@ -2,7 +2,7 @@
 
 Cet exercice se veut une pratique de vos habiletés JavaScript et jQuery.
 
-Il s'agit de l'exercice intégrateur de niveau intermédiaire (à mi-chemin entre le carrousel simple et l'exercice des disponibilités par couleur). C'est un bon reflet du niveau attendu pour un problème intégrateur à l'examen.
+Il s'agit de l'exercice intégrateur de niveau intermédiaire (à mi-chemin entre le carrousel simple et l'exercice des disponibilités par couleur). C'est un bon reflet du niveau attendu pour un problème intégrateur à l'examen (note: le projet de session est plus difficile que l'examen toutefois). 
 
 Contexte : Plusieurs applications de commerce électronique vous permettent de comparer leurs produits "côte-à-côte" (side by side).
 

@@ -48,7 +48,7 @@ Pensez au sélecteur permettant d'y arriver simplement... Vous aurez besoin de l
 Maintenant, à l'extérieur de la condition et de ses actions (points 6 à 12), nous voulons générer la liste des motos comparées.
 Pour y arriver, nous allons parcourir le tableau des motos et générer la liste finale à partir des motos ayant une valeur de 1 pour la propriété "comparee".
 
-Vous ne serez pas guidé(e) dans un niveau de détails aussi élevé la dernière section. Voici quelques pointeurs: 
+Vous ne serez pas guidé(e) dans un niveau de détails aussi élevé pour la dernière section. Voici quelques pointeurs: 
 - Vous aurez besoin d'une boucle, d'une condition, ainsi que d'une opération jQuery sur la liste HTML avec la méthode .append().
 - Conseil : Prenez le temps d'ajouter un item de liste manuellement dans votre fichier HTML afin de comprendre ce qui doit être "append" pour générer une liste. Bien évidemment, n'oubliez pas d'enlever l'item de liste après avoir effectué le test.
 
