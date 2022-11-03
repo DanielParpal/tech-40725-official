@@ -1,0 +1,26 @@
+Bienvenue au cours 9, où nous ferons l'intégration des concepts du Bloc 2 JavaScript.
+
+Inspiration: Browns (voir capture d'écran inspiration.png)
+https://www.brownsshoes.com/en/women/boots
+
+Résumé:
+Nous souhaitons présenter 4 bottes potentiellement disponibles en 6 tailles différentes, et afficher 6 boutons de taille permettant de filtrer les bottes. Le clic sur un bouton de taille doit lui donner un arrière-plan foncé (qui est conservé en cliquant ailleurs), et filtrer les bottes disponibles pour cette taille.
+
+Voir l'aperçu vidéo du résultat final avant de débuter l'exercice. Nous résumerons aussi les simplifications principales ci-dessous.
+
+Plusieurs simplifications seront fortement suggérées, afin d'être en mesure de réaliser l'exercice avec les concepts vus en classe uniquement:
+- Il y aura seulement 6 tailles potentiellement disponibles, qui seront les mêmes pour toutes les bottes : 5, 6, 7, 8, 9, 10
+- Il y aura seulement 4 bottes
+- Nous implémenterons le filtre de taille uniquement
+- Un clic sur le bouton de taille présentement sélectionnée n'enlèvera PAS le filtre
+- Un clic sur un bouton de taille n'étant pas présentement sélectionée  enlèvera le filtre sur la taille présentement sélectionnée, et appliquera le filtre sur la nouvelle taille
+- Nous ne tiendrons pas compte des effets de glissement de souris ("hover") au-dessus des images principales
+- Rien ne se passe quand on clique sur "Ajouter"
+
+
+Spécifications techniques générales:
+1. Les données doivent être modélisées avec les structures et types appropriés en JavaScript (déjà fait pour vous)
+2. L'état initial de la page (HTML + CSS) doit être généré dynamiquement, en utilisant les données (JavaScript)
+3. Les algorithmes donnant l’interactivité à la page doivent être dynamiques - en d'autres mots, ils doivent utiliser les données modélisées en 1.
+
+Un squelette HTML a déjà été construit pour vous aider à débuter.
