@@ -5,11 +5,11 @@ Bloc 3: Programmation en langage serveur, et bases de données.
 
 Nous avons choisi PHP pour la portion back-end car il s'agit d'un langage très populaire et assez facile à apprendre, mais nous aurions très bien pu considérer d'autres options (Ruby, Python, Java, etc.).
 
-La logique d'affaires (le coeur de l'application) se situe au niveau de la composante Back-End. Il est évident que deux séances (9 et 11) ne suffisent pas à présenter tout PHP, mais l'essentiel est de comprendre :
+La logique d'affaires (le coeur de l'application) se situe au niveau de la composante Back-End. Il est évident que deux séances (10 et 12) ne suffisent pas à présenter tout PHP, mais l'essentiel est de comprendre :
 1) Comment un langage back-end permet de générer du contenu dynamique
-2) Comment un langage back-end agit comme pivot entre le front-end et la base de données (plus d'informations là-dessus aux cours 10 et 11)
+2) Comment un langage back-end agit comme pivot entre le front-end et la base de données (plus d'informations là-dessus aux cours 11 et 12)
 
-Avant de démarrer, insistons sur la similitude conceptuelle et syntaxique entre JavaScript et PHP. Les acquis des cours 5 à 8 vous aideront grandement à utiliser le PHP.
+Avant de démarrer, insistons sur la similitude conceptuelle et syntaxique entre JavaScript et PHP. Les acquis des cours 5 à 9 vous aideront grandement à utiliser le PHP.
 
 ================================================================================
 

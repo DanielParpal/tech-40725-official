@@ -24,6 +24,6 @@ Maintenant :
 
 Nous ne verrons pas l'équivalent du .includes() (permet de tester la présence d'un élément dans un tableau en JavaScript), mais pour ceux qui sont curieux, vous pouvez chercher la fonction 'in_array()' en PHP.
 
-Note : nous verrons les boucles et d'autres concepts plus avancés au cours 11.
+Note : nous verrons les boucles et d'autres concepts plus avancés au cours 12.
 
 ================================================================================
