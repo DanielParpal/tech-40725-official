@@ -1,6 +1,6 @@
 <?php 
 
-// Tiré du cours 9
+// Tiré du cours 10
 $titre = 'Chandail pour garçons';
 $description = 'Collection Zara :<br>Cardigan pour garçons, disponibles en différentes tailles.';
 $quantite = 1;

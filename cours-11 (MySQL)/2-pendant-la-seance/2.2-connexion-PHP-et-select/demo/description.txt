@@ -22,7 +22,7 @@ Note : Nous voyons ici une requête SELECT à l'oeuvre, envoyée à partir de no
 Et maintenant, si j'ajoutais une ligne dans la table 'publications' à partir de PHPMyAdmin, que verrions-nous?
 
 Informations :
-- Développez l'habitude d'utiliser var_dump() pour observer le contenu retourné par vos requêtes! Cela vous aidera à écrire vos algorithmes de génération de contenu dynamique (en particulier les boucles dont nous parlerons au cours 11).
+- Développez l'habitude d'utiliser var_dump() pour observer le contenu retourné par vos requêtes! Cela vous aidera à écrire vos algorithmes de génération de contenu dynamique (en particulier les boucles dont nous parlerons au cours 12).
 
 ================================================================================
 

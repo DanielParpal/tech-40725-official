@@ -1,6 +1,6 @@
 <?php 
 
-// Reprenons la démonstration du cours 9, où on présente les derniers cours
+// Reprenons la démonstration du cours 10, où on présente les derniers cours
 // auxquels un client a participé.
 
 // Définition du tableau des titres de cours

@@ -4,7 +4,7 @@
 
 Ici, nous ne continuerons pas sur l'exercice des tailles ("S", "M", "L"), car il n'offre pas un contexte intéressant pour les tableaux associatifs.
 
-Reprenons plutôt l'exercice des recettes de Chocolat Favoris du cours 9 comme source d'inspiration. 
+Reprenons plutôt l'exercice des recettes de Chocolat Favoris du cours 10 comme source d'inspiration. 
 
 Ici, vous définirez 2 recettes distinctes, en utilisant les tableaux associatifs, puis vous utiliserez les données pour générer deux cartes Bootstrap (cours 4).
 

@@ -1,6 +1,6 @@
 ================================================================================
 
-Pour les démonstrations du cours 11, notre inspiration sera la table HTML des cours de fitness qui a été introduite au cours 9. Prenons un instant pour se rappeler son apparence.
+Pour les démonstrations du cours 12, notre inspiration sera la table HTML des cours de fitness qui a été introduite au cours 10. Prenons un instant pour se rappeler son apparence.
 
 Cela nous permettra de couvrir les sujets du cours d'aujourd'hui :
 (2.1) - Comment parcourir un tableau en PHP grâce à la boucle foreach(), et écrire un algorithme de génération dynamique de contenu HTML avec une boucle
@@ -29,7 +29,7 @@ Petite mention : pour ceux qui utilisent le for..of en JavaScript, faites attent
 
 La syntaxe est la suivante :
 
-// Pour un tableau quelconque (ici nommé $tableau) :
+// Pour un tableau quelconque (ici nommé $tableau) :
 foreach ($tableau as $element) {
 	// $element reçoit la valeur successive de chacun des éléments
 	// Vous pouvez faire ce que vous voulez avec $element (l'afficher, le modifier, etc.)
@@ -57,7 +57,7 @@ Débutons donc la démonstration de code, afin de voir comment la boucle foreach
 
 2. Écrivons une boucle foreach(), avec une instruction echo à l'intérieur de la boucle.
 
-3. Regardons maintenant comment combiner PHP et HTML afin de générer une liste HTML dynamiquement. Cette approche se base sur les mêmes idées que la génération dynamique avec le if/else, présentée au cours 9.
+3. Regardons maintenant comment combiner PHP et HTML afin de générer une liste HTML dynamiquement. Cette approche se base sur les mêmes idées que la génération dynamique avec le if/else, présentée au cours 10.
 
 Note : pour l'instant, une liste HTML fonctionne bien, car nous affichons seulement les titres (une seule dimension, soit les rangées de la liste). Nous aurons toutefois besoin de tables (2 dimensions, rangées et colonnes) pour les prochaines étapes, car nous afficherons plusieurs propriétés (date, titre, instructeur) pour chacun des cours.
 

@@ -2,7 +2,7 @@
 
 Pour cette section, nous continuons le travail sur la modélisation des cours de fitness, mais en mettant de côté le tableau $titres_cours.
 
-En JavaScript, nous avons vu que l'objet est une structure de données qui permet de jumeler des clés (propriétés) à des valeurs. Ce type de modélisation est très pratique pour les données apparentées comme nous en avons discuté au cours 8.
+En JavaScript, nous avons vu que l'objet est une structure de données qui permet de jumeler des clés (propriétés) à des valeurs. Ce type de modélisation est très pratique pour les données apparentées comme nous en avons discuté au cours 8 (Bloc 2).
 
 À titre d'exemple, pour un chandail, nous avons démontré comment regrouper son nom, son prix et son évaluation sous une même structure de données (l'objet JavaScript).
 

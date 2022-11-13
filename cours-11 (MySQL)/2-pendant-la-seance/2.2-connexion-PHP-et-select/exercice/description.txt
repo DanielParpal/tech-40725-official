@@ -16,7 +16,7 @@ Note : Les étapes ci-dessous se font dans le fichier 'index.php'
 4b. Mettez le var_dump() en commentaire après l'avoir utilisé.
 
 5. Affichez le contenu en incluant le fichier d'affichage 'views/app.html.php'
-Note: Au cours 11, nous verrons comment écrire une boucle, tel qu'utilisée dans le fichier 'table.html.php'.
+Note: Au cours 12, nous verrons comment écrire une boucle, tel qu'utilisée dans le fichier 'table.html.php'.
 
 6. Visionnez le contenu de votre page 'index.php', et assurez-vous qu'il reflète ce que vous voyez dans PHPMyAdmin
 
